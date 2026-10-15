@@ -1,0 +1,20 @@
+{
+  "variantName": "columns-stock-ticker",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "stock-quote",
+    "imagePattern": "noimg",
+    "structure": "label + price + change + timestamp"
+  },
+  "contentPattern": "1 row: [h2 ticker label] | [price p, change p, time p]",
+  "usage": {
+    "pagesUsing": ["https://corporate.exxonmobil.com/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

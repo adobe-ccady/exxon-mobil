@@ -1,0 +1,20 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "homepage-hero-slider",
+    "imagePattern": "full-bleed-background",
+    "structure": "image + eyebrow + heading + text + CTA"
+  },
+  "contentPattern": "row per slide: [image] | [eyebrow p, h2/h1, optional p, CTA link]",
+  "usage": {
+    "pagesUsing": ["https://corporate.exxonmobil.com/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

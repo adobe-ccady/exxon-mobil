@@ -1,0 +1,22 @@
+{
+  "variantName": "hero-centered",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": {
+    "colorScheme": "dark-blue",
+    "density": "spacious",
+    "purpose": "brands-promo",
+    "imagePattern": "full-bleed-background",
+    "structure": "heading + text + CTA"
+  },
+  "contentPattern": "row 1: [background image]; row 2: [h2, p, CTA link]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

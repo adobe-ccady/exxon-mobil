@@ -1,0 +1,22 @@
+{
+  "variantName": "cards-topics",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "trending-topics",
+    "imagePattern": "16:9-thumbnail",
+    "structure": "image + title + tag"
+  },
+  "contentPattern": "row per card: [image] | [linked title, tag link]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

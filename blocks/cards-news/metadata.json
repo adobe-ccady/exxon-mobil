@@ -1,0 +1,22 @@
+{
+  "variantName": "cards-news",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "latest-news-list",
+    "imagePattern": "noimg",
+    "structure": "title + tag + read-time"
+  },
+  "contentPattern": "row per card: [empty image] | [title link, tag, read-time]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

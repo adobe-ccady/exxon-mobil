@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://corporate.exxonmobil.com/"
+      ],
+      "representativeUrl": "https://corporate.exxonmobil.com/",
+      "description": "ExxonMobil corporate homepage: hero slider, stock ticker, banners, trending topics/news, business divisions, brands promo and quick links",
+      "urlPattern": "/",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            "header.homeHero .homeHero--content"
+          ]
+        },
+        {
+          "name": "columns-stock-ticker",
+          "instances": [
+            "section.stockTicker .stockTicker--wrapper"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.singleFeature.singleFeature-variable"
+          ]
+        },
+        {
+          "name": "cards-topics",
+          "instances": [
+            "section.keytopicstrending .keytopics.keytopics-two-up"
+          ]
+        },
+        {
+          "name": "cards-news",
+          "instances": [
+            "section.keytopicstrending .trending--content"
+          ]
+        },
+        {
+          "name": "cards-business",
+          "instances": [
+            ".highlight--wrapper.highlight-gray > .highlight--content"
+          ]
+        },
+        {
+          "name": "hero-centered",
+          "instances": [
+            "section.singleFeature.singleFeature-centerContent"
+          ]
+        },
+        {
+          "name": "cards-links",
+          "instances": [
+            ".highlight--wrapper.highlight-white > .highlight--content"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "1",
+          "name": "Home hero slider",
+          "selector": [
+            "header.homeHero"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "2",
+          "name": "Stock ticker",
+          "selector": [
+            "section.stockTicker"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-stock-ticker"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "3",
+          "name": "Mission statement banner",
+          "selector": [
+            "section.singleFeature.singleFeature-variable"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "4",
+          "name": "Trending topics and latest news",
+          "selector": [
+            "section.keytopicstrending"
+          ],
+          "style": "trending-split",
+          "blocks": [
+            "cards-topics",
+            "cards-news"
+          ],
+          "defaultContent": [
+            ".keytopics--section-title",
+            ".trending--title"
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Our global organization",
+          "selector": [
+            "section.highlight:has(.highlight-gray)",
+            ".home--wrapper > section.highlight:nth-of-type(4)"
+          ],
+          "style": "grey",
+          "blocks": [
+            "cards-business"
+          ],
+          "defaultContent": [
+            ".highlight-gray > .highlight--header"
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Our global brands",
+          "selector": [
+            "section.singleFeature.singleFeature-centerContent"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-centered"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "7",
+          "name": "Quick links (About us / Careers / Motorists)",
+          "selector": [
+            "section.highlight:has(.highlight-white)",
+            ".home--wrapper > section.highlight:nth-of-type(6)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-links"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}
