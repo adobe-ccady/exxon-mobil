@@ -37,6 +37,52 @@ function rebaseImages(root, base) {
   });
 }
 
+/* code-hosted icons (base, hover) for known footer destinations */
+const LINK_ICONS = {
+  'linkedin.com': ['footer-in-gray', 'footer-in-white'],
+  'youtube.com': ['footer-yt-gray', 'footer-yt-white'],
+  'exxon.com': ['footer-exxon-gray', 'footer-exxon-white'],
+  'mobil.com': ['footer-mobil-gray', 'footer-mobil-white'],
+  'esso.com': ['footer-esso-gray', 'footer-esso-white'],
+  home: ['footer-logo-exxonmobil-main', 'footer-logo-exxonmobil-main-hover'],
+};
+
+/**
+ * AEM drops images that are not in AEM Assets (src becomes about:error) and splits
+ * multi-image links into one link per image. Restores the icons from code for known
+ * destinations and merges links that point at the same place.
+ * @param {Element} root
+ */
+function restoreLinkIcons(root) {
+  // li > p > a  ->  li > a
+  root.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
+  root.querySelectorAll('a').forEach((a) => {
+    const prev = a.previousElementSibling;
+    if (prev?.tagName === 'A' && prev.href === a.href && a.querySelector('img')) {
+      prev.append(...a.querySelectorAll('img'));
+      a.remove();
+    }
+  });
+  root.querySelectorAll('a').forEach((a) => {
+    const imgs = [...a.querySelectorAll('img')];
+    const isBroken = (img) => !img.getAttribute('src') || img.getAttribute('src').startsWith('about:');
+    if (!imgs.some(isBroken)) return;
+    const url = new URL(a.href, window.location);
+    const host = url.hostname.replace(/^www\./, '');
+    const key = url.origin === window.location.origin && url.pathname === '/' ? 'home' : host;
+    const icons = LINK_ICONS[key];
+    if (!icons) return;
+    const alt = imgs.map((img) => img.alt).find(Boolean) || '';
+    a.replaceChildren(...icons.map((name, i) => {
+      const img = document.createElement('img');
+      img.src = `${window.hlx.codeBasePath}/icons/${name}.svg`;
+      img.alt = i === 0 ? alt : '';
+      img.loading = 'lazy';
+      return img;
+    }));
+  });
+}
+
 /**
  * @param {Element} group a list or paragraph
  * @returns {boolean} true if every link in the group is image-only
@@ -163,6 +209,7 @@ export default async function decorate(block) {
 
   const { doc, base } = fragment;
   rebaseImages(doc.body, base);
+  restoreLinkIcons(doc.body);
   const sections = [...doc.body.children].filter((el) => el.tagName === 'DIV');
   const wrapper = document.createElement('div');
   wrapper.className = 'footer-bands';

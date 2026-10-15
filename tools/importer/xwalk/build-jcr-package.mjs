@@ -44,6 +44,8 @@ function toImporterHtml(plain, page) {
     const brandImg = brandLink?.querySelector('img');
     if (brandImg) brandLink.textContent = brandImg.getAttribute('alt') || 'ExxonMobil';
   }
+  // <sup>/<sub> wrappers in headings carry no meaning and get lost in conversion
+  document.querySelectorAll('h1 sup, h2 sup, h3 sup, h1 sub, h2 sub, h3 sub').forEach((s) => s.replaceWith(...s.childNodes));
   // drop empty trailing sections
   [...document.body.children].forEach((s) => { if (!s.textContent.trim() && !s.querySelector('img')) s.remove(); });
   // repo-relative assets (../icons/x.svg, images/x.png) -> absolute URLs on the EDS site
@@ -76,6 +78,29 @@ function toImporterHtml(plain, page) {
   return `<html><body><main>${parts.join('<hr>')}</main></body></html>`;
 }
 
+// Title components hold plain text only: headings containing links become Text components
+function fixLinkedTitles(xml) {
+  let n = 0;
+  return xml.replace(/<(title(?:_\d+)?) sling:resourceType="core\/franklin\/components\/title\/v1\/title" jcr:primaryType="nt:unstructured" title="([^"]*&lt;a [^"]*)" titleType="(h[1-6])"\/>/g,
+    (m, name, title, level) => {
+      n += 1;
+      return `<text_heading_${n} sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;${level}&gt;${title}&lt;/${level}&gt;"/>`;
+    });
+}
+
+// md2jcr writes every columns block as plain "Columns"; restore variant names (e.g. Columns Stock Ticker)
+function nameColumnsVariants(xml, plain) {
+  const { document } = new JSDOM(`<body>${plain}</body>`).window;
+  const variants = [...document.querySelectorAll('div[class^="columns"]')].map((b) => b.classList[0]);
+  let i = 0;
+  return xml.replace(/<(columns(?:_\d+)?) sling:resourceType="core\/franklin\/components\/columns\/v1\/columns"/g, (m, name) => {
+    const variant = variants[i];
+    i += 1;
+    if (!variant || variant === 'columns') return m;
+    return `${m} name="${toTitle(variant)}" model="${variant}" filter="${variant}"`;
+  });
+}
+
 const createDocumentFromString = (html) => new JSDOM(html).window.document;
 const results = {};
 for (const page of PAGES) {
@@ -86,8 +111,12 @@ for (const page of PAGES) {
     transform: ({ document }) => [{ element: document.querySelector('main'), path: `/${page}` }],
   }, { createDocumentFromString, setBackgroundImagesFromCSS: false });
   const titles = { nav: 'Navigation', footer: 'Footer', index: 'ExxonMobil' };
-  const xml = (await md2jcr(md, components)).toString()
-    .replace('<jcr:content ', `<jcr:content jcr:title="${titles[page] || page}" `);
+  let xml = (await md2jcr(md, components)).toString();
+  if (!/<jcr:content [^>]*jcr:title=/.test(xml)) {
+    xml = xml.replace('<jcr:content ', `<jcr:content jcr:title="${titles[page] || page}" `);
+  }
+  xml = fixLinkedTitles(xml);
+  xml = nameColumnsVariants(xml, plain);
   fs.mkdirSync(`${OUT}/md`, { recursive: true });
   fs.writeFileSync(`${OUT}/md/${page}.md`, md);
   results[page] = xml;

@@ -57,13 +57,44 @@ async function loadFonts() {
   }
 }
 
+const IMAGE_PATH = /\.(avif|gif|jpe?g|png|svg|webp)$/i;
+
+/**
+ * AEM delivers image references that are not in AEM Assets (e.g. images still hosted
+ * on the source site) as plain links. Turns link-only paragraphs/cells pointing at
+ * an external image back into pictures so blocks receive the image they expect.
+ * @param {Element} main The container element
+ */
+function buildExternalImages(main) {
+  main.querySelectorAll('a[href]').forEach((a) => {
+    let url;
+    try {
+      url = new URL(a.href);
+    } catch (e) {
+      return;
+    }
+    if (url.origin === window.location.origin || !IMAGE_PATH.test(url.pathname)) return;
+    const parent = a.parentElement;
+    const text = a.textContent.trim();
+    if (a.querySelector('img') || parent.textContent.trim() !== text) return;
+    const img = document.createElement('img');
+    img.src = url.href;
+    img.alt = text === url.href || /^https?:\/\//.test(text) ? '' : text;
+    img.loading = 'lazy';
+    const picture = document.createElement('picture');
+    picture.append(img);
+    moveInstrumentation(a, img);
+    a.replaceWith(picture);
+  });
+}
+
 /**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
-function buildAutoBlocks() {
+function buildAutoBlocks(main) {
   try {
-    // TODO: add auto block, if needed
+    buildExternalImages(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
