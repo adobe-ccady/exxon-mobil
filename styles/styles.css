@@ -379,8 +379,10 @@ main .section.grey .default-content-wrapper p {
 }
 
 @media (width >= 900px) {
-  main .section.grey .default-content-wrapper {
-    padding: 0 calc(var(--gutter) + 22px);
+  /* source indents the heading and intro 22px, in line with the cards */
+  main .section.grey .default-content-wrapper > *,
+  main .section.grey .heading-wrapper > .heading {
+    padding-inline: 22px;
   }
 
   main .section.grey .default-content-wrapper p {
@@ -389,7 +391,8 @@ main .section.grey .default-content-wrapper p {
 }
 
 /* trending-split: topics (left) + latest news (right) side by side */
-main .section.trending-split .default-content-wrapper h2 {
+main .section.trending-split .default-content-wrapper h2,
+main .section.trending-split .heading-wrapper h2 {
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
@@ -417,7 +420,8 @@ main .section.trending-split .default-content-wrapper h2 a:any-link {
     padding: 0 22px;
   }
 
-  main .section.trending-split .default-content-wrapper h2 {
+  main .section.trending-split .default-content-wrapper h2,
+  main .section.trending-split .heading-wrapper h2 {
     margin-bottom: 48px;
   }
 

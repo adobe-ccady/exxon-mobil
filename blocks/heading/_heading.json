@@ -1,0 +1,78 @@
+{
+  "definitions": [
+    {
+      "title": "Heading",
+      "id": "heading",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Heading",
+              "model": "heading",
+              "titleType": "h2"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "heading",
+      "fields": [
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Style",
+          "valueType": "string",
+          "value": "",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Red",
+              "value": "red"
+            },
+            {
+              "name": "Red – small",
+              "value": "red-small"
+            }
+          ]
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Heading",
+          "value": ""
+        },
+        {
+          "component": "select",
+          "name": "titleType",
+          "label": "Heading level",
+          "valueType": "string",
+          "value": "h2",
+          "options": [
+            { "name": "H1", "value": "h1" },
+            { "name": "H2", "value": "h2" },
+            { "name": "H3", "value": "h3" },
+            { "name": "H4", "value": "h4" },
+            { "name": "H5", "value": "h5" },
+            { "name": "H6", "value": "h6" }
+          ]
+        },
+        {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "link",
+          "label": "Link (optional)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
