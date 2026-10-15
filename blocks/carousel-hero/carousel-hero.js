@@ -138,7 +138,9 @@ function createSlide(row, slideIndex, id) {
     slide.append(cell);
   });
 
-  const content = slide.querySelector('.carousel-hero-slide-content');
+  const cell = slide.querySelector('.carousel-hero-slide-content');
+  // Universal Editor groups rich text into one editable wrapper; read the items inside it
+  const content = cell?.querySelector(':scope > [data-aue-type="richtext"]') || cell;
   if (content) {
     // the first paragraph before the heading is the eyebrow
     const heading = content.querySelector('h1, h2, h3, h4, h5, h6');

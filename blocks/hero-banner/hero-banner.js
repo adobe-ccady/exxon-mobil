@@ -35,6 +35,14 @@ export default function decorate(block) {
     if (!row.children.length) row.remove();
   });
 
+  // Universal Editor groups rich text into one editable wrapper: lay out the wrapper's items
+  const richtext = content?.querySelector(':scope > [data-aue-type="richtext"]');
+  if (richtext && content.children.length === 1) {
+    content.classList.remove('hero-banner-content');
+    richtext.classList.add('hero-banner-content');
+    content = richtext;
+  }
+
   if (content) {
     [...content.children].forEach((el) => {
       el.classList.add(isCtaParagraph(el) ? 'hero-banner-cta' : 'hero-banner-text');
