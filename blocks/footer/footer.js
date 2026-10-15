@@ -48,6 +48,16 @@ const LINK_ICONS = {
 };
 
 /**
+ * @param {string} name an image alt text
+ * @returns {Array} [key, icon entry] whose label matches, or []
+ */
+function findByLabel(name) {
+  const wanted = (name || '').trim().toLowerCase();
+  if (!wanted) return [];
+  return Object.entries(LINK_ICONS).find(([, [, , label]]) => label.toLowerCase() === wanted) || [];
+}
+
+/**
  * @param {Element} a link
  * @returns {Array|undefined} icon entry for the link's destination
  */
@@ -56,7 +66,30 @@ function iconsFor(a) {
   // site root, as delivered ("/") or as an AEM author path ("/content/<site>[/index][.html]")
   const isHome = url.origin === window.location.origin
     && (url.pathname === '/' || /^\/content\/[^/]+(\/index)?(\.html)?\/?$/.test(url.pathname));
-  return LINK_ICONS[isHome ? 'home' : url.hostname.replace(/^www\./, '')];
+  const byHost = LINK_ICONS[isHome ? 'home' : url.hostname.replace(/^www\./, '')];
+  if (byHost) return byHost;
+  // fall back to the image's name, e.g. when AEM rewrote an internal link
+  return findByLabel(a.querySelector('img[alt]:not([alt=""])')?.alt)[1];
+}
+
+/**
+ * AEM's link checker can drop the link around the logo (it points at the site root,
+ * which is not an AEM page path), leaving a bare broken image. Re-link known images.
+ * @param {Element} root
+ */
+function relinkOrphanIcons(root) {
+  root.querySelectorAll('img[alt]:not([alt=""])').forEach((img) => {
+    if (img.closest('a')) return;
+    const [key] = findByLabel(img.alt);
+    if (!key) return;
+    const a = document.createElement('a');
+    a.href = key === 'home' ? '/' : `https://www.${key}/`;
+    img.before(a);
+    a.append(img);
+    // the hover image that followed it belongs to the same link
+    const next = a.nextElementSibling;
+    if (next?.tagName === 'IMG' && !next.alt) a.append(next);
+  });
 }
 
 /**
@@ -67,9 +100,43 @@ function iconsFor(a) {
  * and adjacent links to the same place are merged.
  * @param {Element} root
  */
+/**
+ * Last resort for the logo: the first entry of the brand row (last footer section, first
+ * group of image-only links) is the ExxonMobil logo. Used when AEM has stripped both the
+ * logo's link and its alt text.
+ * @param {Element} root
+ */
+function restoreBrandLogo(root) {
+  const isIconLike = (a) => a.querySelector('img') || !a.textContent.trim();
+  const group = [...root.querySelectorAll(':scope > div:last-of-type > :is(p, ul)')]
+    .find((g) => g.querySelector('img') && [...g.querySelectorAll('a')].every(isIconLike));
+  const first = group?.querySelector('a, img');
+  if (!first) return;
+
+  let link = first.tagName === 'A' ? first : null;
+  const known = link && iconsFor(link);
+  // already recognised as another destination (Exxon, Mobil, ...): leave it alone
+  if (known && known !== LINK_ICONS.home) return;
+
+  if (!link) {
+    // bare image left behind after AEM removed its link
+    link = document.createElement('a');
+    first.before(link);
+    link.append(first);
+    const next = link.nextElementSibling;
+    if (next?.tagName === 'IMG' && !next.alt) link.append(next);
+  }
+  if (!known) link.href = '/';
+  const img = link.querySelector('img');
+  const [, , homeLabel] = LINK_ICONS.home;
+  if (img && !link.querySelector('img[alt]:not([alt=""])')) img.alt = homeLabel;
+}
+
 function restoreLinkIcons(root) {
   // li > p > a  ->  li > a
   root.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
+  relinkOrphanIcons(root);
+  restoreBrandLogo(root);
   root.querySelectorAll('a').forEach((a) => {
     const prev = a.previousElementSibling;
     if (prev?.tagName === 'A' && prev.href === a.href && (!a.textContent.trim() || a.querySelector('img'))) {
