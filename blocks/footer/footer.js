@@ -37,20 +37,34 @@ function rebaseImages(root, base) {
   });
 }
 
-/* code-hosted icons (base, hover) for known footer destinations */
+/* code-hosted icons (base, hover, label) for known footer destinations */
 const LINK_ICONS = {
-  'linkedin.com': ['footer-in-gray', 'footer-in-white'],
-  'youtube.com': ['footer-yt-gray', 'footer-yt-white'],
-  'exxon.com': ['footer-exxon-gray', 'footer-exxon-white'],
-  'mobil.com': ['footer-mobil-gray', 'footer-mobil-white'],
-  'esso.com': ['footer-esso-gray', 'footer-esso-white'],
-  home: ['footer-logo-exxonmobil-main', 'footer-logo-exxonmobil-main-hover'],
+  'linkedin.com': ['footer-in-gray', 'footer-in-white', 'LinkedIn'],
+  'youtube.com': ['footer-yt-gray', 'footer-yt-white', 'YouTube'],
+  'exxon.com': ['footer-exxon-gray', 'footer-exxon-white', 'Exxon'],
+  'mobil.com': ['footer-mobil-gray', 'footer-mobil-white', 'Mobil'],
+  'esso.com': ['footer-esso-gray', 'footer-esso-white', 'Esso'],
+  home: ['footer-logo-exxonmobil-main', 'footer-logo-exxonmobil-main-hover', 'ExxonMobil logo'],
 };
 
 /**
- * AEM drops images that are not in AEM Assets (src becomes about:error) and splits
- * multi-image links into one link per image. Restores the icons from code for known
- * destinations and merges links that point at the same place.
+ * @param {Element} a link
+ * @returns {Array|undefined} icon entry for the link's destination
+ */
+function iconsFor(a) {
+  const url = new URL(a.href, window.location);
+  // site root, as delivered ("/") or as an AEM author path ("/content/<site>[/index][.html]")
+  const isHome = url.origin === window.location.origin
+    && (url.pathname === '/' || /^\/content\/[^/]+(\/index)?(\.html)?\/?$/.test(url.pathname));
+  return LINK_ICONS[isHome ? 'home' : url.hostname.replace(/^www\./, '')];
+}
+
+/**
+ * Social and brand links are rendered with the icons shipped in code. AEM does not keep
+ * images that are not in AEM Assets (the published page gets src="about:error", the
+ * editor drops them) and splits multi-image links into one link per image, so the
+ * authored images cannot be relied on: known destinations always get the code icons,
+ * and adjacent links to the same place are merged.
  * @param {Element} root
  */
 function restoreLinkIcons(root) {
@@ -58,22 +72,21 @@ function restoreLinkIcons(root) {
   root.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
   root.querySelectorAll('a').forEach((a) => {
     const prev = a.previousElementSibling;
-    if (prev?.tagName === 'A' && prev.href === a.href && a.querySelector('img')) {
+    if (prev?.tagName === 'A' && prev.href === a.href && (!a.textContent.trim() || a.querySelector('img'))) {
       prev.append(...a.querySelectorAll('img'));
       a.remove();
     }
   });
   root.querySelectorAll('a').forEach((a) => {
-    const imgs = [...a.querySelectorAll('img')];
-    const isBroken = (img) => !img.getAttribute('src') || img.getAttribute('src').startsWith('about:');
-    if (!imgs.some(isBroken)) return;
-    const url = new URL(a.href, window.location);
-    const host = url.hostname.replace(/^www\./, '');
-    const key = url.origin === window.location.origin && url.pathname === '/' ? 'home' : host;
-    const icons = LINK_ICONS[key];
+    const icons = iconsFor(a);
     if (!icons) return;
-    const alt = imgs.map((img) => img.alt).find(Boolean) || '';
-    a.replaceChildren(...icons.map((name, i) => {
+    const [base, hover, label] = icons;
+    const text = a.textContent.trim();
+    // only icon links: an image, no text, or just the destination's name
+    const isIconLink = a.querySelector('img') || !text || text.toLowerCase() === label.toLowerCase();
+    if (!isIconLink) return;
+    const alt = [...a.querySelectorAll('img')].map((img) => img.alt).find(Boolean) || text || label;
+    a.replaceChildren(...[base, hover].map((name, i) => {
       const img = document.createElement('img');
       img.src = `${window.hlx.codeBasePath}/icons/${name}.svg`;
       img.alt = i === 0 ? alt : '';
