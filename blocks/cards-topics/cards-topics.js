@@ -24,14 +24,16 @@ export default function decorate(block) {
 
     const body = li.querySelector('.cards-topics-card-body');
     if (body) {
-      const items = [...body.children];
+      // Universal Editor groups rich text into one editable wrapper; read the items inside it
+      const content = body.querySelector(':scope > [data-aue-type="richtext"]') || body;
+      const items = [...content.children];
       if (items.length > 1) {
         const tag = items[items.length - 1];
         if (tag.querySelector('a') || tag.textContent.trim().length < 60) {
           tag.classList.add('cards-topics-tag');
         }
       }
-      const title = body.querySelector(':scope > :not(.cards-topics-tag)');
+      const title = content.querySelector(':scope > :not(.cards-topics-tag)');
       if (title) title.classList.add('cards-topics-title');
     }
 

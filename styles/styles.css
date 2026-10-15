@@ -394,6 +394,11 @@ main .section.trending-split .default-content-wrapper h2 {
   letter-spacing: 1px;
 }
 
+/* source renders the linked "Latest news" heading at 75% of the h2 size (36px on desktop) */
+main .section.trending-split .default-content-wrapper h2 a:any-link {
+  font-size: 0.75em;
+}
+
 @media (width >= 900px) {
   main > .section.trending-split {
     display: grid;

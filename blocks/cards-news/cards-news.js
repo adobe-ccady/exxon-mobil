@@ -26,7 +26,9 @@ export default function decorate(block) {
 
     const body = li.querySelector('.cards-news-card-body');
     if (body) {
-      const [title, ...rest] = [...body.children];
+      // Universal Editor groups rich text into one editable wrapper; read the items inside it
+      const content = body.querySelector(':scope > [data-aue-type="richtext"]') || body;
+      const [title, ...rest] = [...content.children];
       if (title) title.classList.add('cards-news-title');
       if (rest.length) {
         const meta = document.createElement('div');
@@ -35,7 +37,7 @@ export default function decorate(block) {
           el.classList.add(idx === 0 ? 'cards-news-tag' : 'cards-news-readtime');
           meta.append(el);
         });
-        body.append(meta);
+        content.append(meta);
       }
     }
 

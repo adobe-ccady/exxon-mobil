@@ -41,7 +41,8 @@
 }
 
 /* title: 24px/36px EMprint Regular #333 */
-.cards-topics .cards-topics-card-body > * {
+.cards-topics .cards-topics-card-body > *,
+.cards-topics .cards-topics-card-body > [data-aue-type="richtext"] > * {
   margin: 0;
 }
 
@@ -60,7 +61,7 @@
 }
 
 /* tag chip: 13px/20px italic, red on light grey */
-.cards-topics .cards-topics-card-body > .cards-topics-tag {
+.cards-topics .cards-topics-card-body .cards-topics-tag {
   display: flex;
   margin-top: 8px;
 }

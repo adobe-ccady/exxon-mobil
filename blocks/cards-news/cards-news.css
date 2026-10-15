@@ -37,8 +37,9 @@
   min-width: 0;
 }
 
+.cards-news .cards-news-meta > *,
 .cards-news .cards-news-card-body > *,
-.cards-news .cards-news-meta > * {
+.cards-news .cards-news-card-body > [data-aue-type="richtext"] > * {
   margin: 0;
 }
 
