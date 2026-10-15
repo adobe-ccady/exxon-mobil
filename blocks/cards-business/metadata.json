@@ -1,0 +1,22 @@
+{
+  "variantName": "cards-business",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "medium",
+    "purpose": "business-divisions",
+    "imagePattern": "landscape-thumbnail",
+    "structure": "image + eyebrow + description + links"
+  },
+  "contentPattern": "row per card: [image] | [h3 title, description p, link(s)]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

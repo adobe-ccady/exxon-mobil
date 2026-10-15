@@ -1,0 +1,22 @@
+{
+  "variantName": "cards-links",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "quick-links",
+    "imagePattern": "landscape-thumbnail",
+    "structure": "image + title + link list"
+  },
+  "contentPattern": "row per card: [image] | [h3 title, list of links]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-14"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

@@ -1,0 +1,51 @@
+{
+  "definitions": [
+    {
+      "title": "Columns Stock Ticker",
+      "id": "columns-stock-ticker",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/columns/v1/columns",
+            "template": {
+              "name": "Columns Stock Ticker",
+              "model": "columns-stock-ticker",
+              "filter": "columns-stock-ticker",
+              "columns": "2",
+              "rows": "1"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-stock-ticker",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "columns",
+          "value": "",
+          "label": "Columns"
+        },
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "rows",
+          "value": "",
+          "label": "Rows"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-stock-ticker",
+      "components": [
+        "column"
+      ]
+    }
+  ]
+}

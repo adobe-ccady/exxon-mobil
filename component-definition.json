@@ -83,6 +83,126 @@
       "id": "blocks",
       "components": [
         {
+          "title": "Cards Business",
+          "id": "cards-business",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Business",
+                  "filter": "cards-business"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Business Card",
+          "id": "cards-business-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Business Card",
+                  "model": "cards-business-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Links",
+          "id": "cards-links",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Links",
+                  "filter": "cards-links"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Links Card",
+          "id": "cards-links-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Links Card",
+                  "model": "cards-links-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards News",
+          "id": "cards-news",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards News",
+                  "filter": "cards-news"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "News Card",
+          "id": "cards-news-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "News Card",
+                  "model": "cards-news-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Cards Topics",
+          "id": "cards-topics",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Cards Topics",
+                  "filter": "cards-topics"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Topic Card",
+          "id": "cards-topics-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Topic Card",
+                  "model": "cards-topics-item"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -113,6 +233,54 @@
           }
         },
         {
+          "title": "Carousel Hero",
+          "id": "carousel-hero",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Hero",
+                  "filter": "carousel-hero"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Hero Slide",
+          "id": "carousel-hero-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Hero Slide",
+                  "model": "carousel-hero-item"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Columns Stock Ticker",
+          "id": "columns-stock-ticker",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "name": "Columns Stock Ticker",
+                  "model": "columns-stock-ticker",
+                  "filter": "columns-stock-ticker",
+                  "columns": "2",
+                  "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
@@ -137,6 +305,36 @@
                 "template": {
                   "name": "Fragment",
                   "model": "fragment"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Banner",
+          "id": "hero-banner",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Banner",
+                  "model": "hero-banner"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Centered",
+          "id": "hero-centered",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Centered",
+                  "model": "hero-centered"
                 }
               }
             }

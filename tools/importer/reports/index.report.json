@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/",
+  "path": "index",
+  "timestamp": "2026-10-14T21:47:33.125Z",
+  "title": "ExxonMobil",
+  "template": "home",
+  "blocks": [
+    "carousel-hero",
+    "columns-stock-ticker",
+    "hero-banner",
+    "cards-topics",
+    "cards-news",
+    "cards-business",
+    "hero-centered",
+    "cards-links"
+  ]
+}
