@@ -12,9 +12,15 @@ export default function decorate(block) {
   const [labelCol, ...dataCols] = cols;
   if (labelCol) labelCol.classList.add('columns-stock-ticker-label');
 
-  // collect the figures from the remaining cell(s)
+  // collect the figures from the remaining cell(s); Universal Editor groups rich text
+  // into one editable wrapper, in which case the wrapper lays out the figures
   const figures = dataCols.flatMap((col) => {
     col.classList.add('columns-stock-ticker-data');
+    const richtext = col.querySelector(':scope > [data-aue-type="richtext"]');
+    if (richtext && col.children.length === 1) {
+      richtext.classList.add('columns-stock-ticker-data');
+      return [...richtext.children];
+    }
     return [...col.children];
   });
 
