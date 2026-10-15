@@ -11,6 +11,14 @@
   color: #fff;
 }
 
+/*
+ * Universal Editor sizes its frame to the page height, so viewport units would make the
+ * hero grow with the frame (and the frame with the hero). Use a fixed height while authoring.
+ */
+.carousel-hero[data-aue-resource] {
+  height: 760px;
+}
+
 /* the hero sits underneath the transparent site header (source: hero starts at y=0) */
 main > .section:first-child .carousel-hero {
   margin-top: calc(-1 * var(--nav-height));
@@ -327,6 +335,10 @@ main > .section:first-child .carousel-hero {
 @media (width >= 900px) {
   .carousel-hero {
     min-height: 740px;
+  }
+
+  .carousel-hero[data-aue-resource] {
+    height: 900px;
   }
 
   .carousel-hero .carousel-hero-slide {

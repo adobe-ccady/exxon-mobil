@@ -79,7 +79,9 @@ function setupAutoplay(block) {
   });
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  setPlaying(!reduceMotion);
+  // no autoplay while authoring in Universal Editor (the block is instrumented there)
+  const authoring = block.hasAttribute('data-aue-resource');
+  setPlaying(!reduceMotion && !authoring);
 }
 
 function navigate(block, slideIndex) {
@@ -112,6 +114,12 @@ function bindEvents(block) {
     const current = parseInt(block.dataset.activeSlide, 10);
     navigate(block, dx < 0 ? current + 1 : current - 1);
   }, { passive: true });
+
+  // Universal Editor: show the slide an author selects in the content tree
+  block.addEventListener('aue:ui-select', (e) => {
+    const slide = e.target.closest('.carousel-hero-slide');
+    if (e.detail?.selected && slide) navigate(block, parseInt(slide.dataset.slideIndex, 10));
+  });
 
   setupAutoplay(block);
 }
