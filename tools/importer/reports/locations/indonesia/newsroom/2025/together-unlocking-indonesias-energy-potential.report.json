@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/together-unlocking-indonesias-energy-potential",
+  "path": "locations/indonesia/newsroom/2025/together-unlocking-indonesias-energy-potential",
+  "timestamp": "2026-10-26T16:37:41.164Z",
+  "title": "Together, unlocking Indonesia’s energy potential | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

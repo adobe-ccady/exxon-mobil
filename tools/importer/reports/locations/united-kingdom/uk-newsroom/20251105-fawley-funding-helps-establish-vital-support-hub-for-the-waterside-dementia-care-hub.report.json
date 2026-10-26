@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20251105-fawley-funding-helps-establish-vital-support-hub-for-the-waterside-dementia-care-hub",
+  "path": "locations/united-kingdom/uk-newsroom/20251105-fawley-funding-helps-establish-vital-support-hub-for-the-waterside-dementia-care-hub",
+  "timestamp": "2026-10-26T16:50:53.242Z",
+  "title": "Funding helps establish vital hub for Waterside Dementia Care Hub | ExxonMobil Fawley",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

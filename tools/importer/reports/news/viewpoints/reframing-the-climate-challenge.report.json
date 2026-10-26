@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/reframing-the-climate-challenge",
+  "path": "news/viewpoints/reframing-the-climate-challenge",
+  "timestamp": "2026-10-26T16:56:50.683Z",
+  "title": "Reframing the Climate Challenge | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

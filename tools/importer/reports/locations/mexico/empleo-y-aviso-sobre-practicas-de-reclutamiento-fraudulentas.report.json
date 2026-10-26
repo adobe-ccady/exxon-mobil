@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/empleo-y-aviso-sobre-practicas-de-reclutamiento-fraudulentas",
+  "path": "locations/mexico/empleo-y-aviso-sobre-practicas-de-reclutamiento-fraudulentas",
+  "timestamp": "2026-10-26T16:33:02.531Z",
+  "title": "Empleo y aviso sobre prácticas de reclutamiento fraudulentas | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

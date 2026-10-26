@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/converting-plastic-waste-to-new-products",
+  "path": "locations/india/newsroom/converting-plastic-waste-to-new-products",
+  "timestamp": "2026-10-26T16:30:17.714Z",
+  "title": "Converting plastic waste to new products | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_luxembourg-german",
+  "path": "global-legal-pages/privacy-policy-luxembourg-german",
+  "timestamp": "2026-10-26T18:07:08.617Z",
+  "title": "Datenschutzerklärung | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

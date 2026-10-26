@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/how-fuel-prices-are-determined-in-belgium",
+  "path": "locations/belgium/how-fuel-prices-are-determined-in-belgium",
+  "timestamp": "2026-10-26T16:24:42.262Z",
+  "title": "How are fuel prices determined in Belgium?",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

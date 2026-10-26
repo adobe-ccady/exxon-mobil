@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/09172025_exxonmobil-guyana-deepens-commitment-to-local-content-and-workforce-development",
+  "path": "locations/guyana/news-releases/09172025-exxonmobil-guyana-deepens-commitment-to-local-content-and-workforce-development",
+  "timestamp": "2026-10-26T16:29:39.163Z",
+  "title": "Deepening our commitment to local content and workforce development | ExxonMobil Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

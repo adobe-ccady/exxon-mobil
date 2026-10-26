@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2026/how-exxonmobil-is-building-a-future-ready-workforce",
+  "path": "locations/european-region/european-newsroom/2026/how-exxonmobil-is-building-a-future-ready-workforce",
+  "timestamp": "2026-10-26T16:26:27.909Z",
+  "title": "Creating a future-ready workforce with the Digital Innovation Program | ExxonMobil Hungary",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

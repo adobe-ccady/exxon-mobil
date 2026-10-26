@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0402_exxonmobil-announces-leadership-changes",
+  "path": "news/news-releases/2025/0402-exxonmobil-announces-leadership-changes",
+  "timestamp": "2026-10-26T16:43:51.605Z",
+  "title": "ExxonMobil Announces Leadership Changes: Karen McKee retires, Matt Crocker appointed | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_eu_procurement",
+  "path": "global-legal-pages/privacy-policy_eu_procurement",
+  "timestamp": "2026-10-26T18:28:55.035Z",
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "errorStack": "page.evaluate: Target page, context or browser has been closed\n    at isBlockedPage (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:385:42)\n    at processUrl (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:630:29)\n    at async main (/home/node/.excat-marketplaces/excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:1015:33)"
+}

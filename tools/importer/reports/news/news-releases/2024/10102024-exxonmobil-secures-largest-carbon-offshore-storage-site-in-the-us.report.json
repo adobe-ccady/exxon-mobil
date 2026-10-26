@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/10102024_exxonmobil-secures-largest-carbon-offshore-storage-site-in-the-us",
+  "path": "news/news-releases/2024/10102024-exxonmobil-secures-largest-carbon-offshore-storage-site-in-the-us",
+  "timestamp": "2026-10-26T16:43:27.606Z",
+  "title": "ExxonMobil wins largest offshore U.S. Co2 storage site | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

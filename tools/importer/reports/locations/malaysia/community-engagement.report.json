@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/malaysia/community-engagement",
+  "path": "locations/malaysia/community-engagement",
+  "timestamp": "2026-10-26T16:41:27.466Z",
+  "title": "Supporting the community in Malaysia | ExxonMobil Malaysia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

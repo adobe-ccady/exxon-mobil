@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/exxonmobil-and-ukraine",
+  "path": "news/exxonmobil-and-ukraine",
+  "timestamp": "2026-10-26T19:18:10.155Z",
+  "title": "ExxonMobil and Ukraine | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner"
+  ]
+}

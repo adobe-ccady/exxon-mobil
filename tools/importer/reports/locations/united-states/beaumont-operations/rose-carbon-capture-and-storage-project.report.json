@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/beaumont-operations/rose-carbon-capture-and-storage-project",
+  "path": "locations/united-states/beaumont-operations/rose-carbon-capture-and-storage-project",
+  "timestamp": "2026-10-26T16:52:09.146Z",
+  "title": "Rose Carbon Capture and Storage project | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

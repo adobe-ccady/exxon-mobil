@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/global-outlook/industry-and-transport-drive-economic-growth",
+  "path": "publications/global-outlook/industry-and-transport-drive-economic-growth",
+  "timestamp": "2026-10-26T17:55:59.978Z",
+  "title": "Industry and transport drive economic growth | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

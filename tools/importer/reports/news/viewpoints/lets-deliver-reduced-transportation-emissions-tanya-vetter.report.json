@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/lets-deliver-reduced-transportation-emissions-tanya-vetter",
+  "path": "news/viewpoints/lets-deliver-reduced-transportation-emissions-tanya-vetter",
+  "timestamp": "2026-10-26T18:34:08.804Z",
+  "title": "Let’s deliver: Reducing transportation emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

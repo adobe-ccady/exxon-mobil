@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/co-processing",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/co-processing",
+  "timestamp": "2026-10-26T17:02:08.377Z",
+  "title": "Co-processing: Making tomorrow’s fuel with today’s facilities | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

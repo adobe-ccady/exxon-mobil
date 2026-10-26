@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/supports-carbon-pricing",
+  "path": "news/viewpoints/supports-carbon-pricing",
+  "timestamp": "2026-10-26T16:56:58.543Z",
+  "title": "Why ExxonMobil supports carbon pricing",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/a-bone-crushing-burden-darren-woods-discusses-csddd",
+  "path": "locations/european-region/european-newsroom/2025/a-bone-crushing-burden-darren-woods-discusses-csddd",
+  "timestamp": "2026-10-26T16:25:54.862Z",
+  "title": "A bone-crushing burden: Darren Woods discusses CSDDD | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

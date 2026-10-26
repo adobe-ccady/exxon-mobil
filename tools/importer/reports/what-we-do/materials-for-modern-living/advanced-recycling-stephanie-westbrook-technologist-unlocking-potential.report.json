@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/materials-for-modern-living/advanced-recycling-stephanie-westbrook-technologist-unlocking-potential",
+  "path": "what-we-do/materials-for-modern-living/advanced-recycling-stephanie-westbrook-technologist-unlocking-potential",
+  "timestamp": "2026-10-26T17:12:16.381Z",
+  "title": "Unlocking the potential of advanced recycling: Stephanie Westbrook | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

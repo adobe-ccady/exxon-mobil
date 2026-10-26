@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240819_three-new-apprentices-join-the-fife-ethylene-plant-family",
+  "path": "locations/united-kingdom/uk-newsroom/20240819-three-new-apprentices-join-the-fife-ethylene-plant-family",
+  "timestamp": "2026-10-26T18:15:20.577Z",
+  "title": "Three new apprentices join the Fife Ethylene Plant family",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/stem/newsroom/2026/exxonmobil-advances-stem-investment-in-guyana",
+  "path": "community/stem/newsroom/2026/exxonmobil-advances-stem-investment-in-guyana",
+  "timestamp": "2026-10-26T16:20:23.405Z",
+  "title": "ExxonMobil Advances STEM Education in Guyana | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

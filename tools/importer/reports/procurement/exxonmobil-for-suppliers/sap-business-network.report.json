@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/sap-business-network",
+  "path": "procurement/exxonmobil-for-suppliers/sap-business-network",
+  "timestamp": "2026-10-26T18:25:36.295Z",
+  "title": "SAP Business Network",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

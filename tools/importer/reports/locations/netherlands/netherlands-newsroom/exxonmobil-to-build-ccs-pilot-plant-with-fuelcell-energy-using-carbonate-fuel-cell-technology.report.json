@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/netherlands/netherlands-newsroom/exxonmobil-to-build-ccs-pilot-plant-with-fuelcell-energy-using-carbonate-fuel-cell-technology",
+  "path": "locations/netherlands/netherlands-newsroom/exxonmobil-to-build-ccs-pilot-plant-with-fuelcell-energy-using-carbonate-fuel-cell-technology",
+  "timestamp": "2026-10-26T16:34:46.280Z",
+  "title": "ExxonMobil Netherlands, FuelCell Energy building CCS pilot plant using carbonate fuel cell technology",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

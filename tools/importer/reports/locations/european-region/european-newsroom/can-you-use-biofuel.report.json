@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/can-you-use-biofuel",
+  "path": "locations/european-region/european-newsroom/can-you-use-biofuel",
+  "timestamp": "2026-10-26T16:26:47.204Z",
+  "title": "Can your car run on biofuel? It might do already | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

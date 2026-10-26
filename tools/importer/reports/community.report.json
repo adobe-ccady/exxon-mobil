@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community",
+  "path": "community",
+  "timestamp": "2026-10-26T19:14:55.720Z",
+  "title": "Investing in communities | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "cards-news",
+    "hero-feature",
+    "cards-business",
+    "quote",
+    "columns-media",
+    "cards-icon-links",
+    "cards-topics"
+  ]
+}

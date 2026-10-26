@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/global-outlook/developing-countries-use-more-energy",
+  "path": "publications/global-outlook/developing-countries-use-more-energy",
+  "timestamp": "2026-10-26T17:55:44.003Z",
+  "title": "Developing countries to use 25% more energy by 2050| ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/australia/our-operations",
+  "path": "locations/australia/our-operations",
+  "timestamp": "2026-10-26T16:24:16.062Z",
+  "title": "Our operations | ExxonMobil in Australia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

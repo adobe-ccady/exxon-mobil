@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_sweden-english",
+  "path": "global-legal-pages/privacy-policy-sweden-english",
+  "timestamp": "2026-10-26T18:04:35.465Z",
+  "title": "Privacy Statement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

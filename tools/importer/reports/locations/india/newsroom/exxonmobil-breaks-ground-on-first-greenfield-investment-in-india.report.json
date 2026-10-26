@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/exxonmobil-breaks-ground-on-first-greenfield-investment-in-india",
+  "path": "locations/india/newsroom/exxonmobil-breaks-ground-on-first-greenfield-investment-in-india",
+  "timestamp": "2026-10-26T18:28:05.693Z",
+  "title": "Breaking Ground: First Greenfield Investment India | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

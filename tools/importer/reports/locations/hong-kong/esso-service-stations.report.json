@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/hong-kong/esso-service-stations",
+  "path": "locations/hong-kong/esso-service-stations",
+  "timestamp": "2026-10-26T16:28:41.164Z",
+  "title": "Esso service stations | ExxonMobil Hong Kong",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

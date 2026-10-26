@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/20240808-exxonmobil-launches-the-first-renewable-diesel-for-public-road-use-in-hong-kong",
+  "path": "locations/asia-pacific-region/ap-newsroom/20240808-exxonmobil-launches-the-first-renewable-diesel-for-public-road-use-in-hong-kong",
+  "timestamp": "2026-10-26T16:21:23.364Z",
+  "title": "ExxonMobil launches the first renewable diesel for public road use in Hong Kong | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

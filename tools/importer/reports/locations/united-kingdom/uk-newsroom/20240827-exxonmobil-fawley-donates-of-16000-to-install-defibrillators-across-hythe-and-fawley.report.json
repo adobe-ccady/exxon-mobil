@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240827_exxonmobil-fawley-donates-of-16000-to-install-defibrillators-across-hythe-and-fawley",
+  "path": "locations/united-kingdom/uk-newsroom/20240827-exxonmobil-fawley-donates-of-16000-to-install-defibrillators-across-hythe-and-fawley",
+  "timestamp": "2026-10-26T18:20:35.342Z",
+  "title": "ExxonMobil Fawley donates over £16,000 to install lifesaving defibrillators across Hythe and Fawley",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/environmental-development",
+  "path": "locations/qatar/environmental-development",
+  "timestamp": "2026-10-26T16:48:24.142Z",
+  "title": "ExxonMobil Research Qatar (EMRQ) | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/carbon-capture-storage-prasanna-joshi",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/carbon-capture-storage-prasanna-joshi",
+  "timestamp": "2026-10-26T16:59:07.647Z",
+  "title": "Carbon capture & storage with Dr. Prasanna Joshi | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

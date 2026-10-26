@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/community/guyana-local-content-efforts",
+  "path": "locations/guyana/community/guyana-local-content-efforts",
+  "timestamp": "2026-10-26T16:27:48.081Z",
+  "title": "Local content efforts | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/how-personal-passion-powers-progress",
+  "path": "locations/india/newsroom/2026/how-personal-passion-powers-progress",
+  "timestamp": "2026-10-26T16:31:42.162Z",
+  "title": "How personal passion powers progress | ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

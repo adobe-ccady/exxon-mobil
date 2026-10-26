@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0904_adnoc-and-exxonmobil-partnering-in-worlds-largest-low-carbon-hydrogen-facility",
+  "path": "news/news-releases/2024/0904-adnoc-and-exxonmobil-partnering-in-worlds-largest-low-carbon-hydrogen-facility",
+  "timestamp": "2026-10-26T18:33:44.379Z",
+  "title": "Khaled bin Mohamed bin Zayed Witnesses Signing Ceremony for ADNOC and ExxonMobil Partnering in World’s Largest Low-Carbon Hydrogen Facility | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

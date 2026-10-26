@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/the-policy-keys-to-unlocking-a-european-industrial-comeback",
+  "path": "news/viewpoints/the-policy-keys-to-unlocking-a-european-industrial-comeback",
+  "timestamp": "2026-10-26T16:57:01.444Z",
+  "title": "The policy keys to unlocking a European industrial comeback | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

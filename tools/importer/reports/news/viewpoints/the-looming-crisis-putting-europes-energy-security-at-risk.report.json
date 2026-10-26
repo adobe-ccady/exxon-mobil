@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/the-looming-crisis-putting-europes-energy-security-at-risk",
+  "path": "news/viewpoints/the-looming-crisis-putting-europes-energy-security-at-risk",
+  "timestamp": "2026-10-26T16:57:08.580Z",
+  "title": "The looming crisis putting Europe’s energy security at risk | ExxonMobil Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

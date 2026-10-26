@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baton-rouge-operations/labi-manufacturer-of-the-year",
+  "path": "locations/united-states/baton-rouge-operations/labi-manufacturer-of-the-year",
+  "timestamp": "2026-10-26T16:51:34.242Z",
+  "title": "LABI Manufacturer of the year | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

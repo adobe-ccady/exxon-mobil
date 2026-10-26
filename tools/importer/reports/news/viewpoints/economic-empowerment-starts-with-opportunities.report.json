@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/economic-empowerment-starts-with-opportunities",
+  "path": "news/viewpoints/economic-empowerment-starts-with-opportunities",
+  "timestamp": "2026-10-26T16:45:24.963Z",
+  "title": "Advancing women's economic empowerment | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

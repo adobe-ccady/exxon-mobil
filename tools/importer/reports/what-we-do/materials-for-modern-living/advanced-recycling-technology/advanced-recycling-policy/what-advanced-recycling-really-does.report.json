@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/materials-for-modern-living/advanced-recycling-technology/advanced-recycling-policy/what-advanced-recycling-really-does",
+  "path": "what-we-do/materials-for-modern-living/advanced-recycling-technology/advanced-recycling-policy/what-advanced-recycling-really-does",
+  "timestamp": "2026-10-26T17:11:24.167Z",
+  "title": "Myth vs. reality: what advanced recycling really does | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

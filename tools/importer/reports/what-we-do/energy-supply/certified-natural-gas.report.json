@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/certified-natural-gas",
+  "path": "what-we-do/energy-supply/certified-natural-gas",
+  "timestamp": "2026-10-26T17:00:56.805Z",
+  "title": "Certified gas pilot to help our customers meet environmental goals | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

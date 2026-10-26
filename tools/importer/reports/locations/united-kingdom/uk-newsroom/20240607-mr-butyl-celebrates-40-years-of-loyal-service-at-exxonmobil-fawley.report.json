@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240607_mr-butyl-celebrates-40-years-of-loyal-service-at-exxonmobil-fawley",
+  "path": "locations/united-kingdom/uk-newsroom/20240607-mr-butyl-celebrates-40-years-of-loyal-service-at-exxonmobil-fawley",
+  "timestamp": "2026-10-26T18:30:25.386Z",
+  "title": "\"Mr Butyl\" celebrates 40 years of loyal service at ExxonMobil Fawley",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

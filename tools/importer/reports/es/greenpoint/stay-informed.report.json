@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/greenpoint/stay-informed?content-lang=es",
+  "path": "es/greenpoint/stay-informed",
+  "timestamp": "2026-10-26T17:53:30.527Z",
+  "title": "Manténgase informado | Exxonmobil in Greenpoint",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

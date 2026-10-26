@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+  "path": "locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+  "timestamp": "2026-10-26T16:17:14.241Z",
+  "title": "Daily oil production hits 900,000 barrels in Guyana's Stabroek block | ExxonMobil Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

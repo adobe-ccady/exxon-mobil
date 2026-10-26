@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/driving-reductions-in-methane-emissions/methane-research",
+  "path": "publications/advancing-climate-solutions/driving-reductions-in-methane-emissions/methane-research",
+  "timestamp": "2026-10-26T18:26:10.798Z",
+  "title": "Methane research | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

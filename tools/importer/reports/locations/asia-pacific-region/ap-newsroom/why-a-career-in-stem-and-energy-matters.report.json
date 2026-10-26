@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/why-a-career-in-stem-and-energy-matters",
+  "path": "locations/asia-pacific-region/ap-newsroom/why-a-career-in-stem-and-energy-matters",
+  "timestamp": "2026-10-26T16:24:04.563Z",
+  "title": "Why a career in STEM and energy matters | ExxonMobil Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

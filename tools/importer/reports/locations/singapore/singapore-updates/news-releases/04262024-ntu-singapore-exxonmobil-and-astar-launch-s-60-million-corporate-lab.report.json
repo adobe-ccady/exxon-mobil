@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/news-releases/04262024_ntu-singapore-exxonmobil-and-astar-launch-s$60-million-corporate-lab",
+  "path": "locations/singapore/singapore-updates/news-releases/04262024-ntu-singapore-exxonmobil-and-astar-launch-s-60-million-corporate-lab",
+  "timestamp": "2026-10-26T18:30:05.678Z",
+  "title": "NTU Singapore, ExxonMobil and A*STAR launch S$60 million corporate lab",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

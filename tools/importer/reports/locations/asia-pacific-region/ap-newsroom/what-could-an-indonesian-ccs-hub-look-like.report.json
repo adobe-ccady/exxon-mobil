@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/what-could-an-indonesian-ccs-hub-look-like",
+  "path": "locations/asia-pacific-region/ap-newsroom/what-could-an-indonesian-ccs-hub-look-like",
+  "timestamp": "2026-10-26T16:23:53.864Z",
+  "title": "What could an Indonesian CCS hub look like? | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

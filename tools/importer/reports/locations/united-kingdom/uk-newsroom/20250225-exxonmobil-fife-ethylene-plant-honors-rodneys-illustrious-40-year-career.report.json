@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250225_exxonmobil-fife-ethylene-plant-honors-rodneys-illustrious-40-year-career",
+  "path": "locations/united-kingdom/uk-newsroom/20250225-exxonmobil-fife-ethylene-plant-honors-rodneys-illustrious-40-year-career",
+  "timestamp": "2026-10-26T16:50:43.542Z",
+  "title": "ExxonMobil Fife Ethylene Plant honors Rodney's illustrious 40-year career",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

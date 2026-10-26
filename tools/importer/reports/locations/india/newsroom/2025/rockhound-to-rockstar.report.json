@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/rockhound-to-rockstar",
+  "path": "locations/india/newsroom/2025/rockhound-to-rockstar",
+  "timestamp": "2026-10-26T16:29:29.664Z",
+  "title": "Rockhound to rockstar | Career across the globe at ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

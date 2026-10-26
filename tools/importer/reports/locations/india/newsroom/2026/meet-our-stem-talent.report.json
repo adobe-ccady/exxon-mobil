@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/meet-our-stem-talent",
+  "path": "locations/india/newsroom/2026/meet-our-stem-talent",
+  "timestamp": "2026-10-26T16:29:58.405Z",
+  "title": "Meet the innovators of ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

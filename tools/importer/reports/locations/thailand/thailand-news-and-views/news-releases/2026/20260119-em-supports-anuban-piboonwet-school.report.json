@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2026/20260119-em-supports-anuban-piboonwet-school",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2026/20260119-em-supports-anuban-piboonwet-school",
+  "timestamp": "2026-10-26T16:37:50.104Z",
+  "title": "ExxonMobil Thailand supports Thai education into the digital era at Anuban Piboonwet School, Bangkok| ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

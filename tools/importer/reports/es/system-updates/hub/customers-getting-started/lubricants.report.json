@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/customers-getting-started/lubricants?content-lang=es",
+  "path": "es/system-updates/hub/customers-getting-started/lubricants",
+  "timestamp": "2026-10-26T17:56:13.081Z",
+  "title": "Primeros pasos: Clientes de Lubricantes y Especialidades | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table",
+    "table",
+    "table"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/investing-in-people",
+  "path": "community/investing-in-people",
+  "timestamp": "2026-10-26T19:17:07.181Z",
+  "title": "Investing in people | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "cards-news",
+    "cards-topics"
+  ]
+}

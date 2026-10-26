@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/video/stronger-communities",
+  "path": "locations/papua-new-guinea/video/stronger-communities",
+  "timestamp": "2026-10-26T16:47:57.354Z",
+  "title": "Stronger communities | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video"
+  ]
+}

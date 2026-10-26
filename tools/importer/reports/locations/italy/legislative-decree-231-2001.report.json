@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/legislative-decree-231_2001",
+  "path": "locations/italy/legislative-decree-231-2001",
+  "timestamp": "2026-10-26T16:32:27.385Z",
+  "title": "Compliance with Legislative Decree 231/2001 | ExxonMobil Italy",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

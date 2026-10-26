@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240925_exxonmobil-fawley-donates-52000-to-inspire-future-stem-innovators",
+  "path": "locations/united-kingdom/uk-newsroom/20240925-exxonmobil-fawley-donates-52000-to-inspire-future-stem-innovators",
+  "timestamp": "2026-10-26T18:28:39.277Z",
+  "title": "ExxonMobil Fawley donates £52,000 to inspire future STEM innovators",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

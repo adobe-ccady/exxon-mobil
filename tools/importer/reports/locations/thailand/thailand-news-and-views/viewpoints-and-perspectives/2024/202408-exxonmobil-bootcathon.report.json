@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/viewpoints-and-perspectives/2024/202408-exxonmobil-bootcathon",
+  "path": "locations/thailand/thailand-news-and-views/viewpoints-and-perspectives/2024/202408-exxonmobil-bootcathon",
+  "timestamp": "2026-10-26T16:38:08.589Z",
+  "title": "Bootcathon 2024 upskills young talents | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

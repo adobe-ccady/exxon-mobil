@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0922_exxonmobil-guyana-expands-capacity-with-seventh-offshore-development",
+  "path": "news/news-releases/2025/0922-exxonmobil-guyana-expands-capacity-with-seventh-offshore-development",
+  "timestamp": "2026-10-26T16:55:03.242Z",
+  "title": "ExxonMobil Guyana expands capacity | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

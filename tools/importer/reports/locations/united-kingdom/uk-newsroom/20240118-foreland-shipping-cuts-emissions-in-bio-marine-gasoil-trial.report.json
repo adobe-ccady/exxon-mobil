@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240118_foreland-shipping-cuts-emissions-in-bio-marine-gasoil-trial",
+  "path": "locations/united-kingdom/uk-newsroom/20240118-foreland-shipping-cuts-emissions-in-bio-marine-gasoil-trial",
+  "timestamp": "2026-10-26T16:38:56.762Z",
+  "title": "Foreland Shipping cuts emissions in bio marine gasoil trial | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/the-time-for-lng-powered-trucking-in-india-is-now",
+  "path": "locations/india/newsroom/2026/the-time-for-lng-powered-trucking-in-india-is-now",
+  "timestamp": "2026-10-26T16:30:09.012Z",
+  "title": "LNG in India: Fueling lower-emission heavy-duty trucks | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20260420-exxonmobil-fawley-calshot-beach-cleanup",
+  "path": "locations/united-kingdom/uk-newsroom/20260420-exxonmobil-fawley-calshot-beach-cleanup",
+  "timestamp": "2026-10-26T16:39:28.763Z",
+  "title": "Local school cleans up Calshot with ExxonMobil Fawley | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

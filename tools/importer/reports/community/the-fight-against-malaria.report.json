@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/the-fight-against-malaria",
+  "path": "community/the-fight-against-malaria",
+  "timestamp": "2026-10-26T19:17:43.946Z",
+  "title": "The fight against malaria | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "cards-news"
+  ]
+}

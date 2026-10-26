@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2024/red-tape-is-driving-investment-out-of-europe",
+  "path": "locations/european-region/european-newsroom/2024/red-tape-is-driving-investment-out-of-europe",
+  "timestamp": "2026-10-26T16:25:49.366Z",
+  "title": "Red tape is driving investment out of Europe | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/all-in-on-industry-initiative-aiming-for-zero-methane-emissions",
+  "path": "news/viewpoints/all-in-on-industry-initiative-aiming-for-zero-methane-emissions",
+  "timestamp": "2026-10-26T16:55:35.648Z",
+  "title": "All in on industry initiative aiming for zero methane emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

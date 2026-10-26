@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/celebrating-inspiring-women",
+  "path": "locations/qatar/qatar-newsroom/celebrating-inspiring-women",
+  "timestamp": "2026-10-26T16:48:31.779Z",
+  "title": "International Women's Day: Discovering your capabilities ​| ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/the-offshore-technology-conference-asia-2024/130-years-in-malaysia",
+  "path": "locations/asia-pacific-region/ap-newsroom/the-offshore-technology-conference-asia-2024/130-years-in-malaysia",
+  "timestamp": "2026-10-26T16:23:33.917Z",
+  "title": "130 Years in Malaysia | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

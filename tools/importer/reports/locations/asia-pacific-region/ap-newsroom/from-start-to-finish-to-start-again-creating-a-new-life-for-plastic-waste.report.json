@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/from-start-to-finish-to-start-again-creating-a-new-life-for-plastic-waste",
+  "path": "locations/asia-pacific-region/ap-newsroom/from-start-to-finish-to-start-again-creating-a-new-life-for-plastic-waste",
+  "timestamp": "2026-10-26T18:05:22.294Z",
+  "title": "From start to finish, to start again: Creating a new life for plastic waste | ExxonMobil in Asia Pacific",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

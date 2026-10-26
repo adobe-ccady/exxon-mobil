@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/navigating-lubricant-supply-through-global-disruption",
+  "path": "news/viewpoints/navigating-lubricant-supply-through-global-disruption",
+  "timestamp": "2026-10-26T16:56:32.143Z",
+  "title": "Keeping the world moving: Navigating lubricant supply through global disruption | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

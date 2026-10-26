@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20241120_fife-ethylene-plant-helps-brew-success-with-beath-high-school",
+  "path": "locations/united-kingdom/uk-newsroom/20241120-fife-ethylene-plant-helps-brew-success-with-beath-high-school",
+  "timestamp": "2026-10-26T16:50:58.342Z",
+  "title": "Fife Ethylene Plant helps brew success with Beath High School",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

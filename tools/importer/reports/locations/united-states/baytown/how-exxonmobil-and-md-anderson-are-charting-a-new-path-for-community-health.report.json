@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baytown/how-exxonmobil-and-md-anderson-are-charting-a-new-path-for-community-health",
+  "path": "locations/united-states/baytown/how-exxonmobil-and-md-anderson-are-charting-a-new-path-for-community-health",
+  "timestamp": "2026-10-26T16:40:11.764Z",
+  "title": "Be Well™ Baytown: Transforming Community Health in Baytown, Texas | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/the-global-methane-pledge",
+  "path": "news/viewpoints/the-global-methane-pledge",
+  "timestamp": "2026-10-26T18:25:31.892Z",
+  "title": "The global methane pledge | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

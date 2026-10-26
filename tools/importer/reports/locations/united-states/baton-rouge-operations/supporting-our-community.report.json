@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baton-rouge-operations/supporting-our-community",
+  "path": "locations/united-states/baton-rouge-operations/supporting-our-community",
+  "timestamp": "2026-10-26T16:51:43.777Z",
+  "title": "Supporting our community | ExxonMobil in Baton Rouge",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

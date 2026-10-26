@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/brazil/safety-and-environment",
+  "path": "locations/brazil/safety-and-environment",
+  "timestamp": "2026-10-26T16:25:23.166Z",
+  "title": "Safety and environment in Brazil| ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20251222-exxonmobil-fawley-keeps-tradition-with-its-annual-festive-charity-hamper-donation",
+  "path": "locations/united-kingdom/uk-newsroom/20251222-exxonmobil-fawley-keeps-tradition-with-its-annual-festive-charity-hamper-donation",
+  "timestamp": "2026-10-26T16:51:17.141Z",
+  "title": "ExxonMobil Fawley keeps tradition with its annual festive charity hamper donation | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

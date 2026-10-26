@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-supports-children-in-need-in-maputo",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-supports-children-in-need-in-maputo",
+  "timestamp": "2026-10-26T16:44:17.020Z",
+  "title": "ExxonMobil Mozambique supports children in need in Maputo",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

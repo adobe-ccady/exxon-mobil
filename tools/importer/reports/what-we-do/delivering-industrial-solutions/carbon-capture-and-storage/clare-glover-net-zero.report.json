@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/clare-glover-net-zero",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/clare-glover-net-zero",
+  "timestamp": "2026-10-26T16:59:15.642Z",
+  "title": "Expert spotlight: Clare Glover - working toward our net-zero ambition | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/better-methane-regulatory-approach-needed",
+  "path": "news/viewpoints/better-methane-regulatory-approach-needed",
+  "timestamp": "2026-10-26T16:55:45.378Z",
+  "title": "When it comes to methane, better regulatory approach needed | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/labarge-carbon-capture-facility-wyoming",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/labarge-carbon-capture-facility-wyoming",
+  "timestamp": "2026-10-26T16:59:34.123Z",
+  "title": "LaBarge: Gateway to the future | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

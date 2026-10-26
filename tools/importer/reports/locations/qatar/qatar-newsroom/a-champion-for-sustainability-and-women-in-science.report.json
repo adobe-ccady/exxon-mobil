@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/a-champion-for-sustainability-and-women-in-science",
+  "path": "locations/qatar/qatar-newsroom/a-champion-for-sustainability-and-women-in-science",
+  "timestamp": "2026-10-26T16:35:49.571Z",
+  "title": "A Champion for Sustainability and Women in Science | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/how-education-helped-three-young-women-break-the-shackles-of-poverty",
+  "path": "locations/india/newsroom/how-education-helped-three-young-women-break-the-shackles-of-poverty",
+  "timestamp": "2026-10-26T16:35:14.606Z",
+  "title": "How education helped three young women break the shackles of poverty | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

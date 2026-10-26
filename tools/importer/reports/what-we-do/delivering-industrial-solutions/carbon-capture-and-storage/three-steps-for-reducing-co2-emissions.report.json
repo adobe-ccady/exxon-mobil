@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/three-steps-for-reducing-co2-emissions",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/three-steps-for-reducing-co2-emissions",
+  "timestamp": "2026-10-26T16:59:50.342Z",
+  "title": "Capture it. Move it. Store it: Three steps for reducing CO2 emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

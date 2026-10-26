@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/publications/2023-annual-report",
+  "path": "locations/guyana/publications/2023-annual-report",
+  "timestamp": "2026-10-26T16:29:27.732Z",
+  "title": "2023 Annual Report | ExxonMobil Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

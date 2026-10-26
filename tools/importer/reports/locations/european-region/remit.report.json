@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/remit",
+  "path": "locations/european-region/remit",
+  "timestamp": "2026-10-26T18:09:37.490Z",
+  "title": "REMIT | ExxonMobil in Europe",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

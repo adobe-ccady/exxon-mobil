@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/me-regional-news/exxonmobil-egypt-wins-international-loyalty-award",
+  "path": "locations/me-regional-news/exxonmobil-egypt-wins-international-loyalty-award",
+  "timestamp": "2026-10-26T16:41:17.163Z",
+  "title": "Egypt wins loyalty award | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

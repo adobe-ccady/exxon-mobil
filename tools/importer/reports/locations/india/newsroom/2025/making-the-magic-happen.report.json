@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/making-the-magic-happen",
+  "path": "locations/india/newsroom/2025/making-the-magic-happen",
+  "timestamp": "2026-10-26T16:31:12.769Z",
+  "title": "Using artificial intelligence to answer big questions | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

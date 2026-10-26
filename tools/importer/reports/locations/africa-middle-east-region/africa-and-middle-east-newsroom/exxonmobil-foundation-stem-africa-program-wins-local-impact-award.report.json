@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/africa-middle-east-region/africa-and-middle-east-newsroom/exxonmobil-foundation-stem-africa-program-wins-local-impact-award",
+  "path": "locations/africa-middle-east-region/africa-and-middle-east-newsroom/exxonmobil-foundation-stem-africa-program-wins-local-impact-award",
+  "timestamp": "2026-10-26T16:21:03.628Z",
+  "title": "ExxonMobil STEM Africa Wins Impact Award | ExxonMobil in Africa",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

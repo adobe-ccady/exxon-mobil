@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250604_fep-delivers-new-chapter-for-young-readers",
+  "path": "locations/united-kingdom/uk-newsroom/20250604-fep-delivers-new-chapter-for-young-readers",
+  "timestamp": "2026-10-26T18:16:32.742Z",
+  "title": "FEP delivers new chapter for young readers | ExxonMobil UK: Fife",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

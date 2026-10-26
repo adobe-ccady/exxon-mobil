@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/renewable-diesel-strathcona-canada",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/renewable-diesel-strathcona-canada",
+  "timestamp": "2026-10-26T17:02:16.142Z",
+  "title": "Renewable diesel for our changing world | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

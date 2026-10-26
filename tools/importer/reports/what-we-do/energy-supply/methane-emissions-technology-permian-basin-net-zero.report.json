@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/methane-emissions-technology-permian-basin-net-zero",
+  "path": "what-we-do/energy-supply/methane-emissions-technology-permian-basin-net-zero",
+  "timestamp": "2026-10-26T17:12:30.484Z",
+  "title": "Detecting Methane Emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

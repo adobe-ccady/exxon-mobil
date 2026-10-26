@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/reduciendo-las-emisiones-de-co2",
+  "path": "locations/mexico/reduciendo-las-emisiones-de-co2",
+  "timestamp": "2026-10-26T18:19:08.942Z",
+  "title": "Reduciendo las emisiones de CO2 | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

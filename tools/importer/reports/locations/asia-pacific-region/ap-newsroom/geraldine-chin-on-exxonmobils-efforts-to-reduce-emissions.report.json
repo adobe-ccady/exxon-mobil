@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/geraldine-chin-on-exxonmobils-efforts-to-reduce-emissions",
+  "path": "locations/asia-pacific-region/ap-newsroom/geraldine-chin-on-exxonmobils-efforts-to-reduce-emissions",
+  "timestamp": "2026-10-26T16:22:58.564Z",
+  "title": "Opportunities in Singapore and the region: Geraldine Chin on ExxonMobil’s efforts to reduce emissions | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

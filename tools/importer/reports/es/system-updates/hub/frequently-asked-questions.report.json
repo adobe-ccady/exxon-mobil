@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/frequently-asked-questions?content-lang=es",
+  "path": "es/system-updates/hub/frequently-asked-questions",
+  "timestamp": "2026-10-26T17:56:44.219Z",
+  "title": "Preguntas frecuentes (FAQ) - centro de negocios | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

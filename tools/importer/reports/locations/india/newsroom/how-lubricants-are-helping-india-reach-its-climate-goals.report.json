@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/how-lubricants-are-helping-india-reach-its-climate-goals",
+  "path": "locations/india/newsroom/how-lubricants-are-helping-india-reach-its-climate-goals",
+  "timestamp": "2026-10-26T16:32:42.706Z",
+  "title": "Advanced lubricants are driving energy efficiency in India’s industries | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

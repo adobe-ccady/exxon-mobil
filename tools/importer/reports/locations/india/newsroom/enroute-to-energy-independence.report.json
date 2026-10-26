@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/enroute-to-energy-independence",
+  "path": "locations/india/newsroom/enroute-to-energy-independence",
+  "timestamp": "2026-10-26T16:32:34.564Z",
+  "title": "Enroute to energy independence: Boosting India’s competitive advantage | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

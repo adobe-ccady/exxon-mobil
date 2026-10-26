@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/gender-pay-reporting",
+  "path": "locations/united-kingdom/gender-pay-reporting",
+  "timestamp": "2026-10-26T16:38:39.205Z",
+  "title": "UK Gender Pay Report | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

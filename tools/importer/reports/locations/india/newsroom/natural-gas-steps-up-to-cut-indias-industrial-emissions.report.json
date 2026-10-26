@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/natural-gas-steps-up-to-cut-indias-industrial-emissions",
+  "path": "locations/india/newsroom/natural-gas-steps-up-to-cut-indias-industrial-emissions",
+  "timestamp": "2026-10-26T16:31:13.265Z",
+  "title": "Natural Gas Steps Up to Cut India’s Industrial Emissions | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/operations/environmental-efforts-in-guyana",
+  "path": "locations/guyana/operations/environmental-efforts-in-guyana",
+  "timestamp": "2026-10-26T16:28:23.266Z",
+  "title": "Environmental efforts | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

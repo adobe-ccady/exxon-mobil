@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2024/making-a-big-impact-with-small-gestures-malaysia",
+  "path": "locations/asia-pacific-region/ap-newsroom/2024/making-a-big-impact-with-small-gestures-malaysia",
+  "timestamp": "2026-10-26T16:21:28.104Z",
+  "title": "Making a big impact with small gestures | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

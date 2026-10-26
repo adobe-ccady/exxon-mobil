@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/vietnam/our-operations",
+  "path": "locations/vietnam/our-operations",
+  "timestamp": "2026-10-26T16:52:45.341Z",
+  "title": "ExxonMobil operations in Vietnam",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

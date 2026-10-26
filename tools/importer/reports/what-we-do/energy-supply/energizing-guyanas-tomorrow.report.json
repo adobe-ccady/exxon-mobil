@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/energizing-guyanas-tomorrow",
+  "path": "what-we-do/energy-supply/energizing-guyanas-tomorrow",
+  "timestamp": "2026-10-26T17:01:04.541Z",
+  "title": "Energizing Guyana’s tomorrow | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

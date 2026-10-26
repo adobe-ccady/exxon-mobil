@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/xto-invoice-requirements/register-with-openinvoice",
+  "path": "procurement/xto-invoice-requirements/register-with-openinvoice",
+  "timestamp": "2026-10-26T18:25:44.381Z",
+  "title": "How to Register with OpenInvoice",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

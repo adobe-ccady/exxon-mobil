@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-supports-stem-education-in-maputo",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-supports-stem-education-in-maputo",
+  "timestamp": "2026-10-26T16:34:10.187Z",
+  "title": "ExxonMobil Mozambique boosts STEM education in Maputo",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

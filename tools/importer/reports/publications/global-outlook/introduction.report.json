@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/global-outlook/introduction",
+  "path": "publications/global-outlook/introduction",
+  "timestamp": "2026-10-26T17:56:08.348Z",
+  "title": "Introduction to ExxonMobil’s 2026 Global Outlook | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/driving-reductions-in-methane-emissions",
+  "path": "publications/advancing-climate-solutions/driving-reductions-in-methane-emissions",
+  "timestamp": "2026-10-26T17:54:26.911Z",
+  "title": "Reducing methane emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/thoughts-on-the-energy-transition",
+  "path": "news/viewpoints/thoughts-on-the-energy-transition",
+  "timestamp": "2026-10-26T16:57:18.543Z",
+  "title": "Thoughts on the energy transition | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

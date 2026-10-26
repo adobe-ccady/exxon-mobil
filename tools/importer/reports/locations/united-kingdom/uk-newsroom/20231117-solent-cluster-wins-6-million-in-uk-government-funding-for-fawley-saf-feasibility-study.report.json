@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20231117_solent-cluster-wins-6-million-in-uk-government-funding-for-fawley-saf-feasibility-study",
+  "path": "locations/united-kingdom/uk-newsroom/20231117-solent-cluster-wins-6-million-in-uk-government-funding-for-fawley-saf-feasibility-study",
+  "timestamp": "2026-10-26T16:50:47.141Z",
+  "title": "Solent Cluster wins £6 million in UK Government funding for Fawley SAF feasibility study | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

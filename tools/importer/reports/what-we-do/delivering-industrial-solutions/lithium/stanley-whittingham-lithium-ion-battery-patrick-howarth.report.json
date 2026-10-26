@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/stanley-whittingham-lithium-ion-battery-patrick-howarth",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/stanley-whittingham-lithium-ion-battery-patrick-howarth",
+  "timestamp": "2026-10-26T17:00:39.096Z",
+  "title": "EV Lithium-Ion Battery: Dr. Stanley Whittingham | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

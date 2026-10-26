@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/a-day-in-the-life-afifah-mutmainnah",
+  "path": "locations/asia-pacific-region/ap-newsroom/a-day-in-the-life-afifah-mutmainnah",
+  "timestamp": "2026-10-26T16:22:20.139Z",
+  "title": "A Day in the Life: Afifah Mutmainnah | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

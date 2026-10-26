@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2023/0920_key-takeaway-from-our-product-solutions-spotlight",
+  "path": "news/news-releases/2023/0920-key-takeaway-from-our-product-solutions-spotlight",
+  "timestamp": "2026-10-26T16:54:07.442Z",
+  "title": "Our Product Solutions business is on course to triple earnings potential | ExxonMobil | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

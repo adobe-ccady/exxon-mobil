@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2022/1214_exxonmobil-starts-operations-at-large-scale-advanced-recycling-facility",
+  "path": "news/news-releases/2022/1214-exxonmobil-starts-operations-at-large-scale-advanced-recycling-facility",
+  "timestamp": "2026-10-26T16:42:51.906Z",
+  "title": "ExxonMobil starts operations at large-scale advanced recycling facility",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

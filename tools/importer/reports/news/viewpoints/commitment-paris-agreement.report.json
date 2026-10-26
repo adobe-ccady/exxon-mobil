@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/commitment-paris-agreement",
+  "path": "news/viewpoints/commitment-paris-agreement",
+  "timestamp": "2026-10-26T16:55:44.378Z",
+  "title": "Reaffirming our commitment to the Paris Climate Agreement | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

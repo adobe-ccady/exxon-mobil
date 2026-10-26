@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20241018-support-flood-relief-to-friends-in-need",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20241018-support-flood-relief-to-friends-in-need",
+  "timestamp": "2026-10-26T16:36:59.167Z",
+  "title": "Supporting flood relief efforts | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

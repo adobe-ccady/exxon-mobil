@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/news-releases/04052019_exxonmobil-celebrates-the-opening-of-its-butyl-and-resins-plants-in-singapore",
+  "path": "locations/singapore/singapore-updates/news-releases/04052019-exxonmobil-celebrates-the-opening-of-its-butyl-and-resins-plants-in-singapore",
+  "timestamp": "2026-10-26T18:13:40.495Z",
+  "title": "ExxonMobil celebrates the opening of its butyl and resins plants in Singapore",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

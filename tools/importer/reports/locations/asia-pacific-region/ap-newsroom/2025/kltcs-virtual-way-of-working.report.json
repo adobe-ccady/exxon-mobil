@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/kltcs-virtual-way-of-working",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/kltcs-virtual-way-of-working",
+  "timestamp": "2026-10-26T16:21:52.711Z",
+  "title": "Digital minds, global solutions: KLTC’s virtual way of working | ExxonMobil in Malaysia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

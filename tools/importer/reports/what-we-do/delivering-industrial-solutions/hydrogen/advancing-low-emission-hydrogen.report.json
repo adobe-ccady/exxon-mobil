@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/hydrogen/advancing-low-emission-hydrogen",
+  "path": "what-we-do/delivering-industrial-solutions/hydrogen/advancing-low-emission-hydrogen",
+  "timestamp": "2026-10-26T17:00:07.543Z",
+  "title": "Methane pyrolysis technology | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

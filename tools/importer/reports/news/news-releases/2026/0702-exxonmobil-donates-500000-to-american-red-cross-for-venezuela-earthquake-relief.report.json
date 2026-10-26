@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2026/0702-exxonmobil-donates-500000-to-american-red-cross-for-venezuela-earthquake-relief",
+  "path": "news/news-releases/2026/0702-exxonmobil-donates-500000-to-american-red-cross-for-venezuela-earthquake-relief",
+  "timestamp": "2026-10-26T16:44:23.626Z",
+  "title": "ExxonMobil donates $500,000 to American Red Cross for Venezuela earthquake relief | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

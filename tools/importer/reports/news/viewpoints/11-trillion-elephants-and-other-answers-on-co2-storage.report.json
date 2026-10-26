@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/11-trillion-elephants-and-other-answers-on-co2-storage",
+  "path": "news/viewpoints/11-trillion-elephants-and-other-answers-on-co2-storage",
+  "timestamp": "2026-10-26T16:55:26.542Z",
+  "title": "11 trillion elephants, and other answers on CO2 storage",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

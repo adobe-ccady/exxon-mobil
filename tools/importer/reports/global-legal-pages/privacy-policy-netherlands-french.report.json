@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_netherlands-french",
+  "path": "global-legal-pages/privacy-policy-netherlands-french",
+  "timestamp": "2026-10-26T18:09:12.169Z",
+  "title": "Déclaration Relative à la Protection des Données Personnelles | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/our-products",
+  "path": "locations/belgium/our-products",
+  "timestamp": "2026-10-26T16:17:36.605Z",
+  "title": "ExxonMobil Belgium: Premium fuels, lubricants and petrochemicals",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

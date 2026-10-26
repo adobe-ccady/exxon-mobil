@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/paving-the-many-paths-towards-an-energy-transition",
+  "path": "locations/asia-pacific-region/ap-newsroom/paving-the-many-paths-towards-an-energy-transition",
+  "timestamp": "2026-10-26T16:23:19.264Z",
+  "title": "Paving the many paths towards an energy transition | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

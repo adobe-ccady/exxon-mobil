@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2016/0721_exxonmobil-to-acquire-interoil-in-transaction-worth-more-than-2-billion",
+  "path": "news/news-releases/2016/0721-exxonmobil-to-acquire-interoil-in-transaction-worth-more-than-2-billion",
+  "timestamp": "2026-10-26T18:16:50.543Z",
+  "title": "ExxonMobil to Acquire InterOil in Transaction Worth More Than $2.5 Billion | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

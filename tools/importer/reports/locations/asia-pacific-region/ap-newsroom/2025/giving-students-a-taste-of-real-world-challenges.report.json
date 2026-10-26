@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/giving-students-a-taste-of-real-world-challenges",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/giving-students-a-taste-of-real-world-challenges",
+  "timestamp": "2026-10-26T16:21:39.310Z",
+  "title": "Giving students a taste of real-world challenges | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

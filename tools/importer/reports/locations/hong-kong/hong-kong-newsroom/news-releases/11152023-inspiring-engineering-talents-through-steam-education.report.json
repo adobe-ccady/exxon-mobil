@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/hong-kong/hong-kong-newsroom/news-releases/11152023_inspiring-engineering-talents-through-steam-education",
+  "path": "locations/hong-kong/hong-kong-newsroom/news-releases/11152023-inspiring-engineering-talents-through-steam-education",
+  "timestamp": "2026-10-26T18:27:49.915Z",
+  "title": "Inspiring engineering talents through STEAM education | ExxonMobil in Hong Kong",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

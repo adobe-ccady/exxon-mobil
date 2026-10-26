@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/shareholder-proposal",
+  "path": "news/corporate-news/shareholder-proposal",
+  "timestamp": "2026-10-26T16:42:17.106Z",
+  "title": "2024 Shareholder proposal | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

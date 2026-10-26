@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/video/mark-armstrong",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/video/mark-armstrong",
+  "timestamp": "2026-10-26T16:59:58.541Z",
+  "title": "Transportation: Mark Armstrong explains how we transport CO2 via our pipeline system with safety first and foremost | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

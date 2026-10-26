@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/beaumont-operations/emergency-preparedness-and-response-at-beaumont",
+  "path": "locations/united-states/beaumont-operations/emergency-preparedness-and-response-at-beaumont",
+  "timestamp": "2026-10-26T16:52:19.004Z",
+  "title": "Emergency preparedness and response at Beaumont | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

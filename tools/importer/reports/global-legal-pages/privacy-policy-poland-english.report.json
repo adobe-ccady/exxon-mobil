@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_poland-english",
+  "path": "global-legal-pages/privacy-policy-poland-english",
+  "timestamp": "2026-10-26T18:04:17.983Z",
+  "title": "Privacy Statement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

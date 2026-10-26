@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/malaysia/malaysia-newsroom/2026/the-sweetest-support-empowering-malaysian-women-through-beekeeping",
+  "path": "locations/malaysia/malaysia-newsroom/2026/the-sweetest-support-empowering-malaysian-women-through-beekeeping",
+  "timestamp": "2026-10-26T16:32:55.764Z",
+  "title": "How ExxonMobil is empowering women in Malaysia through beekeeping | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

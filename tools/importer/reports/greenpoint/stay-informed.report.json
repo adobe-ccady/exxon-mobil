@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/greenpoint/stay-informed",
+  "path": "greenpoint/stay-informed",
+  "timestamp": "2026-10-26T17:53:12.241Z",
+  "title": "Stay informed | Exxonmobil in Greenpoint",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/operations/business-policies",
+  "path": "locations/guyana/operations/business-policies",
+  "timestamp": "2026-10-26T16:29:20.190Z",
+  "title": "Business policies | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

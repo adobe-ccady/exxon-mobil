@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/area-4-to-invest-us-1-5m-in-community-programs-in-palma",
+  "path": "locations/mozambique/mozambique-newsroom/area-4-to-invest-us-1-5m-in-community-programs-in-palma",
+  "timestamp": "2026-10-26T16:43:43.619Z",
+  "title": "Area 4 invests $1.5M USD to Palma community programs | ExxonMobil Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/action-on-methane-regulations",
+  "path": "news/viewpoints/action-on-methane-regulations",
+  "timestamp": "2026-10-26T16:55:29.488Z",
+  "title": "ExxonMobil urges action on methane emission regulations | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

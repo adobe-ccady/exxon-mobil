@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/worldwide-giving-report",
+  "path": "community/worldwide-giving-report",
+  "timestamp": "2026-10-26T19:17:52.942Z",
+  "title": "Worldwide Giving report | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "cards-news",
+    "cards-topics"
+  ]
+}

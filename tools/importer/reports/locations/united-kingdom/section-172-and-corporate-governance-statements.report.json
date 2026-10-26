@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/section-172-and-corporate-governance-statements",
+  "path": "locations/united-kingdom/section-172-and-corporate-governance-statements",
+  "timestamp": "2026-10-26T16:38:47.784Z",
+  "title": "Section 172 and Corporate Governance Statements",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

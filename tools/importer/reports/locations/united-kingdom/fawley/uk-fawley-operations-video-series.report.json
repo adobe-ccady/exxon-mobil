@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/fawley/uk-fawley-operations-video-series",
+  "path": "locations/united-kingdom/fawley/uk-fawley-operations-video-series",
+  "timestamp": "2026-10-26T16:50:25.577Z",
+  "title": "Video: Our Fawley operations - what we do | ExxonMobil U.K.",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/our-history",
+  "path": "locations/united-kingdom/our-history",
+  "timestamp": "2026-10-26T16:50:46.743Z",
+  "title": "Our history | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

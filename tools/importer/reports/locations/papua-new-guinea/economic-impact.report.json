@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/economic-impact",
+  "path": "locations/papua-new-guinea/economic-impact",
+  "timestamp": "2026-10-26T16:35:01.116Z",
+  "title": "Economic impact | ExxonMobil PNG",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/rational-and-constructive-policy",
+  "path": "publications/advancing-climate-solutions/rational-and-constructive-policy",
+  "timestamp": "2026-10-26T17:55:00.952Z",
+  "title": "Rational and constructive policy | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

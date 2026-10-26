@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240424-mobil1",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240424-mobil1",
+  "timestamp": "2026-10-26T16:36:41.106Z",
+  "title": "ExxonMobil unveils Thailand 2024 business plan | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

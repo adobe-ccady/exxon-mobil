@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/motorsports/from-lab-to-track-red-bull-ktm-factory-racing",
+  "path": "what-we-do/transforming-transportation/motorsports/from-lab-to-track-red-bull-ktm-factory-racing",
+  "timestamp": "2026-10-26T17:11:38.543Z",
+  "title": "Red Bull KTM Factory Racing | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

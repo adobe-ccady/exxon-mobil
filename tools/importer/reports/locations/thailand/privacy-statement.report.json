@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/privacy-statement",
+  "path": "locations/thailand/privacy-statement",
+  "timestamp": "2026-10-26T18:14:35.281Z",
+  "title": "Privacy statement | ExxonMobil in Thailand",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

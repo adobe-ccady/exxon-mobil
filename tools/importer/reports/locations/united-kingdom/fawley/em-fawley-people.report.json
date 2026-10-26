@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/fawley/em-fawley-people",
+  "path": "locations/united-kingdom/fawley/em-fawley-people",
+  "timestamp": "2026-10-26T16:50:14.041Z",
+  "title": "Meet the people of ExxonMobil Fawley (UK)",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

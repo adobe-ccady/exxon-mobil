@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints",
+  "path": "news/viewpoints",
+  "timestamp": "2026-10-26T19:18:23.877Z",
+  "title": "Viewpoints | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "cards-news"
+  ]
+}

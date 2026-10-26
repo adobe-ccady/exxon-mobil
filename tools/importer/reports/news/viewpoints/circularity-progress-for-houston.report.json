@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/circularity-progress-for-houston",
+  "path": "news/viewpoints/circularity-progress-for-houston",
+  "timestamp": "2026-10-26T16:55:39.078Z",
+  "title": "Circularity progress for Houston | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

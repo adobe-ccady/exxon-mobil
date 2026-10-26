@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/investing-in-people/value-of-diversity",
+  "path": "community/investing-in-people/value-of-diversity",
+  "timestamp": "2026-10-26T17:53:55.742Z",
+  "title": "Investing in people: Value of diversity | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

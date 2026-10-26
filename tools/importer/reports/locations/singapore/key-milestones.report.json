@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/key-milestones",
+  "path": "locations/singapore/key-milestones",
+  "timestamp": "2026-10-26T18:12:55.942Z",
+  "title": "Key milestones in ExxonMobil Singapore's history",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

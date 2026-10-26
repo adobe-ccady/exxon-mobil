@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-completes-lng-acquisition-in-mozambique-area-4",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-completes-lng-acquisition-in-mozambique-area-4",
+  "timestamp": "2026-10-26T16:33:47.661Z",
+  "title": "ExxonMobil completes LNG acquisition in Mozambique Area 4",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

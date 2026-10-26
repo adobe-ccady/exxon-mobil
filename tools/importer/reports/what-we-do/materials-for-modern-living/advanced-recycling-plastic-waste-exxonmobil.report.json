@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/materials-for-modern-living/advanced-recycling-plastic-waste-exxonmobil",
+  "path": "what-we-do/materials-for-modern-living/advanced-recycling-plastic-waste-exxonmobil",
+  "timestamp": "2026-10-26T17:01:34.485Z",
+  "title": "Managing plastic waste with advanced recycling | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

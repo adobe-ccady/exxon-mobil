@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250925_exxonmobil-fawley-makes-waves-with-sailing-adventure-for-children-with-disabilities",
+  "path": "locations/united-kingdom/uk-newsroom/20250925-exxonmobil-fawley-makes-waves-with-sailing-adventure-for-children-with-disabilities",
+  "timestamp": "2026-10-26T16:39:12.463Z",
+  "title": "ExxonMobil Fawley makes waves with sailing adventure for children with disabilities",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

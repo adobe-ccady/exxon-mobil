@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/our-privacy-policies/data-privacy-code-of-conduct_french",
+  "path": "global-legal-pages/our-privacy-policies/data-privacy-code-of-conduct-french",
+  "timestamp": "2026-10-26T18:01:25.779Z",
+  "title": "Code de conduite d'ExxonMobil applicable à la protection des données à caractère personnel",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

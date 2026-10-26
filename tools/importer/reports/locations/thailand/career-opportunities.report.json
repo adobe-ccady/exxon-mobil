@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/career-opportunities",
+  "path": "locations/thailand/career-opportunities",
+  "timestamp": "2026-10-26T16:48:43.760Z",
+  "title": "Career opportunities | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

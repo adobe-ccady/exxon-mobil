@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baytown/committed-to-safety",
+  "path": "locations/united-states/baytown/committed-to-safety",
+  "timestamp": "2026-10-26T16:51:31.079Z",
+  "title": "Baytown operations commitment to safety | ExxonMobil in Baytown",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

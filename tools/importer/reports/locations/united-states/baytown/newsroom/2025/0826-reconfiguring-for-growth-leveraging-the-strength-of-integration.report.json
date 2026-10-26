@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baytown/newsroom/2025/0826_reconfiguring-for-growth-leveraging-the-strength-of-integration",
+  "path": "locations/united-states/baytown/newsroom/2025/0826-reconfiguring-for-growth-leveraging-the-strength-of-integration",
+  "timestamp": "2026-10-26T16:51:53.941Z",
+  "title": "Reconfiguring for growth: leveraging the strength of integration | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

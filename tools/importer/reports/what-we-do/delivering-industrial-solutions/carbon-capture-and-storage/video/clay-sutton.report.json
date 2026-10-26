@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/video/clay-sutton",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/video/clay-sutton",
+  "timestamp": "2026-10-26T16:59:52.142Z",
+  "title": "Capture: Clay Sutton explains how CO2 is captured from industrial sites, preventing it from reaching the atmosphere| ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

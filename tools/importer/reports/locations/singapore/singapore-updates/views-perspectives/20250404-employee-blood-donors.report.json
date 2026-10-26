@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/views-perspectives/20250404-employee-blood-donors",
+  "path": "locations/singapore/singapore-updates/views-perspectives/20250404-employee-blood-donors",
+  "timestamp": "2026-10-26T16:48:50.144Z",
+  "title": "Giving blood, saving lives, making a difference in Singapore | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

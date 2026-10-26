@@ -7,6 +7,10 @@
  * Row per card: [image] | [h3 title, description, CTA link paragraph(s)].
  * Iterates li.highlight--item (block-level); empty carousel filler items are skipped.
  * Image: .lazy-bg[data-desktop] on the live page; full-size <img> in cleaned HTML.
+ * Also: topic/index pages (div.topic--wrapper section.highlight .highlight--content): same
+ * li.highlight--item structure with the CTA in .highlight--section-cta (arrow icon dropped);
+ * items may have no image (empty image cell, no hint). The .highlight--header (title,
+ * description) sits outside the parsed element and stays default content before the block.
  */
 function getImage(item, document) {
   const bg = item.querySelector('.highlight--section-image .lazy-bg, .lazy-bg');
@@ -55,6 +59,17 @@ export default function parse(element, { document }) {
       p.append(a);
       textContent.push(p);
     });
+    // topic/index pages: single CTA in .highlight--section-cta (a.cta + <i class="icon"> arrow)
+    [...item.querySelectorAll('.highlight--section-cta a')]
+      .filter((src) => src.textContent.trim())
+      .forEach((src) => {
+        const a = document.createElement('a');
+        a.href = src.getAttribute('href') || '';
+        a.textContent = src.textContent.replace(/\s+/g, ' ').trim();
+        const p = document.createElement('p');
+        p.append(a);
+        textContent.push(p);
+      });
 
     if (!img && !textContent.length) return;
     cells.push([

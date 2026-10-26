@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/pioneering-a-new-automation-technology",
+  "path": "news/corporate-news/pioneering-a-new-automation-technology",
+  "timestamp": "2026-10-26T16:53:00.843Z",
+  "title": "Pioneering a new automation technology | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

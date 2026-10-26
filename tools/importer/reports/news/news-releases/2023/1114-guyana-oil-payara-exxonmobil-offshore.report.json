@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2023/1114_guyana-oil-payara-exxonmobil-offshore",
+  "path": "news/news-releases/2023/1114-guyana-oil-payara-exxonmobil-offshore",
+  "timestamp": "2026-10-26T16:53:51.743Z",
+  "title": "Payara: Offshore Oil Development in Guyana | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2026/exxonmobil-engineer-ayu-shares-her-advice-for-moms-in-stem",
+  "path": "locations/indonesia/newsroom/2026/exxonmobil-engineer-ayu-shares-her-advice-for-moms-in-stem",
+  "timestamp": "2026-10-26T16:38:58.164Z",
+  "title": "ExxonMobil engineer to leader: Ratih Ayu's STEM path | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

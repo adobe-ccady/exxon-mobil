@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/a-big-idea-to-tackle-climate-change-at-cop29",
+  "path": "news/corporate-news/a-big-idea-to-tackle-climate-change-at-cop29",
+  "timestamp": "2026-10-26T16:52:53.978Z",
+  "title": "CEO Darren Woods delivers a big idea at COP29 | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

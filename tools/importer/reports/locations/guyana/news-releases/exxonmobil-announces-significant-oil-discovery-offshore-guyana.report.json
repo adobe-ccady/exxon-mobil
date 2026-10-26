@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/exxonmobil-announces-significant-oil-discovery-offshore-guyana",
+  "path": "locations/guyana/news-releases/exxonmobil-announces-significant-oil-discovery-offshore-guyana",
+  "timestamp": "2026-10-26T18:09:59.530Z",
+  "title": "ExxonMobil announces significant oil discovery offshore Guyana",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

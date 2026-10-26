@@ -12,10 +12,13 @@
   "contentPattern": "row per card: [image] | [linked title, tag link]",
   "usage": {
     "pagesUsing": [
-      "https://corporate.exxonmobil.com/"
+      "https://corporate.exxonmobil.com/",
+      "/careers/ashlika-persaud",
+      "/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+      "/news"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-10-14"
+    "reuseCount": 4,
+    "lastUsed": "2026-10-26"
   },
   "options": [],
   "memberVariantIds": []

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_belgium-dutch",
+  "path": "global-legal-pages/privacy-policy-belgium-dutch",
+  "timestamp": "2026-10-26T18:01:52.985Z",
+  "title": "Privacyverklaring | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

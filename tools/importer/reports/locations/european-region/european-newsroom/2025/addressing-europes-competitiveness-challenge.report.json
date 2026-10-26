@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/addressing-europes-competitiveness-challenge",
+  "path": "locations/european-region/european-newsroom/2025/addressing-europes-competitiveness-challenge",
+  "timestamp": "2026-10-26T16:25:55.014Z",
+  "title": "Addressing Europe's competitiveness challenge | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

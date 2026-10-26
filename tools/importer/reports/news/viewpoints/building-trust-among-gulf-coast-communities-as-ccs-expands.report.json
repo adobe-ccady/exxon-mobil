@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/building-trust-among-gulf-coast-communities-as-ccs-expands",
+  "path": "news/viewpoints/building-trust-among-gulf-coast-communities-as-ccs-expands",
+  "timestamp": "2026-10-26T16:45:00.507Z",
+  "title": "Building trust among Gulf Coast communities as CCS expands | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

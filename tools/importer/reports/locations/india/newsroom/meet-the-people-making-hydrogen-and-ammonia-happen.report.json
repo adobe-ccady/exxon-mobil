@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/meet-the-people-making-hydrogen-and-ammonia-happen",
+  "path": "locations/india/newsroom/meet-the-people-making-hydrogen-and-ammonia-happen",
+  "timestamp": "2026-10-26T16:37:12.499Z",
+  "title": "Meet the people making hydrogen and ammonia happen | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": {
+    "colorScheme": "inherits-section",
+    "density": "medium",
+    "purpose": "media-feature",
+    "imagePattern": "large-side-image",
+    "structure": "large image (about 45%) | heading + text + link, vertically centred; stacks on mobile",
+    "notes": "Source section.shortVideoHeadline (Worldwide giving on /community, in a dark-grey section). Image fills its half edge to edge; colours come from the section style."
+  },
+  "contentPattern": "1 row: [image (optional video link)] | [H2, paragraph(s), link]; cell order sets the image side",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/community"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use for a single large image beside a heading, text and link (source shortVideoHeadline). Not for article headers (columns-article-header), stock quotes (columns-stock-ticker) or repeating tiles (cards)."
+}

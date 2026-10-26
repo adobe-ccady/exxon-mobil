@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/subscribe",
+  "path": "news/subscribe",
+  "timestamp": "2026-10-26T19:18:16.741Z",
+  "title": "Subscribe | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "cards-news",
+    "cards-business"
+  ]
+}

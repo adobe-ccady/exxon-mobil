@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/africa-middle-east-region/africa-and-middle-east-newsroom/future-stem-leaders-shine",
+  "path": "locations/africa-middle-east-region/africa-and-middle-east-newsroom/future-stem-leaders-shine",
+  "timestamp": "2026-10-26T16:21:06.007Z",
+  "title": "ExxonMobil Foundation STEM Africa Regional Finals | ExxonMobil in Africa",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

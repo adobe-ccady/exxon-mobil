@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/indonesias-solution-for-the-energy-transition",
+  "path": "locations/indonesia/newsroom/2025/indonesias-solution-for-the-energy-transition",
+  "timestamp": "2026-10-26T16:31:51.935Z",
+  "title": "Indonesia’s “and” solution for the energy transition | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

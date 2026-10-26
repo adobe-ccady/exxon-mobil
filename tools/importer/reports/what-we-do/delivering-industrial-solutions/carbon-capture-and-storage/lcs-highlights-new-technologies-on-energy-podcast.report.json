@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/lcs-highlights-new-technologies-on-energy-podcast",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/lcs-highlights-new-technologies-on-energy-podcast",
+  "timestamp": "2026-10-26T17:05:35.739Z",
+  "title": "Keeping it real: LCS highlights new technologies on energy podcast | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

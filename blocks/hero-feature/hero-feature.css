@@ -1,0 +1,102 @@
+/* hero-feature: full-width photo band, left-aligned text + CTA over the image */
+.hero-feature-container .hero-feature-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-feature {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  min-height: 360px;
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-feature .hero-feature-media {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-feature .hero-feature-media > div,
+.hero-feature .hero-feature-media p,
+.hero-feature .hero-feature-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.hero-feature .hero-feature-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* dark left gradient keeps the overlaid text readable */
+.hero-feature::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to right, rgb(0 0 0 / 70%), rgb(0 0 0 / 0%));
+  pointer-events: none;
+}
+
+.hero-feature.hero-feature-no-image::after {
+  display: none;
+}
+
+.hero-feature .hero-feature-body {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.hero-feature .hero-feature-content :is(h1, h2, h3, h4, h5, h6, p) {
+  color: #fff;
+}
+
+.hero-feature .hero-feature-content > :first-child {
+  margin-top: 0;
+}
+
+.hero-feature .hero-feature-content > :last-child {
+  margin-bottom: 0;
+}
+
+.hero-feature .hero-feature-eyebrow {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.hero-feature .hero-feature-cta {
+  margin-top: 24px;
+}
+
+@media (width >= 600px) {
+  .hero-feature {
+    min-height: 420px;
+  }
+
+  .hero-feature .hero-feature-body {
+    padding: 64px 32px;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-feature {
+    min-height: 480px;
+  }
+
+  .hero-feature .hero-feature-content {
+    max-width: 66%;
+  }
+}

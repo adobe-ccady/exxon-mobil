@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/hong-kong/hong-kong-newsroom/news-releases/12052023_preserve-the-marine-environment-for-our-next-generation",
+  "path": "locations/hong-kong/hong-kong-newsroom/news-releases/12052023-preserve-the-marine-environment-for-our-next-generation",
+  "timestamp": "2026-10-26T18:10:15.042Z",
+  "title": "Preserve the marine environment for our next generation | ExxonMobil in Hong Kong",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

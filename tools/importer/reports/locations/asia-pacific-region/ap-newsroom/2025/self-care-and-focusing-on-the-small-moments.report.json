@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/self-care-and-focusing-on-the-small-moments",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/self-care-and-focusing-on-the-small-moments",
+  "timestamp": "2026-10-26T16:22:01.164Z",
+  "title": "International Women's Day: Self-care and focusing on the small moments | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/fawley/fawley-safety",
+  "path": "locations/united-kingdom/fawley/fawley-safety",
+  "timestamp": "2026-10-26T16:50:37.942Z",
+  "title": "Safety at Fawley | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

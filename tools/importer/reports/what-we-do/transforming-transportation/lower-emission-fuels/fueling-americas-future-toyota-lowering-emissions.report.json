@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/fueling-americas-future-toyota-lowering-emissions",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/fueling-americas-future-toyota-lowering-emissions",
+  "timestamp": "2026-10-26T17:11:31.482Z",
+  "title": "Fueling America’s future: ExxonMobil & Toyota | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

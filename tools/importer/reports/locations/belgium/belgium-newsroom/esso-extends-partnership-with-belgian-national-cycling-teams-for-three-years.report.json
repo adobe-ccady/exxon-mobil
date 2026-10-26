@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/belgium-newsroom/esso-extends-partnership-with-belgian-national-cycling-teams-for-three-years",
+  "path": "locations/belgium/belgium-newsroom/esso-extends-partnership-with-belgian-national-cycling-teams-for-three-years",
+  "timestamp": "2026-10-26T16:24:26.003Z",
+  "title": "Esso extends Belgian cycling partnership | ExxonMobil in Belgium",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

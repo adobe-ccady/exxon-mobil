@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/hydrogen/low-carbon-hydrogen-market-report",
+  "path": "what-we-do/delivering-industrial-solutions/hydrogen/low-carbon-hydrogen-market-report",
+  "timestamp": "2026-10-26T17:00:15.984Z",
+  "title": "Low-carbon hydrogen market: policy action | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

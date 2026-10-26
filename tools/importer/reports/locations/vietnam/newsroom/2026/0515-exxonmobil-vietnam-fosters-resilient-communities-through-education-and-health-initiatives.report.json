@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/vietnam/newsroom/2026/0515_exxonmobil-vietnam-fosters-resilient-communities-through-education-and-health-initiatives",
+  "path": "locations/vietnam/newsroom/2026/0515-exxonmobil-vietnam-fosters-resilient-communities-through-education-and-health-initiatives",
+  "timestamp": "2026-10-26T16:41:29.891Z",
+  "title": "ExxonMobil Vietnam strengthens communities through STEM education, health and girls’ empowerment | ExxonMobil in Vietnam",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

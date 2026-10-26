@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/reducing-natural-gas-flaring",
+  "path": "news/viewpoints/reducing-natural-gas-flaring",
+  "timestamp": "2026-10-26T16:56:33.426Z",
+  "title": "Reducing natural gas flaring | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

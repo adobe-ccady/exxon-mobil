@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/first-ccs-well",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/first-ccs-well",
+  "timestamp": "2026-10-26T16:59:24.742Z",
+  "title": "Capturing and Storing CO2 Underground | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

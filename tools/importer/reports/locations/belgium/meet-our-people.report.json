@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/meet-our-people",
+  "path": "locations/belgium/meet-our-people",
+  "timestamp": "2026-10-26T16:24:45.462Z",
+  "title": "Meet our people | ExxonMobil in Belgium",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/our-operations",
+  "path": "locations/indonesia/our-operations",
+  "timestamp": "2026-10-26T16:40:04.834Z",
+  "title": "ExxonMobil Indonesia's business operations | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

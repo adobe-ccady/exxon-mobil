@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/aligning-eu-policy-with-innovation?content-lang=es",
+  "path": "es/locations/european-region/european-newsroom/2025/aligning-eu-policy-with-innovation",
+  "timestamp": "2026-10-26T17:26:47.393Z",
+  "title": "Hacia una política Europea alineada con la Innovación: Reciclado | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table",
+    "quote",
+    "quote"
+  ]
+}

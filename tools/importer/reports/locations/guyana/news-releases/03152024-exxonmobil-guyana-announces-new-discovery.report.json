@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/03152024_exxonmobil-guyana-announces-new-discovery",
+  "path": "locations/guyana/news-releases/03152024-exxonmobil-guyana-announces-new-discovery",
+  "timestamp": "2026-10-26T16:28:44.103Z",
+  "title": "ExxonMobil Guyana announces new discovery | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

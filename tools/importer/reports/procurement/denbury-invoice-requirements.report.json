@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/denbury-invoice-requirements",
+  "path": "procurement/denbury-invoice-requirements",
+  "timestamp": "2026-10-26T18:24:59.181Z",
+  "title": "Denbury invoice requirements",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

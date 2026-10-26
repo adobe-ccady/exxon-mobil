@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/social-media",
+  "path": "news/social-media",
+  "timestamp": "2026-10-26T16:55:22.242Z",
+  "title": "Social media | Newsroom | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/together-we-build-more-than-energy",
+  "path": "locations/qatar/qatar-newsroom/together-we-build-more-than-energy",
+  "timestamp": "2026-10-26T16:48:43.342Z",
+  "title": "A legacy of partnership, innovation and global LNG leadership | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/11042025-exxonmobil-announces-leadership-changes",
+  "path": "news/corporate-news/11042025-exxonmobil-announces-leadership-changes",
+  "timestamp": "2026-10-26T16:52:33.341Z",
+  "title": "ExxonMobil Announces Leadership Changes: Jon Gibbs and Staale Gjervik appointed | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

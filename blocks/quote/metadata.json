@@ -1,0 +1,36 @@
+{
+  "variantName": "quote",
+  "baseBlock": "quote",
+  "canonicalModel": "quote",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "low",
+    "purpose": "pull-quote",
+    "imagePattern": "optional-round-portrait",
+    "structure": "large opening quote mark + accent rule, quotation text, attribution (portrait, name, role)"
+  },
+  "contentPattern": "3 rows, 1 cell each: [quotation richtext] | [author portrait image, optional] | [attribution richtext: name paragraph, role paragraph]; image and attribution optional",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/news/news-releases/2023/0912_mckinsey-quarterly-interview-with-chairman-and-ceo-darren-woods",
+      "https://corporate.exxonmobil.com/community/exxonmobil-and-the-green-book",
+      "https://corporate.exxonmobil.com/locations/india/newsroom/exxonmobil-breaks-ground-on-first-greenfield-investment-in-india",
+      "/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+      "/news"
+    ],
+    "reuseCount": 5,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use for source div.pullquote components in article bodies (pullquote-red maps to the default style, pullquote-blue to blue, pullquote-black to black). Not for testimonial carousels or long block quotes inside rich text.",
+  "options": [
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "black",
+      "label": "Black"
+    }
+  ],
+  "memberVariantIds": []
+}

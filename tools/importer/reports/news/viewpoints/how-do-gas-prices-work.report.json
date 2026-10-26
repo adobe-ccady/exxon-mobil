@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/how-do-gas-prices-work",
+  "path": "news/viewpoints/how-do-gas-prices-work",
+  "timestamp": "2026-10-26T16:56:13.342Z",
+  "title": "The fundamentals of fuel prices and supply | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

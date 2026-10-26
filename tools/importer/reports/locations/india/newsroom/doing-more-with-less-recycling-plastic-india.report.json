@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/doing-more-with-less-recycling-plastic-india",
+  "path": "locations/india/newsroom/doing-more-with-less-recycling-plastic-india",
+  "timestamp": "2026-10-26T16:46:57.650Z",
+  "title": "Recycling plastic in India | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/crude-trading/crude-oil-assays",
+  "path": "what-we-do/energy-supply/crude-trading/crude-oil-assays",
+  "timestamp": "2026-10-26T17:01:01.744Z",
+  "title": "Assays available for download | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table"
+  ]
+}

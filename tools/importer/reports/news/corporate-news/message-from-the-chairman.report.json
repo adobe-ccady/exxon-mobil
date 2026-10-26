@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/message-from-the-chairman",
+  "path": "news/corporate-news/message-from-the-chairman",
+  "timestamp": "2026-10-26T16:42:08.763Z",
+  "title": "Message from Darren Woods, ExxonMobil Chairman and CEO",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

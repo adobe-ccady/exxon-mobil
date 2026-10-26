@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/infineum-italia-srl",
+  "path": "locations/italy/infineum-italia-srl",
+  "timestamp": "2026-10-26T16:39:53.664Z",
+  "title": "Infineum Italia S.r.l.: Leading lubricant additives manufacturer",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

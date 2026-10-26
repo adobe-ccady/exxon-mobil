@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/motorsports/chasing-perfection-oracle-redbull-racing-f1",
+  "path": "what-we-do/transforming-transportation/motorsports/chasing-perfection-oracle-redbull-racing-f1",
+  "timestamp": "2026-10-26T17:02:35.442Z",
+  "title": "Chasing Perfection: Honda, Mobil & Red Bull | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

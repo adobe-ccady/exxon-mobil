@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/exxonmobil-signs-carbon-capture-agreement-cf-industries-yazoo",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/exxonmobil-signs-carbon-capture-agreement-cf-industries-yazoo",
+  "timestamp": "2026-10-26T16:59:25.111Z",
+  "title": "Carbon Capture Agreement with CF Industries | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

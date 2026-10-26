@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/carbon-capture-storage-slice-and-dice",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/carbon-capture-storage-slice-and-dice",
+  "timestamp": "2026-10-26T17:02:34.687Z",
+  "title": "Carbon capture and storage & reducing emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

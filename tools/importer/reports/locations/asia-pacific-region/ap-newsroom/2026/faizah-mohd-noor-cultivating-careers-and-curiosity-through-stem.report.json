@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2026/faizah-mohd-noor-cultivating-careers-and-curiosity-through-stem",
+  "path": "locations/asia-pacific-region/ap-newsroom/2026/faizah-mohd-noor-cultivating-careers-and-curiosity-through-stem",
+  "timestamp": "2026-10-26T16:22:13.364Z",
+  "title": "A Trailblazer in STEM at ExxonMobil Malaysia | ExxonMobil Malaysia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

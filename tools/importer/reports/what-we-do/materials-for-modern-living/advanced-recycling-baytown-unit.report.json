@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/materials-for-modern-living/advanced-recycling-baytown-unit",
+  "path": "what-we-do/materials-for-modern-living/advanced-recycling-baytown-unit",
+  "timestamp": "2026-10-26T17:01:32.542Z",
+  "title": "Doubling down on advanced recycling in Baytown | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

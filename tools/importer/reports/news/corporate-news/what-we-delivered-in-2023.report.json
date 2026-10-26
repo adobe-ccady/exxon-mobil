@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/what-we-delivered-in-2023",
+  "path": "news/corporate-news/what-we-delivered-in-2023",
+  "timestamp": "2026-10-26T16:53:30.942Z",
+  "title": "What we delivered in 2023 | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

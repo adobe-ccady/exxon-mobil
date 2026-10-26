@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/video/png-lng",
+  "path": "locations/papua-new-guinea/video/png-lng",
+  "timestamp": "2026-10-26T16:35:26.450Z",
+  "title": "Papua LNG | ExxonMobil in Papua New Guinea",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

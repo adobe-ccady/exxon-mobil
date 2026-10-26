@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/2-minutes-turning-brine-into-battery-grade-lithium",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/2-minutes-turning-brine-into-battery-grade-lithium",
+  "timestamp": "2026-10-26T17:00:23.404Z",
+  "title": "Turning brine into battery-grade lithium | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

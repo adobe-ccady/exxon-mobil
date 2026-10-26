@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/unlocking-ccs-potential-in-ap",
+  "path": "locations/asia-pacific-region/ap-newsroom/unlocking-ccs-potential-in-ap",
+  "timestamp": "2026-10-26T16:23:55.008Z",
+  "title": "Unlocking Asia Pacific’s CCS potential | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

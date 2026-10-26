@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/natural-gas-and-the-road-to-viksit-bharat",
+  "path": "locations/india/newsroom/2026/natural-gas-and-the-road-to-viksit-bharat",
+  "timestamp": "2026-10-26T16:31:29.564Z",
+  "title": "Natural Gas and the Road to Viksit Bharat | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

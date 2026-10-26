@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-to-acquire-25-percent-interest-in-mozambique-area-4-from-eni",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-to-acquire-25-percent-interest-in-mozambique-area-4-from-eni",
+  "timestamp": "2026-10-26T16:44:28.065Z",
+  "title": "ExxonMobil to acquire 25% interest in Mozambique Area 4",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

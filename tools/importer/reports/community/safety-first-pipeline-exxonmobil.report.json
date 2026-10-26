@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/safety-first-pipeline-exxonmobil",
+  "path": "community/safety-first-pipeline-exxonmobil",
+  "timestamp": "2026-10-26T16:20:14.238Z",
+  "title": "Real-life training to keep you safe | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

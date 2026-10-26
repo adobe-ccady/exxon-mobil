@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/hong-kong/community-engagement",
+  "path": "locations/hong-kong/community-engagement",
+  "timestamp": "2026-10-26T16:29:37.126Z",
+  "title": "Community engagement | ExxonMobil Hong Kong",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

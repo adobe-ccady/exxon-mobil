@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/guyana-efficient-energy-production-liza-unity",
+  "path": "what-we-do/energy-supply/guyana-efficient-energy-production-liza-unity",
+  "timestamp": "2026-10-26T17:11:20.078Z",
+  "title": "Fueling today's energy needs | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

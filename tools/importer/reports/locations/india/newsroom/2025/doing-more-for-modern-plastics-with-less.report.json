@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/doing-more-for-modern-plastics-with-less",
+  "path": "locations/india/newsroom/2025/doing-more-for-modern-plastics-with-less",
+  "timestamp": "2026-10-26T16:29:21.810Z",
+  "title": "Doing more for modern plastics with less | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

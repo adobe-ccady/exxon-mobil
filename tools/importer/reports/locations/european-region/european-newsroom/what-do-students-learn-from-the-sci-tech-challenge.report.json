@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/what-do-students-learn-from-the-sci-tech-challenge",
+  "path": "locations/european-region/european-newsroom/what-do-students-learn-from-the-sci-tech-challenge",
+  "timestamp": "2026-10-26T16:28:15.349Z",
+  "title": "What students learn from the Sci-Tech Challenge | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

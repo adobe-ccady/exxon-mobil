@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/we-just-made-the-time-climate100-list",
+  "path": "news/corporate-news/we-just-made-the-time-climate100-list",
+  "timestamp": "2026-10-26T16:53:36.241Z",
+  "title": "TIME names ExxonMobil’s Dan Ammann to TIME100 Climate list | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

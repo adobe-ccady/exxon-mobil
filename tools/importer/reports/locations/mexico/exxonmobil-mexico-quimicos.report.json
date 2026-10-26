@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/exxonmobil-mexico-quimicos",
+  "path": "locations/mexico/exxonmobil-mexico-quimicos",
+  "timestamp": "2026-10-26T18:12:50.850Z",
+  "title": "ExxonMobil México Químicos | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

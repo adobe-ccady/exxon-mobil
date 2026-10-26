@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-arab-emirates/our-history",
+  "path": "locations/united-arab-emirates/our-history",
+  "timestamp": "2026-10-26T16:50:04.145Z",
+  "title": "Our history | ExxonMobil in the UAE",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/stem/newsroom",
+  "path": "community/stem/newsroom",
+  "timestamp": "2026-10-26T19:17:35.042Z",
+  "title": "STEM newsroom | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "cards-news",
+    "hero-feature",
+    "cards-business"
+  ]
+}

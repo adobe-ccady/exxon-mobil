@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/empowering-the-next-generation-through-stem-education",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/empowering-the-next-generation-through-stem-education",
+  "timestamp": "2026-10-26T16:21:39.064Z",
+  "title": "Empowering the next generation through STEM education | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

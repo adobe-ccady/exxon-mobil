@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/framework-for-methane-reductions",
+  "path": "news/viewpoints/framework-for-methane-reductions",
+  "timestamp": "2026-10-26T18:33:59.250Z",
+  "title": "A framework for regulatory progress on methane reductions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baton-rouge-operations/growing-the-economy",
+  "path": "locations/united-states/baton-rouge-operations/growing-the-economy",
+  "timestamp": "2026-10-26T16:39:43.207Z",
+  "title": "Growing the economy | ExxonMobil Baton Rouge",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

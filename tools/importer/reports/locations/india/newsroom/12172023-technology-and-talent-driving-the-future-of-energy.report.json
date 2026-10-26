@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/12172023_technology-and-talent-driving-the-future-of-energy",
+  "path": "locations/india/newsroom/12172023-technology-and-talent-driving-the-future-of-energy",
+  "timestamp": "2026-10-26T16:29:05.566Z",
+  "title": "Technology & Talent: Driving the future of energy | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

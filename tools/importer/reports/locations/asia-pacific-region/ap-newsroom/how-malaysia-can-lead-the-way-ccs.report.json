@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/how-malaysia-can-lead-the-way-ccs",
+  "path": "locations/asia-pacific-region/ap-newsroom/how-malaysia-can-lead-the-way-ccs",
+  "timestamp": "2026-10-26T16:22:57.863Z",
+  "title": "Malaysia: Leading The Way in CCS | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/advanced-recycling-xavier-milcent",
+  "path": "locations/european-region/european-newsroom/advanced-recycling-xavier-milcent",
+  "timestamp": "2026-10-26T16:26:48.507Z",
+  "title": "Unlocking the Potential of Advanced Recycling: Xavier Milcent | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table",
+    "table",
+    "table"
+  ]
+}

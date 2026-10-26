@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/five-simple-tips",
+  "path": "locations/asia-pacific-region/ap-newsroom/five-simple-tips",
+  "timestamp": "2026-10-26T16:22:46.806Z",
+  "title": "Five energy efficiency tips: save energy and stay cool | ExxonMobil Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

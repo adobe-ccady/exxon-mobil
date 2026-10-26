@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/steel-ammonia-ai-what-cant-ccs-help-decarbonize",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/steel-ammonia-ai-what-cant-ccs-help-decarbonize",
+  "timestamp": "2026-10-26T17:06:49.380Z",
+  "title": "What can't our CCS help decarbonize? | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

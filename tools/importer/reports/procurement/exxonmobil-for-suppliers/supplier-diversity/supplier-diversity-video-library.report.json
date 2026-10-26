@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/supplier-diversity/supplier-diversity-video-library",
+  "path": "procurement/exxonmobil-for-suppliers/supplier-diversity/supplier-diversity-video-library",
+  "timestamp": "2026-10-26T18:25:57.542Z",
+  "title": "Supplier diversity video library | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

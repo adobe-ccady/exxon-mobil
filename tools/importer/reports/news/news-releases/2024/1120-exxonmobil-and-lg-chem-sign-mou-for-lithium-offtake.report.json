@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/1120_exxonmobil-and-lg-chem-sign-mou-for-lithium-offtake",
+  "path": "news/news-releases/2024/1120-exxonmobil-and-lg-chem-sign-mou-for-lithium-offtake",
+  "timestamp": "2026-10-26T16:43:35.663Z",
+  "title": "ExxonMobil and LG Chem Sign MOU for 100,000 Tons of Lithium Carbonate to Boost U.S. Critical Mineral Supply Chain | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

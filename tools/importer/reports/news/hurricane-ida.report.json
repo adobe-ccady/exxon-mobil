@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/hurricane-ida",
+  "path": "news/hurricane-ida",
+  "timestamp": "2026-10-26T18:16:58.242Z",
+  "title": "ExxonMobil operations update for Hurricane Ida",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

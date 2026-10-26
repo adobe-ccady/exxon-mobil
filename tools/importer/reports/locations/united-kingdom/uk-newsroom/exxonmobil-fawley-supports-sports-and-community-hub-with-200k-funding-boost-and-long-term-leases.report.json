@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/exxonmobil-fawley-supports-sports-and-community-hub-with-200k-funding-boost-and-long-term-leases",
+  "path": "locations/united-kingdom/uk-newsroom/exxonmobil-fawley-supports-sports-and-community-hub-with-200k-funding-boost-and-long-term-leases",
+  "timestamp": "2026-10-26T16:39:36.193Z",
+  "title": "ExxonMobil Fawley supports sports and community hub with 200k funding boost and long term leases | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

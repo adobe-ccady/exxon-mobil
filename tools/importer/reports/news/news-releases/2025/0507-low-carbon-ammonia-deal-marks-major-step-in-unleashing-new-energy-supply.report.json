@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0507_low-carbon-ammonia-deal-marks-major-step-in-unleashing-new-energy-supply",
+  "path": "news/news-releases/2025/0507-low-carbon-ammonia-deal-marks-major-step-in-unleashing-new-energy-supply",
+  "timestamp": "2026-10-26T16:43:58.205Z",
+  "title": "Marubeni & ExxonMobil Low-Carbon Ammonia Deal | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/mergers-and-acquisitions",
+  "path": "news/corporate-news/mergers-and-acquisitions",
+  "timestamp": "2026-10-26T19:18:00.243Z",
+  "title": "Mergers and acquisitions | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "cards-news"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240902-donation-to-nam-phong-hospital",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240902-donation-to-nam-phong-hospital",
+  "timestamp": "2026-10-26T16:49:28.742Z",
+  "title": "Donating to Nam Phong Hospital for medical equipment purchase | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

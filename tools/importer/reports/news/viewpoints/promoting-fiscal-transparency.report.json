@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/promoting-fiscal-transparency",
+  "path": "news/viewpoints/promoting-fiscal-transparency",
+  "timestamp": "2026-10-26T16:56:32.979Z",
+  "title": "Promoting fiscal transparency | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

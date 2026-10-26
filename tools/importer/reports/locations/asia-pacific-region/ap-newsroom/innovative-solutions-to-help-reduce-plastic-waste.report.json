@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/innovative-solutions-to-help-reduce-plastic-waste",
+  "path": "locations/asia-pacific-region/ap-newsroom/innovative-solutions-to-help-reduce-plastic-waste",
+  "timestamp": "2026-10-26T16:23:08.866Z",
+  "title": "Innovative solutions to help reduce plastic waste | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

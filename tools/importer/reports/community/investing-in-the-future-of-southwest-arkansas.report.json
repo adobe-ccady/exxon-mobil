@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/investing-in-the-future-of-southwest-arkansas",
+  "path": "community/investing-in-the-future-of-southwest-arkansas",
+  "timestamp": "2026-10-26T16:20:07.063Z",
+  "title": "Investing in the future of Southwest Arkansas | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

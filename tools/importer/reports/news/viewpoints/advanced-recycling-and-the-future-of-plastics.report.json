@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/advanced-recycling-and-the-future-of-plastics",
+  "path": "news/viewpoints/advanced-recycling-and-the-future-of-plastics",
+  "timestamp": "2026-10-26T16:44:50.505Z",
+  "title": "Advanced recycling and the future of plastics | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

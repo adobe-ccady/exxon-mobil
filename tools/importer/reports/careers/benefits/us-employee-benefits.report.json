@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/careers/benefits/us-employee-benefits",
+  "path": "careers/benefits/us-employee-benefits",
+  "timestamp": "2026-10-26T17:58:56.279Z",
+  "title": "U.S. employee benefits | Careers | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

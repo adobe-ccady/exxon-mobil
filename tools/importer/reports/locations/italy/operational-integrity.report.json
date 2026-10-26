@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/operational-integrity",
+  "path": "locations/italy/operational-integrity",
+  "timestamp": "2026-10-26T16:40:03.625Z",
+  "title": "Ensuring operational integrity and safety | ExxonMobil Italy",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

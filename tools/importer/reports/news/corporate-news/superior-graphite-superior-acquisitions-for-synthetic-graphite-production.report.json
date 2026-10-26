@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/superior-graphite-superior-acquisitions-for-synthetic-graphite-production",
+  "path": "news/corporate-news/superior-graphite-superior-acquisitions-for-synthetic-graphite-production",
+  "timestamp": "2026-10-26T16:53:21.242Z",
+  "title": "Superior Graphite, Superior Acquisitions for Synthetic Graphite Production | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

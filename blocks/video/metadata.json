@@ -1,0 +1,24 @@
+{
+  "variantName": "video",
+  "baseBlock": "video",
+  "canonicalModel": "video",
+  "visualCharacteristics": {
+    "colorScheme": "dark-frame",
+    "density": "low",
+    "purpose": "embedded-video",
+    "imagePattern": "optional-poster-with-play-button",
+    "structure": "responsive 16:9 iframe player (Brightcove or YouTube), lazy-loaded near the viewport or on poster click"
+  },
+  "contentPattern": "3 rows, 1 cell each: [link: Brightcove player URL or YouTube URL] | [title text, optional] | [poster image, optional, alt from posterAlt]",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/videos/was-my-invoice-correctly-submitted",
+      "https://corporate.exxonmobil.com/locations/india/newsroom/driving-change-with-cng-series"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-23"
+  },
+  "reuseGuidance": "Use for source section.articleMedia.articleMedia-video (Brightcove div.video-js[data-account][data-player][data-embed][data-video-id]) and YouTube iframes in article bodies. One block per video; a preceding heading stays default content. Not for background/hero videos or image galleries.",
+  "options": [],
+  "memberVariantIds": []
+}

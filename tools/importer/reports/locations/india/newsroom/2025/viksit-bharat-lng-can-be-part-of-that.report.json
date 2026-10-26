@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/viksit-bharat-lng-can-be-part-of-that",
+  "path": "locations/india/newsroom/2025/viksit-bharat-lng-can-be-part-of-that",
+  "timestamp": "2026-10-26T16:31:33.806Z",
+  "title": "Viksit Bharat vision: How LNG is powering India’s clean energy future | ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

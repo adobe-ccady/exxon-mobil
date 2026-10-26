@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-tax-strategy",
+  "path": "locations/united-kingdom/uk-tax-strategy",
+  "timestamp": "2026-10-26T16:51:13.942Z",
+  "title": "UK tax strategy | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

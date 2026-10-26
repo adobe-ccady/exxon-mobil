@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/it-all-starts-with-energy",
+  "path": "locations/india/newsroom/it-all-starts-with-energy",
+  "timestamp": "2026-10-26T16:30:55.307Z",
+  "title": "It all starts with energy | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

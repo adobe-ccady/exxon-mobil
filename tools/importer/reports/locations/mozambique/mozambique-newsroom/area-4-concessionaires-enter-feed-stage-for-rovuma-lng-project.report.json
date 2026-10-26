@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/area-4-concessionaires-enter-feed-stage-for-rovuma-lng-project",
+  "path": "locations/mozambique/mozambique-newsroom/area-4-concessionaires-enter-feed-stage-for-rovuma-lng-project",
+  "timestamp": "2026-10-26T16:42:00.063Z",
+  "title": "Area 4 enters FEED phase for Rovuma LNG project in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-developing-stem-skills-with-robotics-training-in-maputo",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-developing-stem-skills-with-robotics-training-in-maputo",
+  "timestamp": "2026-10-26T16:42:33.344Z",
+  "title": "ExxonMobil Mozambique boosts STEM skills with robotics in Maputo",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

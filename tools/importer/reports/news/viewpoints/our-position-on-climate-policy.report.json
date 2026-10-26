@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/our-position-on-climate-policy",
+  "path": "news/viewpoints/our-position-on-climate-policy",
+  "timestamp": "2026-10-26T16:56:41.842Z",
+  "title": "Our position on climate change policy and carbon pricing | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

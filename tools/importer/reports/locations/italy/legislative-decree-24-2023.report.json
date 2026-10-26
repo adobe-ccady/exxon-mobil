@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/legislative-decree-24_2023",
+  "path": "locations/italy/legislative-decree-24-2023",
+  "timestamp": "2026-10-26T16:40:22.962Z",
+  "title": "Compliance with Legislative Decree 24/2023 | ExxonMobil Italy",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

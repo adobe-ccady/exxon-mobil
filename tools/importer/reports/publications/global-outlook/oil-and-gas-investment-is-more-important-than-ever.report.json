@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/global-outlook/oil-and-gas-investment-is-more-important-than-ever",
+  "path": "publications/global-outlook/oil-and-gas-investment-is-more-important-than-ever",
+  "timestamp": "2026-10-26T17:56:15.780Z",
+  "title": "Sustained oil and gas investment is more important than ever | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

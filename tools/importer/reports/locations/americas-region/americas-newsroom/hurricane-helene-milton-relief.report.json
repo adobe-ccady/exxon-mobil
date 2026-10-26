@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/americas-region/americas-newsroom/hurricane-helene-milton-relief",
+  "path": "locations/americas-region/americas-newsroom/hurricane-helene-milton-relief",
+  "timestamp": "2026-10-26T16:21:11.204Z",
+  "title": "Community heroes unite after hurricanes Helene and Milton | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote",
+    "quote",
+    "quote",
+    "quote",
+    "quote"
+  ]
+}

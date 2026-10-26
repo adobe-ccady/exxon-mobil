@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/statements/documents",
+  "path": "news/news-releases/statements/documents",
+  "timestamp": "2026-10-26T18:25:13.120Z",
+  "title": "",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

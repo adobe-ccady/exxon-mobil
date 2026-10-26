@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0507_exxonmobil-elects-maria-jelescu-dreyfus-to-board-of-directors",
+  "path": "news/news-releases/2024/0507-exxonmobil-elects-maria-jelescu-dreyfus-to-board-of-directors",
+  "timestamp": "2026-10-26T16:43:12.763Z",
+  "title": "ExxonMobil elects Maria Jelescu Dreyfus to Board of Directors | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

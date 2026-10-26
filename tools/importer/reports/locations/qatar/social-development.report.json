@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/social-development",
+  "path": "locations/qatar/social-development",
+  "timestamp": "2026-10-26T16:48:24.955Z",
+  "title": "Empowering Qatar's future | Social development | ExxonMobil Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

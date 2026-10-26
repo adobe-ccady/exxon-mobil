@@ -1,0 +1,23 @@
+{
+  "variantName": "secondary-nav",
+  "baseBlock": "secondary-nav",
+  "canonicalModel": "secondary-nav",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "section-navigation",
+    "imagePattern": "noimg",
+    "structure": "light full-width bar with a horizontally scrolling row of small text links; current page underlined in red; scroll arrows on overflow"
+  },
+  "contentPattern": "1 row, 1 richtext cell: <ul> of links (first link is the section home); current item derived from window.location.pathname",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/greenpoint/stay-informed"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use on mini-site pages (Greenpoint, System updates hub, Global Outlook, Investing in people, Advancing climate solutions, Worldwide giving report) directly below hero-article-banner and above columns-article-header. Not for the global header or in-page anchor lists.",
+  "options": [],
+  "memberVariantIds": []
+}

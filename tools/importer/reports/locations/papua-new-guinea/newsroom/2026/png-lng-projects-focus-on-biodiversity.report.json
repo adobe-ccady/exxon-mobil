@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/newsroom/2026/png-lng-projects-focus-on-biodiversity",
+  "path": "locations/papua-new-guinea/newsroom/2026/png-lng-projects-focus-on-biodiversity",
+  "timestamp": "2026-10-26T16:47:46.416Z",
+  "title": "PNG LNG Project’s focus on biodiversity | ExxonMobil PNG",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

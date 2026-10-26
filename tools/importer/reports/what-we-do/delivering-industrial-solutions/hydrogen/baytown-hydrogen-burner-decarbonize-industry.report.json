@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/hydrogen/baytown-hydrogen-burner-decarbonize-industry",
+  "path": "what-we-do/delivering-industrial-solutions/hydrogen/baytown-hydrogen-burner-decarbonize-industry",
+  "timestamp": "2026-10-26T17:00:07.442Z",
+  "title": "ExxonMobil's next-gen hydrogen burner in Baytown can help decarbonize a key industry | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

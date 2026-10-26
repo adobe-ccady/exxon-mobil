@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/newsroom/2025/png-lng-10-year-anniversary",
+  "path": "locations/papua-new-guinea/newsroom/2025/png-lng-10-year-anniversary",
+  "timestamp": "2026-10-26T16:35:08.404Z",
+  "title": "PNG 10th Anniversary | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/our-brands",
+  "path": "locations/italy/our-brands",
+  "timestamp": "2026-10-26T16:41:18.204Z",
+  "title": "Our brands and innovations | ExxonMobil in Italy",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

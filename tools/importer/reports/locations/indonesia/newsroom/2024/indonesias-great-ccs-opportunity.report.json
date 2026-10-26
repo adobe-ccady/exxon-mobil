@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2024/indonesias-great-ccs-opportunity",
+  "path": "locations/indonesia/newsroom/2024/indonesias-great-ccs-opportunity",
+  "timestamp": "2026-10-26T16:31:35.088Z",
+  "title": "Indonesia’s great CCS opportunity | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

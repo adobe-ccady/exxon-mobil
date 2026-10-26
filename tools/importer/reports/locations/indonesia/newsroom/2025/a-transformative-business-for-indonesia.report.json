@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/a-transformative-business-for-indonesia",
+  "path": "locations/indonesia/newsroom/2025/a-transformative-business-for-indonesia",
+  "timestamp": "2026-10-26T16:37:40.805Z",
+  "title": "A transformative business for Indonesia | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

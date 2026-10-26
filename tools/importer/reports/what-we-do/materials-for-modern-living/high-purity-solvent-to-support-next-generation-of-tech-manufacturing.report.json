@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/materials-for-modern-living/high-purity-solvent-to-support-next-generation-of-tech-manufacturing",
+  "path": "what-we-do/materials-for-modern-living/high-purity-solvent-to-support-next-generation-of-tech-manufacturing",
+  "timestamp": "2026-10-26T17:01:54.506Z",
+  "title": "ExxonMobil’s high-purity solvent to support next generation of tech manufacturing | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

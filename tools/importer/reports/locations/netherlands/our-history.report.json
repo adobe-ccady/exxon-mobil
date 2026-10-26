@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/netherlands/our-history",
+  "path": "locations/netherlands/our-history",
+  "timestamp": "2026-10-26T16:45:17.464Z",
+  "title": "ExxonMobil Netherlands: A legacy from 1882 to today",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

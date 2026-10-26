@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/guyana-newsroom/2026/the-pipeline-that-matters-most-for-guyanas-future",
+  "path": "locations/guyana/guyana-newsroom/2026/the-pipeline-that-matters-most-for-guyanas-future",
+  "timestamp": "2026-10-26T16:27:57.066Z",
+  "title": "The pipeline that matters most for Guyana's future | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

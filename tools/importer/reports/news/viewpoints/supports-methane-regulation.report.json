@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/supports-methane-regulation",
+  "path": "news/viewpoints/supports-methane-regulation",
+  "timestamp": "2026-10-26T16:56:51.741Z",
+  "title": "ExxonMobil supports methane regulation | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

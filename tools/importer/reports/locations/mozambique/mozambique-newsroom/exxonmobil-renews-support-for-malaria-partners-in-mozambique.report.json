@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-renews-support-for-malaria-partners-in-mozambique",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-renews-support-for-malaria-partners-in-mozambique",
+  "timestamp": "2026-10-26T16:47:12.582Z",
+  "title": "ExxonMobil renews malaria support in Mozambique | ExxonMobil Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

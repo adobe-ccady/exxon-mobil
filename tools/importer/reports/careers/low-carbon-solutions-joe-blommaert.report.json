@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/careers/low-carbon-solutions-joe-blommaert",
+  "path": "careers/low-carbon-solutions-joe-blommaert",
+  "timestamp": "2026-10-26T16:19:30.767Z",
+  "title": "Helping decarbonize industry with carbon capture and storage | Energy Factor",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

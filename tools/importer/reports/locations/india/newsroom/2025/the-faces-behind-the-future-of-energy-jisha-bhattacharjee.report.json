@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/the-faces-behind-the-future-of-energy-jisha-bhattacharjee",
+  "path": "locations/india/newsroom/2025/the-faces-behind-the-future-of-energy-jisha-bhattacharjee",
+  "timestamp": "2026-10-26T16:30:56.865Z",
+  "title": "The faces behind the future of energy | ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/customers-getting-started/chemicals?content-lang=es",
+  "path": "es/system-updates/hub/customers-getting-started/chemicals",
+  "timestamp": "2026-10-26T17:53:46.797Z",
+  "title": "Introducción para clientes de Productos Químicos | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/area-4-and-favela-united-launch-play-for-peace-program-in-palma",
+  "path": "locations/mozambique/mozambique-newsroom/area-4-and-favela-united-launch-play-for-peace-program-in-palma",
+  "timestamp": "2026-10-26T16:41:55.606Z",
+  "title": "Area 4, Favela United, launch ‘Play for Peace’ in Palma | ExxonMobil in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

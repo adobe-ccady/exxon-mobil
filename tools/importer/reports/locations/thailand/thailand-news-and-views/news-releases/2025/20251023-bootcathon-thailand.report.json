@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2025/20251023-bootcathon-thailand",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2025/20251023-bootcathon-thailand",
+  "timestamp": "2026-10-26T16:37:30.105Z",
+  "title": "Bootcathon Thailand: Cracking the Code of Supply Chain Operation | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

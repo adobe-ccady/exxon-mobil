@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20241217-exxonmobil-fawley-spreads-christmas-cheer-with-charity-festive-hampers",
+  "path": "locations/united-kingdom/uk-newsroom/20241217-exxonmobil-fawley-spreads-christmas-cheer-with-charity-festive-hampers",
+  "timestamp": "2026-10-26T18:28:48.759Z",
+  "title": "ExxonMobil Fawley spreads Christmas cheer with charity festive hampers | ExxonMobil UK",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

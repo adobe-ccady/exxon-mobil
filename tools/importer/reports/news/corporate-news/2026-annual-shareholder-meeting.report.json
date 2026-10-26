@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/2026-annual-shareholder-meeting",
+  "path": "news/corporate-news/2026-annual-shareholder-meeting",
+  "timestamp": "2026-10-26T16:52:56.641Z",
+  "title": "2026 Annual Shareholder Meeting | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table"
+  ]
+}

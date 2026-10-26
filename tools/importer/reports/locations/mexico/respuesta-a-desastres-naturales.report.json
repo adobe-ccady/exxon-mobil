@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/respuesta-a-desastres-naturales",
+  "path": "locations/mexico/respuesta-a-desastres-naturales",
+  "timestamp": "2026-10-26T18:12:58.090Z",
+  "title": "Respuesta a desastres naturales | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-and-masc-foundation-support-women-empowerment-in-palma",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-and-masc-foundation-support-women-empowerment-in-palma",
+  "timestamp": "2026-10-26T16:43:52.076Z",
+  "title": "Empowering women in Palma: ExxonMobil Mozambique & MASC Foundation | ExxonMobil Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

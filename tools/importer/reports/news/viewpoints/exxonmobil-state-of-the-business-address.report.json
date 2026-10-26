@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/exxonmobil-state-of-the-business-address",
+  "path": "news/viewpoints/exxonmobil-state-of-the-business-address",
+  "timestamp": "2026-10-26T16:55:53.042Z",
+  "title": "State of the Business Address | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20260310-exxonmobil-fawley-now-recruiting-75th-anniversary-apprentices",
+  "path": "locations/united-kingdom/uk-newsroom/20260310-exxonmobil-fawley-now-recruiting-75th-anniversary-apprentices",
+  "timestamp": "2026-10-26T16:51:04.979Z",
+  "title": "ExxonMobil Fawley: Recruiting 75th anniversary apprentices",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote",
+    "quote",
+    "quote"
+  ]
+}

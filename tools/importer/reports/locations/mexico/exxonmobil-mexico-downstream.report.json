@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/exxonmobil-mexico-downstream",
+  "path": "locations/mexico/exxonmobil-mexico-downstream",
+  "timestamp": "2026-10-26T18:28:14.942Z",
+  "title": "ExxonMobil México Downstream | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

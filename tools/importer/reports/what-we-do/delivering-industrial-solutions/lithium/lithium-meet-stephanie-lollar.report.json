@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/lithium-meet-stephanie-lollar",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/lithium-meet-stephanie-lollar",
+  "timestamp": "2026-10-26T17:00:32.442Z",
+  "title": "Arkansas lithium: meet Stephanie Lollar | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

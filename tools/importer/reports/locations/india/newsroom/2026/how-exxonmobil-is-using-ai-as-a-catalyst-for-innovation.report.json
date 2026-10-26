@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/how-exxonmobil-is-using-ai-as-a-catalyst-for-innovation",
+  "path": "locations/india/newsroom/2026/how-exxonmobil-is-using-ai-as-a-catalyst-for-innovation",
+  "timestamp": "2026-10-26T16:29:49.064Z",
+  "title": "How ExxonMobil is using AI as a catalyst for innovation | ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/celebrating-25-years-since-the-exxon-and-mobil-merger",
+  "path": "news/corporate-news/celebrating-25-years-since-the-exxon-and-mobil-merger",
+  "timestamp": "2026-10-26T16:41:44.849Z",
+  "title": "Celebrating 25 years since the Exxon and Mobil merger |ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

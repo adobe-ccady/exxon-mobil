@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/why-carbon-capture-and-storage",
+  "path": "locations/asia-pacific-region/ap-newsroom/why-carbon-capture-and-storage",
+  "timestamp": "2026-10-26T16:24:14.903Z",
+  "title": "Why CCS? | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

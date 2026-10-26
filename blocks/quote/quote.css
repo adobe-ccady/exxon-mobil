@@ -1,0 +1,90 @@
+/* structural styling; exact source design comes in the design pass */
+.quote {
+  --quote-accent: var(--brand-red);
+
+  margin: 32px 0;
+}
+
+.quote.blue {
+  --quote-accent: var(--brand-blue);
+}
+
+.quote.black {
+  --quote-accent: var(--brand-charcoal);
+}
+
+.quote figure {
+  margin: 0;
+  padding-left: 24px;
+  border-left: 4px solid var(--quote-accent);
+}
+
+.quote blockquote {
+  position: relative;
+  margin: 0;
+  padding-top: 40px;
+  font-size: var(--heading-font-size-m);
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.quote blockquote::before {
+  content: "\201C" / "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  font-size: 72px;
+  line-height: 1;
+  color: var(--quote-accent);
+}
+
+.quote blockquote > :first-child {
+  margin-top: 0;
+}
+
+.quote blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.quote .quote-attribution {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.quote .quote-portrait {
+  flex: 0 0 auto;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.quote .quote-portrait picture,
+.quote .quote-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quote .quote-author p {
+  margin: 0;
+  font-size: var(--body-font-size-s);
+}
+
+.quote .quote-author .quote-author-name {
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.quote .quote-author .quote-author-role {
+  color: var(--body-text-color);
+}
+
+@media (width >= 900px) {
+  .quote blockquote {
+    font-size: var(--heading-font-size-l);
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/supplier-diversity",
+  "path": "procurement/exxonmobil-for-suppliers/supplier-diversity",
+  "timestamp": "2026-10-26T16:57:23.442Z",
+  "title": "Supplier diversity | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

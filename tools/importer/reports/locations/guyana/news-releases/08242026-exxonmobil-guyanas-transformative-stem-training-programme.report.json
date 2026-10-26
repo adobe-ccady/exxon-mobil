@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/08242026_exxonmobil-guyanas-transformative-stem-training-programme",
+  "path": "locations/guyana/news-releases/08242026-exxonmobil-guyanas-transformative-stem-training-programme",
+  "timestamp": "2026-10-26T16:28:05.664Z",
+  "title": "60 Pre-Service Teachers to Benefit from ExxonMobil Guyana's Transformative STEM Training Programme | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

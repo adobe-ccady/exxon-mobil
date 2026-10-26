@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/exxonmobil-and-the-green-book",
+  "path": "community/exxonmobil-and-the-green-book",
+  "timestamp": "2026-10-26T17:59:43.944Z",
+  "title": "ExxonMobil and The Green Book | Community Engagement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "quote",
+    "quote"
+  ]
+}

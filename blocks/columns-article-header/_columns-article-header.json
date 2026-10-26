@@ -1,0 +1,51 @@
+{
+  "definitions": [
+    {
+      "title": "Columns Article Header",
+      "id": "columns-article-header",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/columns/v1/columns",
+            "template": {
+              "name": "Columns Article Header",
+              "model": "columns-article-header",
+              "filter": "columns-article-header",
+              "columns": "2",
+              "rows": "1"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-article-header",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "columns",
+          "value": "",
+          "label": "Columns"
+        },
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "rows",
+          "value": "",
+          "label": "Rows"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-article-header",
+      "components": [
+        "column"
+      ]
+    }
+  ]
+}

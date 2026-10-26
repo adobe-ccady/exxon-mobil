@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0423_calpine-exxonmobil-sign-co2-transportation-and-storage-agreement-for-power-generation-project",
+  "path": "news/news-releases/2025/0423-calpine-exxonmobil-sign-co2-transportation-and-storage-agreement-for-power-generation-project",
+  "timestamp": "2026-10-26T16:54:54.943Z",
+  "title": "Calpine, ExxonMobil sign CO2 transportation and storage agreement for power generation project | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

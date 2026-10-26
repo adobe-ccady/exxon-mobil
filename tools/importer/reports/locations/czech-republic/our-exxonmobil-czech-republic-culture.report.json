@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/czech-republic/our-exxonmobil-czech-republic-culture",
+  "path": "locations/czech-republic/our-exxonmobil-czech-republic-culture",
+  "timestamp": "2026-10-26T16:25:33.364Z",
+  "title": "Our ExxonMobil culture in the Czech Republic | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote",
+    "quote",
+    "quote",
+    "video",
+    "video"
+  ]
+}

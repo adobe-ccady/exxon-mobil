@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0625_exxonmobil-sk-lithium-supply-agreement",
+  "path": "news/news-releases/2024/0625-exxonmobil-sk-lithium-supply-agreement",
+  "timestamp": "2026-10-26T16:43:20.457Z",
+  "title": "Supplying Lithium for EVs: SK & ExxonMobil| ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

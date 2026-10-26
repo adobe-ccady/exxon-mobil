@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/a-breakout-year-for-our-carbon-capture-and-storage-business",
+  "path": "news/viewpoints/a-breakout-year-for-our-carbon-capture-and-storage-business",
+  "timestamp": "2026-10-26T16:55:36.242Z",
+  "title": "ExxonMobil Pioneers Large-Scale Carbon Capture on U.S. Gulf Coast",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

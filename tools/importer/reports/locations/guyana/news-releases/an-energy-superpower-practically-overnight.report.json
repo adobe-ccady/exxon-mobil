@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/an-energy-superpower-practically-overnight",
+  "path": "locations/guyana/news-releases/an-energy-superpower-practically-overnight",
+  "timestamp": "2026-10-26T16:29:48.806Z",
+  "title": "An energy superpower practically overnight | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

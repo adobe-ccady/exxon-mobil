@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/newsroom/2025/texas-hill-country-flood-response",
+  "path": "locations/united-states/newsroom/2025/texas-hill-country-flood-response",
+  "timestamp": "2026-10-26T16:52:37.541Z",
+  "title": "ExxonMobil contributes $650,000 to flood relief efforts in the Texas Hill Country and Ruidoso, New Mexico | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/research-and-development",
+  "path": "publications/advancing-climate-solutions/research-and-development",
+  "timestamp": "2026-10-26T17:55:07.197Z",
+  "title": "R&D in Advancing Climate Solutions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

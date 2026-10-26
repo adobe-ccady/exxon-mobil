@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baytown/newsroom/2026/baytown-becoming-one-of-the-largest-advanced-recycling-operations",
+  "path": "locations/united-states/baytown/newsroom/2026/baytown-becoming-one-of-the-largest-advanced-recycling-operations",
+  "timestamp": "2026-10-26T16:40:22.506Z",
+  "title": "Baytown Advanced Recycling | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

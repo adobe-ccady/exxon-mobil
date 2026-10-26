@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/economic-development",
+  "path": "locations/qatar/economic-development",
+  "timestamp": "2026-10-26T16:35:33.530Z",
+  "title": "Powering economic growth | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

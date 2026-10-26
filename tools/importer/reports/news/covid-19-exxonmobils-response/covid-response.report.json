@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/covid-19-exxonmobils-response/covid-response",
+  "path": "news/covid-19-exxonmobils-response/covid-response",
+  "timestamp": "2026-10-26T18:33:22.047Z",
+  "title": "COVID-19 response | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

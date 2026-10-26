@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2026/our-perspective-regarding-the-situation-in-venezuela",
+  "path": "news/news-releases/2026/our-perspective-regarding-the-situation-in-venezuela",
+  "timestamp": "2026-10-26T16:44:33.405Z",
+  "title": "Our perspective regarding the situation in Venezuela as shared with President Trump | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

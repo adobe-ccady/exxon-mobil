@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/energy-at-the-movies-michael-webber",
+  "path": "news/corporate-news/energy-at-the-movies-michael-webber",
+  "timestamp": "2026-10-26T16:53:02.643Z",
+  "title": "Energy at the movies with Dr. Michael Webber | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

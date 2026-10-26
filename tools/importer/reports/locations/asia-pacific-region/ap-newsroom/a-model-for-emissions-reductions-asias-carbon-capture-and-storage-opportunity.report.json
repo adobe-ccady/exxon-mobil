@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/a-model-for-emissions-reductions-asias-carbon-capture-and-storage-opportunity",
+  "path": "locations/asia-pacific-region/ap-newsroom/a-model-for-emissions-reductions-asias-carbon-capture-and-storage-opportunity",
+  "timestamp": "2026-10-26T16:22:31.604Z",
+  "title": "Asia’s carbon capture and storage opportunity | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2026/engineering-global-energy-infrastructure-from-india",
+  "path": "locations/india/newsroom/2026/engineering-global-energy-infrastructure-from-india",
+  "timestamp": "2026-10-26T16:31:06.765Z",
+  "title": "Engineering global energy infrastructure from India | ExxonMobil India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

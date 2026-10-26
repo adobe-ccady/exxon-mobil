@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/papua-new-guinea-clans-unite-to-conserve-20000-hectares",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/papua-new-guinea-clans-unite-to-conserve-20000-hectares",
+  "timestamp": "2026-10-26T16:22:01.463Z",
+  "title": "Papua New Guinea Clans Unite for Conservation \\ ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

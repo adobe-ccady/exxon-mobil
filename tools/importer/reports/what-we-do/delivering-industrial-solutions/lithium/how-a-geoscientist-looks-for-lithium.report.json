@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/how-a-geoscientist-looks-for-lithium",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/how-a-geoscientist-looks-for-lithium",
+  "timestamp": "2026-10-26T17:11:05.382Z",
+  "title": "Lithium sampling with advanced technologies | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

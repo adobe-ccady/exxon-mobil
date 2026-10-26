@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/erik-oswald-net-zero",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/erik-oswald-net-zero",
+  "timestamp": "2026-10-26T16:59:16.193Z",
+  "title": "Erik Oswald, Carbon Capture and Storage | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

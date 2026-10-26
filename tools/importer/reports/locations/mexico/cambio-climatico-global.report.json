@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/cambio-climatico-global",
+  "path": "locations/mexico/cambio-climatico-global",
+  "timestamp": "2026-10-26T18:18:59.556Z",
+  "title": "Cambio climático global | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250617_exxonmobil-fife-donates-40-laptops-to-help-teens-build-brighter-futures",
+  "path": "locations/united-kingdom/uk-newsroom/20250617-exxonmobil-fife-donates-40-laptops-to-help-teens-build-brighter-futures",
+  "timestamp": "2026-10-26T18:30:32.188Z",
+  "title": "Donating 40 laptops to help teens build brighter futures | ExxonMobil UK: Fife",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

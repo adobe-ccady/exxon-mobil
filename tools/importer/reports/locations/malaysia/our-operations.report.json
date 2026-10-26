@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/malaysia/our-operations",
+  "path": "locations/malaysia/our-operations",
+  "timestamp": "2026-10-26T16:41:34.762Z",
+  "title": "Our operations | ExxonMobil in Malaysia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

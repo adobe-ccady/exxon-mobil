@@ -1,0 +1,33 @@
+{
+  "variantName": "hero-article-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": {
+    "colorScheme": "photo",
+    "density": "compact",
+    "purpose": "article-banner",
+    "imagePattern": "full-width-image-only",
+    "structure": "image + optional text overlay (eyebrow, H1, description, CTA); text row empty on article pages",
+    "notes": "Full-width image-only banner at the top of article pages, directly above columns-article-header. Small (default): ~310px tall on desktop, object-fit cover, short 2880x600 crop. Option large: ~750px tall. Dark top gradient overlay keeps the code-rendered breadcrumb readable. LCP image: loaded eagerly with fetchpriority high. Topic/index pages (e.g. /news, /community, /news/news-releases) carry the H1 in the text row: then the block gets class has-text, the text is rendered as a white overlay with a dark left gradient and the banner grows with its text (min-height = the fixed height)."
+  },
+  "contentPattern": "row 1: [image (required) with alt text]; row 2: [optional rich text: empty on article pages; on topic/index pages optional eyebrow p, H1, description p(s), optional CTA link p]. Option large via block class.",
+  "options": [
+    {
+      "class": "large",
+      "label": "Large"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block",
+      "https://corporate.exxonmobil.com/careers/dhaval-bhandari-innovation",
+      "/news",
+      "https://corporate.exxonmobil.com/community",
+      "https://corporate.exxonmobil.com/news/news-releases"
+    ],
+    "reuseCount": 693,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use for the photo banner at the top of banner-content pages (text row empty) and of topic/index pages (text row carries eyebrow, H1, description, CTA from source section.topicHeader). Choose Large only when the source banner is not the short (header-small / articleHeader-small) crop."
+}

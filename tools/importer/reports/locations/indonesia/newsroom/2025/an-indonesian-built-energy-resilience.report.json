@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/an-indonesian-built-energy-resilience",
+  "path": "locations/indonesia/newsroom/2025/an-indonesian-built-energy-resilience",
+  "timestamp": "2026-10-26T16:31:43.508Z",
+  "title": "An Indonesian built energy resilience | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

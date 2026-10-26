@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240830-nam-phong-scholarship-funds",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240830-nam-phong-scholarship-funds",
+  "timestamp": "2026-10-26T16:49:20.777Z",
+  "title": "ExxonMobil funds scholarships for Nam Phong students | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/royalty-owners/payout",
+  "path": "community/royalty-owners/payout",
+  "timestamp": "2026-10-26T18:00:00.723Z",
+  "title": "",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

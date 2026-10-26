@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/changing-lives-with-the-power-of-education",
+  "path": "locations/india/newsroom/2025/changing-lives-with-the-power-of-education",
+  "timestamp": "2026-10-26T16:31:02.807Z",
+  "title": "Changing lives with the power of education | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

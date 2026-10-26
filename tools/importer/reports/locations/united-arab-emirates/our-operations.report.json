@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-arab-emirates/our-operations",
+  "path": "locations/united-arab-emirates/our-operations",
+  "timestamp": "2026-10-26T16:38:15.136Z",
+  "title": "Our operations | ExxonMobil in the UAE",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

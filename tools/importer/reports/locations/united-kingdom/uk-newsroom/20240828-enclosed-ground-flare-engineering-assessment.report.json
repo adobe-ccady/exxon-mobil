@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240828_enclosed-ground-flare-engineering-assessment",
+  "path": "locations/united-kingdom/uk-newsroom/20240828-enclosed-ground-flare-engineering-assessment",
+  "timestamp": "2026-10-26T18:15:52.578Z",
+  "title": "Enclosed Ground Flare (EGF) Engineering Assessment",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

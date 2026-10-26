@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/slavery-and-human-trafficking",
+  "path": "locations/united-kingdom/slavery-and-human-trafficking",
+  "timestamp": "2026-10-26T16:50:34.542Z",
+  "title": "Slavery and human trafficking | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

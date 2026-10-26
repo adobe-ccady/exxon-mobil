@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240925_exxonmobil-fife-donates-50000-to-inspire-future-stem-innovators",
+  "path": "locations/united-kingdom/uk-newsroom/20240925-exxonmobil-fife-donates-50000-to-inspire-future-stem-innovators",
+  "timestamp": "2026-10-26T18:16:01.742Z",
+  "title": "ExxonMobil Fife donates £50,000 to inspire future STEM innovators",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

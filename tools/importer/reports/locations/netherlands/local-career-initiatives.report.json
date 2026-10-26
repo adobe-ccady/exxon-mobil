@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/netherlands/local-career-initiatives",
+  "path": "locations/netherlands/local-career-initiatives",
+  "timestamp": "2026-10-26T16:34:38.213Z",
+  "title": "Local career initiatives | ExxonMobil in the Netherlands",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

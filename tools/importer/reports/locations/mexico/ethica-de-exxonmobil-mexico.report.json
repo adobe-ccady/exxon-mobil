@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mexico/ethica-de-exxonmobil-mexico",
+  "path": "locations/mexico/ethica-de-exxonmobil-mexico",
+  "timestamp": "2026-10-26T18:12:24.949Z",
+  "title": "Ética de ExxonMobil México | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

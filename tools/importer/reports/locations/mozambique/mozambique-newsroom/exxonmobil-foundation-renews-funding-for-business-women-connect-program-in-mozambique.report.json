@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-foundation-renews-funding-for-business-women-connect-program-in-mozambique",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-foundation-renews-funding-for-business-women-connect-program-in-mozambique",
+  "timestamp": "2026-10-26T16:33:55.005Z",
+  "title": "ExxonMobil funds Business Women Connect program in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

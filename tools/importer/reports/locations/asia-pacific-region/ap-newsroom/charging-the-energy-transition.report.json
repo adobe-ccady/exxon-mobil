@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/charging-the-energy-transition",
+  "path": "locations/asia-pacific-region/ap-newsroom/charging-the-energy-transition",
+  "timestamp": "2026-10-26T16:22:41.105Z",
+  "title": "Natural Gas: Charging The Energy Transition | ExxonMobil Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

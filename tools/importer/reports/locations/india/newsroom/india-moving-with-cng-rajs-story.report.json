@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/india-moving-with-cng-rajs-story",
+  "path": "locations/india/newsroom/india-moving-with-cng-rajs-story",
+  "timestamp": "2026-10-26T16:35:22.604Z",
+  "title": "Benefits of CNG: Raj's Story | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

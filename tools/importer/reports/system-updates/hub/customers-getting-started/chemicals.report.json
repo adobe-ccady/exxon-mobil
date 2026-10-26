@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/customers-getting-started/chemicals",
+  "path": "system-updates/hub/customers-getting-started/chemicals",
+  "timestamp": "2026-10-26T17:54:05.992Z",
+  "title": "Getting started for Chemicals customers | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

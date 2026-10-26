@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/celebrating-americas-250th",
+  "path": "community/celebrating-americas-250th",
+  "timestamp": "2026-10-26T16:19:39.539Z",
+  "title": "Celebrating America’s 250th anniversary | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

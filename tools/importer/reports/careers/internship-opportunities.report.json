@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
+  "path": "careers/internship-opportunities",
+  "timestamp": "2026-10-26T17:59:31.972Z",
+  "title": "Internship opportunities | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

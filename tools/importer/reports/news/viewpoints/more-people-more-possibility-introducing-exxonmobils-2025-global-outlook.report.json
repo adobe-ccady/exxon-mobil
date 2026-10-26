@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/more-people-more-possibility-introducing-exxonmobils-2025-global-outlook",
+  "path": "news/viewpoints/more-people-more-possibility-introducing-exxonmobils-2025-global-outlook",
+  "timestamp": "2026-10-26T16:56:17.883Z",
+  "title": "More people, more possibility: Introducing ExxonMobil's 2025 Global Outlook",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

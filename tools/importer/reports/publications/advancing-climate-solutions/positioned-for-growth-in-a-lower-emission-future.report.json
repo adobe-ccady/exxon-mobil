@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/positioned-for-growth-in-a-lower-emission-future",
+  "path": "publications/advancing-climate-solutions/positioned-for-growth-in-a-lower-emission-future",
+  "timestamp": "2026-10-26T17:54:51.282Z",
+  "title": "Positioned for growth in a lower-emission future | ExxonMobil Sustainability",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table"
+  ]
+}

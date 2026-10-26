@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/indian-talent-global-capability",
+  "path": "locations/india/newsroom/indian-talent-global-capability",
+  "timestamp": "2026-10-26T18:12:16.599Z",
+  "title": "Indian talent, global capability | ExxonMobil India",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/the-aha-moment-meha-shah",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/the-aha-moment-meha-shah",
+  "timestamp": "2026-10-26T17:13:44.065Z",
+  "title": "The ‘aha’ moment: Meha Shah | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

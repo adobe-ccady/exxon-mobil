@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/rovuma-lng/environmental-performance",
+  "path": "locations/mozambique/rovuma-lng/environmental-performance",
+  "timestamp": "2026-10-26T16:44:45.964Z",
+  "title": "Environmental management | Rovuma LNG | ExxonMobil Mozambique, Limited",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

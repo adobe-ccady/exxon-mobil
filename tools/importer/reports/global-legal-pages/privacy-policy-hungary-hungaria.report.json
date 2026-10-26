@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_hungary-hungaria",
+  "path": "global-legal-pages/privacy-policy-hungary-hungaria",
+  "timestamp": "2026-10-26T18:05:21.531Z",
+  "title": "Adatvédelmi Tájékoztató | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table",
+    "table",
+    "table",
+    "table",
+    "table"
+  ]
+}

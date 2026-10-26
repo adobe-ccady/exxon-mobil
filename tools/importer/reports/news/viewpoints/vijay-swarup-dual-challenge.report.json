@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/vijay-swarup-dual-challenge",
+  "path": "news/viewpoints/vijay-swarup-dual-challenge",
+  "timestamp": "2026-10-26T16:57:12.441Z",
+  "title": "Solving the dual challenge: It takes patience and passion | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

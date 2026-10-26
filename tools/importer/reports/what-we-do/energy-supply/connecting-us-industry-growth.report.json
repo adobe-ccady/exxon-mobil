@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/connecting-us-industry-growth",
+  "path": "what-we-do/energy-supply/connecting-us-industry-growth",
+  "timestamp": "2026-10-26T17:11:06.879Z",
+  "title": "Connecting U.S. industry growth | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

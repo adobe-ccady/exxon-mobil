@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/1121_exxonmobil-invests-200m-to-expand-advanced-recycling-in-texas",
+  "path": "news/news-releases/2024/1121-exxonmobil-invests-200m-to-expand-advanced-recycling-in-texas",
+  "timestamp": "2026-10-26T16:54:26.678Z",
+  "title": "ExxonMobil invests $200M to expand advanced recycling in Texas | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

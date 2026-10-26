@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/news-and-updates?content-lang=fr",
+  "path": "fr/system-updates/hub/news-and-updates",
+  "timestamp": "2026-10-26T17:57:32.565Z",
+  "title": "Nouvelles et mises à jour pour le centre d'information opérationnel | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

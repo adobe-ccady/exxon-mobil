@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/brazil/our-history-in-brazil",
+  "path": "locations/brazil/our-history-in-brazil",
+  "timestamp": "2026-10-26T16:25:23.706Z",
+  "title": "Our history in Brazil | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

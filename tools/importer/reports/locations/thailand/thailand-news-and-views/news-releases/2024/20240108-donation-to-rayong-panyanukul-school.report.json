@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240108-donation-to-rayong-panyanukul-school",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240108-donation-to-rayong-panyanukul-school",
+  "timestamp": "2026-10-26T16:49:09.943Z",
+  "title": "ExxonMobil supports Rayong Panyanukul School in Rayong province",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

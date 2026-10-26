@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2026/20260211-exxonmobils-43rd-year-supporting-thai-education",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2026/20260211-exxonmobils-43rd-year-supporting-thai-education",
+  "timestamp": "2026-10-26T16:50:08.843Z",
+  "title": "Marking 43 years supporting Thai education | ExxonMobil Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/diversity-of-supply",
+  "path": "what-we-do/diversity-of-supply",
+  "timestamp": "2026-10-26T17:00:53.646Z",
+  "title": "Peter Clarke, Diversity of supply - your key to energy security | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

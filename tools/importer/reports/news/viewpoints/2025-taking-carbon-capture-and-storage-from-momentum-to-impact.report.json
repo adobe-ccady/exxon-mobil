@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/2025-taking-carbon-capture-and-storage-from-momentum-to-impact",
+  "path": "news/viewpoints/2025-taking-carbon-capture-and-storage-from-momentum-to-impact",
+  "timestamp": "2026-10-26T16:44:41.569Z",
+  "title": "2025: Taking carbon capture and storage from momentum to impact | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

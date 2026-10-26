@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/helping-farmers-from-the-ground-up",
+  "path": "locations/indonesia/newsroom/2025/helping-farmers-from-the-ground-up",
+  "timestamp": "2026-10-26T16:37:30.104Z",
+  "title": "Support Indonesian farmers through education | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

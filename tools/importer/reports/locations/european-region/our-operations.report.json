@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/our-operations",
+  "path": "locations/european-region/our-operations",
+  "timestamp": "2026-10-26T18:09:47.987Z",
+  "title": "Our operations throughout Europe",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

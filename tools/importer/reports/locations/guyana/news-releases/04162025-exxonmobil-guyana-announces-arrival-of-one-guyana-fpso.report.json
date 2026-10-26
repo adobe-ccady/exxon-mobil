@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/04162025_exxonmobil-guyana-announces-arrival-of-one-guyana-fpso",
+  "path": "locations/guyana/news-releases/04162025-exxonmobil-guyana-announces-arrival-of-one-guyana-fpso",
+  "timestamp": "2026-10-26T16:29:05.918Z",
+  "title": "ExxonMobil Guyana announces arrival of ONE GUYANA FPSO | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

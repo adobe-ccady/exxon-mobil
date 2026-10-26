@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/hong-kong/tsing-yi-island",
+  "path": "locations/hong-kong/tsing-yi-island",
+  "timestamp": "2026-10-26T16:28:50.004Z",
+  "title": "Tsing Yi island terminals |ExxonMobil in Hong Kong",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

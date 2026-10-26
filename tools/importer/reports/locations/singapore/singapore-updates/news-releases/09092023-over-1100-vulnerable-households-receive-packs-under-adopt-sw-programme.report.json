@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/news-releases/09092023_over-1100-vulnerable-households-receive-packs-under-adopt-sw-programme",
+  "path": "locations/singapore/singapore-updates/news-releases/09092023-over-1100-vulnerable-households-receive-packs-under-adopt-sw-programme",
+  "timestamp": "2026-10-26T18:19:44.778Z",
+  "title": "Over 1,100 vulnerable households receive household packs under Adopt @ South West programme",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

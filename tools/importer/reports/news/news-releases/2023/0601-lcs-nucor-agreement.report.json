@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement",
+  "path": "news/news-releases/2023/0601-lcs-nucor-agreement",
+  "timestamp": "2026-10-26T18:23:59.743Z",
+  "title": "Carbon capture agreement with Nucor Corporation | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video"
+  ]
+}

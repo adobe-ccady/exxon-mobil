@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/steps-up-advanced-recycling-plastic-waste",
+  "path": "news/viewpoints/steps-up-advanced-recycling-plastic-waste",
+  "timestamp": "2026-10-26T18:34:16.545Z",
+  "title": "ExxonMobil's advanced recycling initiatives | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

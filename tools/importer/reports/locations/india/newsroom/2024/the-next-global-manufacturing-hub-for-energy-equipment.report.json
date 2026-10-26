@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2024/the-next-global-manufacturing-hub-for-energy-equipment",
+  "path": "locations/india/newsroom/2024/the-next-global-manufacturing-hub-for-energy-equipment",
+  "timestamp": "2026-10-26T16:30:50.364Z",
+  "title": "India: Energy equipment hub | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

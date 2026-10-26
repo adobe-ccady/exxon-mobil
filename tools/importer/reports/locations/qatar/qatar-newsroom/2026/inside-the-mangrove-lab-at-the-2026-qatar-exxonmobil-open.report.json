@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/2026/inside-the-mangrove-lab-at-the-2026-qatar-exxonmobil-open",
+  "path": "locations/qatar/qatar-newsroom/2026/inside-the-mangrove-lab-at-the-2026-qatar-exxonmobil-open",
+  "timestamp": "2026-10-26T16:48:34.548Z",
+  "title": "Inside The Mangrove Lab at the 2026 Qatar ExxonMobil Open | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

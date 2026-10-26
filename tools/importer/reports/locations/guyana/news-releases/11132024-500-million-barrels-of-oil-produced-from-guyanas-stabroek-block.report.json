@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/news-releases/11132024_500-million-barrels-of-oil-produced-from-guyanas-stabroek-block",
+  "path": "locations/guyana/news-releases/11132024-500-million-barrels-of-oil-produced-from-guyanas-stabroek-block",
+  "timestamp": "2026-10-26T16:29:12.804Z",
+  "title": "ExxonMobil Guyana Achieves 500 Million Barrels Milestone in Stabroek Block",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

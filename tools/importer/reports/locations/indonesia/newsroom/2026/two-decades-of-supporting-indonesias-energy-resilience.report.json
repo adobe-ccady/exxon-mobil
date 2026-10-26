@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2026/two-decades-of-supporting-indonesias-energy-resilience",
+  "path": "locations/indonesia/newsroom/2026/two-decades-of-supporting-indonesias-energy-resilience",
+  "timestamp": "2026-10-26T16:32:14.003Z",
+  "title": "Two decades of supporting Indonesia’s energy resilience | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

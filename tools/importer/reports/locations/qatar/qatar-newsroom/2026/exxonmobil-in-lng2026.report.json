@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/2026/exxonmobil-in-lng2026",
+  "path": "locations/qatar/qatar-newsroom/2026/exxonmobil-in-lng2026",
+  "timestamp": "2026-10-26T16:35:41.775Z",
+  "title": "ExxonMobil & QatarEnergy at LNG2026 | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

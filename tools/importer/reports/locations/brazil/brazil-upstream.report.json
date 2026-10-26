@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/brazil/brazil-upstream",
+  "path": "locations/brazil/brazil-upstream",
+  "timestamp": "2026-10-26T16:25:03.106Z",
+  "title": "Upstream | ExxonMobil in Brazil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

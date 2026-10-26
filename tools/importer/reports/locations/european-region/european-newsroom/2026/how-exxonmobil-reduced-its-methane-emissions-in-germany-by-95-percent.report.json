@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2026/how-exxonmobil-reduced-its-methane-emissions-in-germany-by-95-percent",
+  "path": "locations/european-region/european-newsroom/2026/how-exxonmobil-reduced-its-methane-emissions-in-germany-by-95-percent",
+  "timestamp": "2026-10-26T16:26:38.613Z",
+  "title": "How ExxonMobil reduced its methane emissions in Germany by 95% | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

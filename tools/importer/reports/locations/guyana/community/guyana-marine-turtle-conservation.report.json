@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/community/guyana-marine-turtle-conservation",
+  "path": "locations/guyana/community/guyana-marine-turtle-conservation",
+  "timestamp": "2026-10-26T16:28:36.263Z",
+  "title": "Sea turtle conservation and tracking in Guyana | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

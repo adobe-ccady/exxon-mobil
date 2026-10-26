@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/views-perspectives/20240925-caring-teacher-awards",
+  "path": "locations/singapore/singapore-updates/views-perspectives/20240925-caring-teacher-awards",
+  "timestamp": "2026-10-26T16:36:11.870Z",
+  "title": "We celebrate our educators (Caring Teacher Awards)",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/lng-powering-progress-today-and-tomorrow",
+  "path": "news/viewpoints/lng-powering-progress-today-and-tomorrow",
+  "timestamp": "2026-10-26T16:56:23.379Z",
+  "title": "LNG: Powering progress today and tomorrow | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

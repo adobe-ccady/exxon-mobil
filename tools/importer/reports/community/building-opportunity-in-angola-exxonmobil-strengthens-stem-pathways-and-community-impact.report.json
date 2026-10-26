@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/building-opportunity-in-angola-exxonmobil-strengthens-stem-pathways-and-community-impact",
+  "path": "community/building-opportunity-in-angola-exxonmobil-strengthens-stem-pathways-and-community-impact",
+  "timestamp": "2026-10-26T16:19:37.804Z",
+  "title": "Building opportunity in Angola: ExxonMobil strengthens STEM pathways and community impact | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

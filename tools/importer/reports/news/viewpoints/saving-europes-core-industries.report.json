@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/saving-europes-core-industries",
+  "path": "news/viewpoints/saving-europes-core-industries",
+  "timestamp": "2026-10-26T16:56:42.542Z",
+  "title": "Saving Europe’s Core Industries | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

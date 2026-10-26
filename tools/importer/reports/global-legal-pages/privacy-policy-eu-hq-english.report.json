@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_eu-hq-english",
+  "path": "global-legal-pages/privacy-policy-eu-hq-english",
+  "timestamp": "2026-10-26T18:02:34.448Z",
+  "title": "Privacy policy and statement | ExxonMobil Europe",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

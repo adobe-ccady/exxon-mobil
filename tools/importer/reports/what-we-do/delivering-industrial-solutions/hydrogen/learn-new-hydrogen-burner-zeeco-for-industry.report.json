@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/hydrogen/learn-new-hydrogen-burner-zeeco-for-industry",
+  "path": "what-we-do/delivering-industrial-solutions/hydrogen/learn-new-hydrogen-burner-zeeco-for-industry",
+  "timestamp": "2026-10-26T17:09:55.007Z",
+  "title": "Zeeco hydrogen burner: An industry game-changer | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

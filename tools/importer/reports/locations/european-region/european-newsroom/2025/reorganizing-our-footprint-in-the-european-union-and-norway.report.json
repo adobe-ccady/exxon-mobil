@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/reorganizing-our-footprint-in-the-european-union-and-norway",
+  "path": "locations/european-region/european-newsroom/2025/reorganizing-our-footprint-in-the-european-union-and-norway",
+  "timestamp": "2026-10-26T16:26:18.604Z",
+  "title": "Our business transformation continues with a reorganization of our business in Europe, centralizing the majority of EU employees at key locations | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/indian-institute-technology",
+  "path": "locations/india/newsroom/indian-institute-technology",
+  "timestamp": "2026-10-26T16:32:52.163Z",
+  "title": "India: innovating in one of the world’s largest energy markets | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

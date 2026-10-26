@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/driving-the-automobile-evolution-for-evs-and-beyond",
+  "path": "news/corporate-news/driving-the-automobile-evolution-for-evs-and-beyond",
+  "timestamp": "2026-10-26T16:41:55.064Z",
+  "title": "Driving the evolution of EVs and automotive innovation",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

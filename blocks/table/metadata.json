@@ -1,0 +1,30 @@
+{
+  "variantName": "table",
+  "baseBlock": "table",
+  "canonicalModel": "table",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "high",
+    "purpose": "data-table",
+    "imagePattern": "noimg",
+    "structure": "semantic table: optional light grey header row, thin row borders, small body text; horizontal scroll on small screens"
+  },
+  "contentPattern": "N rows x 1-11 cells (rich text: text, links, lists). Row 1 is the header row unless no-header. Trailing columns empty in every row are ignored.",
+  "options": [
+    { "class": "striped", "label": "Striped" },
+    { "class": "bordered", "label": "Bordered" },
+    { "class": "no-header", "label": "No header row" }
+  ],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/pmi/pmi-marine",
+      "https://corporate.exxonmobil.com/publications/metrics-and-data",
+      "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/driving-reductions-in-methane-emissions/methane-research",
+      "https://corporate.exxonmobil.com/global-legal-pages/our-privacy-policies/data-privacy-code-of-conduct-czech"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-10-23"
+  },
+  "reuseGuidance": "Use for tabular data in body copy (contact/email lists, publication lists, ESG metrics, privacy-policy tables), 2-11 columns. Not for layout (use columns) or card grids."
+}

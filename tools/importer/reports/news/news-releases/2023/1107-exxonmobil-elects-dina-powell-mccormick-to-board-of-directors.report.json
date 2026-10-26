@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2023/1107_exxonmobil-elects-dina-powell-mccormick-to-board-of-directors",
+  "path": "news/news-releases/2023/1107-exxonmobil-elects-dina-powell-mccormick-to-board-of-directors",
+  "timestamp": "2026-10-26T16:42:59.172Z",
+  "title": "ExxonMobil elects Dina Powell McCormick to Board of Directors",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

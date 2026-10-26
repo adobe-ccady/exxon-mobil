@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-announces-support-of-three-conservation-initiatives-in-mozambique",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-announces-support-of-three-conservation-initiatives-in-mozambique",
+  "timestamp": "2026-10-26T16:44:00.463Z",
+  "title": "ExxonMobil Mozambique backs 3 conservation initiatives in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/insuring-indias-energy-future-a-long-term-view",
+  "path": "locations/india/newsroom/insuring-indias-energy-future-a-long-term-view",
+  "timestamp": "2026-10-26T16:47:09.494Z",
+  "title": "Securing India’s energy future: a long-term view | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

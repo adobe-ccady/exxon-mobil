@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250731_exxonmobil-fife-ethylene-plant-helps-lumphinnans-care-home-bloom",
+  "path": "locations/united-kingdom/uk-newsroom/20250731-exxonmobil-fife-ethylene-plant-helps-lumphinnans-care-home-bloom",
+  "timestamp": "2026-10-26T16:51:06.741Z",
+  "title": "Fife Ethylene Plant helps Lumphinnans care home bloom | ExxonMobil UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

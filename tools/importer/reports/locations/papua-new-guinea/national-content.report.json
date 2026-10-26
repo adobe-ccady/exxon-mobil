@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/papua-new-guinea/national-content",
+  "path": "locations/papua-new-guinea/national-content",
+  "timestamp": "2026-10-26T16:47:51.443Z",
+  "title": "National Content | ExxonMobil PNG",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

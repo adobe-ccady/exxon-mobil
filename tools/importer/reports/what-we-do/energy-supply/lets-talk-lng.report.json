@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/lets-talk-lng",
+  "path": "what-we-do/energy-supply/lets-talk-lng",
+  "timestamp": "2026-10-26T17:01:14.378Z",
+  "title": "Let's talk liquefied natural gas | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/celebrating-25-years-of-research-bengaluru-exxonmobil",
+  "path": "locations/india/newsroom/celebrating-25-years-of-research-bengaluru-exxonmobil",
+  "timestamp": "2026-10-26T16:32:02.265Z",
+  "title": "Celebrating 25 years of innovation and ingenuity | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

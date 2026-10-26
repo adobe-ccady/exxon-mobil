@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/aviation/france-sustainable-aviation-fuel-emissions-reduction",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/aviation/france-sustainable-aviation-fuel-emissions-reduction",
+  "timestamp": "2026-10-26T17:12:25.215Z",
+  "title": "Delivering sustainable aviation fuel in France | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/belgium-newsroom/together-for-zero-pellet-loss",
+  "path": "locations/belgium/belgium-newsroom/together-for-zero-pellet-loss",
+  "timestamp": "2026-10-26T16:24:33.365Z",
+  "title": "Together for zero pellet loss during production | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baytown/newsroom/2026/exxonmobil-foundation-awards-historic-180000-grant-to-goose-creek-cisd-to-expand-stem-education",
+  "path": "locations/united-states/baytown/newsroom/2026/exxonmobil-foundation-awards-historic-180000-grant-to-goose-creek-cisd-to-expand-stem-education",
+  "timestamp": "2026-10-26T16:40:29.768Z",
+  "title": "ExxonMobil Foundation awards historic $180,000 grant to Goose Creek CISD to expand STEM education | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

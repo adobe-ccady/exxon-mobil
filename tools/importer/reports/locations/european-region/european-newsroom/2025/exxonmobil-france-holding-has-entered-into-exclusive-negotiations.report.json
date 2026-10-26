@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/exxonmobil-france-holding-has-entered-into-exclusive-negotiations",
+  "path": "locations/european-region/european-newsroom/2025/exxonmobil-france-holding-has-entered-into-exclusive-negotiations",
+  "timestamp": "2026-10-26T16:26:15.708Z",
+  "title": "ExxonMobil France Holding has entered into exclusive negotiations | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

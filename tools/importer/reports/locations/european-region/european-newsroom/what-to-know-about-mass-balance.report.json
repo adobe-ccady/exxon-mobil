@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/what-to-know-about-mass-balance",
+  "path": "locations/european-region/european-newsroom/what-to-know-about-mass-balance",
+  "timestamp": "2026-10-26T16:28:33.132Z",
+  "title": "What do you know about mass balance? | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/doing-our-part-for-the-energy-transition",
+  "path": "locations/singapore/doing-our-part-for-the-energy-transition",
+  "timestamp": "2026-10-26T18:13:13.142Z",
+  "title": "Doing our part for the energy transition | ExxonMobil Singapore",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

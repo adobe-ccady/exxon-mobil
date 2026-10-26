@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/fawley/fawley-operations",
+  "path": "locations/united-kingdom/fawley/fawley-operations",
+  "timestamp": "2026-10-26T16:38:30.962Z",
+  "title": "Fawley operations | ExxonMobil in the UK",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

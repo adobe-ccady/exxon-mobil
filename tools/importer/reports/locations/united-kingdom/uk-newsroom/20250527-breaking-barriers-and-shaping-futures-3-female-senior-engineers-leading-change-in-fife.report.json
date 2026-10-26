@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250527_breaking-barriers-and-shaping-futures-3-female-senior-engineers-leading-change-in-fife",
+  "path": "locations/united-kingdom/uk-newsroom/20250527-breaking-barriers-and-shaping-futures-3-female-senior-engineers-leading-change-in-fife",
+  "timestamp": "2026-10-26T18:20:53.951Z",
+  "title": "Breaking barriers, shaping futures: 3 female engineers leading change at ExxonMobil Fife",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

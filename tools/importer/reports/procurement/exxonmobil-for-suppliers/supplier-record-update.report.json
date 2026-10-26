@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/supplier-record-update",
+  "path": "procurement/exxonmobil-for-suppliers/supplier-record-update",
+  "timestamp": "2026-10-23T22:56:40.957Z",
+  "title": "Supplier record update | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

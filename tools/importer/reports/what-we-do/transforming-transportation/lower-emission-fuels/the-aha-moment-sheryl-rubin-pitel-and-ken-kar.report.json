@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/lower-emission-fuels/the-aha-moment-sheryl-rubin-pitel-and-ken-kar",
+  "path": "what-we-do/transforming-transportation/lower-emission-fuels/the-aha-moment-sheryl-rubin-pitel-and-ken-kar",
+  "timestamp": "2026-10-26T17:02:25.943Z",
+  "title": "The ‘aha’ moment: Sheryl Rubin-Pitel and Ken Kar | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

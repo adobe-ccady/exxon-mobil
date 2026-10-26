@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/videos/was-my-invoice-correctly-submitted",
+  "path": "procurement/exxonmobil-for-suppliers/videos/was-my-invoice-correctly-submitted",
+  "timestamp": "2026-10-26T18:26:04.052Z",
+  "title": "Invoice submission | ExxonMobil for suppliers",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video"
+  ]
+}

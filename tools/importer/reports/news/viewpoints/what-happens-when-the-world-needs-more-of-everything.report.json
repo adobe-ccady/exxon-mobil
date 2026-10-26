@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/what-happens-when-the-world-needs-more-of-everything",
+  "path": "news/viewpoints/what-happens-when-the-world-needs-more-of-everything",
+  "timestamp": "2026-10-26T16:57:27.984Z",
+  "title": "The World Needs More Energy, Less Emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

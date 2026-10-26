@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/canada/imperial-in-canada",
+  "path": "locations/canada/imperial-in-canada",
+  "timestamp": "2026-10-26T18:17:23.977Z",
+  "title": "Imperial Oil in Canada | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

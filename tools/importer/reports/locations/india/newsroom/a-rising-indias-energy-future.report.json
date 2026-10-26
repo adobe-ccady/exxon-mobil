@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/a-rising-indias-energy-future",
+  "path": "locations/india/newsroom/a-rising-indias-energy-future",
+  "timestamp": "2026-10-26T18:12:27.241Z",
+  "title": "India’s energy future is growing fast | ExxonMobil in India",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/powering-the-heart-of-the-home-and-of-the-country",
+  "path": "locations/india/newsroom/powering-the-heart-of-the-home-and-of-the-country",
+  "timestamp": "2026-10-26T16:37:21.009Z",
+  "title": "Natural Gas: Powering Homes And India | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

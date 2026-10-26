@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/video/guyana-exploration",
+  "path": "locations/guyana/video/guyana-exploration",
+  "timestamp": "2026-10-26T16:28:31.604Z",
+  "title": "Guyana exploration| ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "video",
+    "video"
+  ]
+}

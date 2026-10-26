@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_hungary-english",
+  "path": "global-legal-pages/privacy-policy-hungary-english",
+  "timestamp": "2026-10-26T18:03:23.893Z",
+  "title": "Privacy Statement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

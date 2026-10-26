@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/news-releases/03042021_exxonmobil-announces-singapore-workforce-reductions",
+  "path": "locations/singapore/singapore-updates/news-releases/03042021-exxonmobil-announces-singapore-workforce-reductions",
+  "timestamp": "2026-10-26T18:13:26.478Z",
+  "title": "ExxonMobil announces Singapore workforce reductions",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

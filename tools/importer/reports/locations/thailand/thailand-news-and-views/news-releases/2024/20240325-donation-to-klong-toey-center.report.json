@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240325-donation-to-klong-toey-center",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240325-donation-to-klong-toey-center",
+  "timestamp": "2026-10-26T16:49:09.978Z",
+  "title": "Supporting youth at Klong Toey Community Center | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/vietnam/newsroom/2025/0113_exxonmobil-uplifts-communities-in-vietnam-with-continued-support",
+  "path": "locations/vietnam/newsroom/2025/0113-exxonmobil-uplifts-communities-in-vietnam-with-continued-support",
+  "timestamp": "2026-10-26T16:52:48.025Z",
+  "title": "ExxonMobil Uplifts Vietnamese Communities with Continued Support | Vietnam",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

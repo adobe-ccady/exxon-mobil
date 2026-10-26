@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/topic/plans-and-technologies-for-reduction",
+  "path": "what-we-do/delivering-industrial-solutions/topic/plans-and-technologies-for-reduction",
+  "timestamp": "2026-10-26T17:00:46.278Z",
+  "title": "Carbon emissions: Strategies for reduction",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

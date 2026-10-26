@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/lng-to-power-commercial-trucks-in-india",
+  "path": "locations/india/lng-to-power-commercial-trucks-in-india",
+  "timestamp": "2026-10-26T16:30:05.828Z",
+  "title": "LNG: powering commercial trucks| ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

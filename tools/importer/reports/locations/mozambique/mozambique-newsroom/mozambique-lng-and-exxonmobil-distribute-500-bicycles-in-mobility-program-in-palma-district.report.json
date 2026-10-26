@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/mozambique-lng-and-exxonmobil-distribute-500-bicycles-in-mobility-program-in-palma-district",
+  "path": "locations/mozambique/mozambique-newsroom/mozambique-lng-and-exxonmobil-distribute-500-bicycles-in-mobility-program-in-palma-district",
+  "timestamp": "2026-10-26T16:44:37.465Z",
+  "title": "500 Bicycles Distributed in Palma: Mozambique LNG & ExxonMobil Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

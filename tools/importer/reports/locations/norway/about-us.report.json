@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/norway/about-us",
+  "path": "locations/norway/about-us",
+  "timestamp": "2026-10-26T16:47:56.142Z",
+  "title": "Our history and operations | ExxonMobil in Norway",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

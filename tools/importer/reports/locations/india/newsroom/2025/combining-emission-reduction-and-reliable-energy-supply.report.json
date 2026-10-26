@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/combining-emission-reduction-and-reliable-energy-supply",
+  "path": "locations/india/newsroom/2025/combining-emission-reduction-and-reliable-energy-supply",
+  "timestamp": "2026-10-26T16:30:36.463Z",
+  "title": "All eyes on natural gas: Combining emission reduction and reliable energy supply | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

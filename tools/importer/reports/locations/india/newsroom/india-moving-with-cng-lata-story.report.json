@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/india-moving-with-cng-lata-story",
+  "path": "locations/india/newsroom/india-moving-with-cng-lata-story",
+  "timestamp": "2026-10-26T16:30:37.466Z",
+  "title": "India moving with CNG: Lata’s story | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

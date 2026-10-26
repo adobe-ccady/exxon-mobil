@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/oil/canadian-oil-sands-a-source-of-secure-accessible-and-affordable-energy",
+  "path": "what-we-do/energy-supply/oil/canadian-oil-sands-a-source-of-secure-accessible-and-affordable-energy",
+  "timestamp": "2026-10-26T17:01:23.743Z",
+  "title": "Canadian oil sands: secure, accessible and affordable energy | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

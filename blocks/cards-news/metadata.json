@@ -12,10 +12,11 @@
   "contentPattern": "row per card: [empty image] | [title link, tag, read-time]",
   "usage": {
     "pagesUsing": [
-      "https://corporate.exxonmobil.com/"
+      "https://corporate.exxonmobil.com/",
+      "/news"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-10-14"
+    "reuseCount": 2,
+    "lastUsed": "2026-10-26"
   },
   "options": [],
   "memberVariantIds": []

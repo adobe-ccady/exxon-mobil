@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20260930-exxonmobil-fawley-funded-health-bus-launched",
+  "path": "locations/united-kingdom/uk-newsroom/20260930-exxonmobil-fawley-funded-health-bus-launched",
+  "timestamp": "2026-10-26T16:51:24.411Z",
+  "title": "Waterside Health Bus brings NHS care closer to home | ExxonMobil Fawley",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

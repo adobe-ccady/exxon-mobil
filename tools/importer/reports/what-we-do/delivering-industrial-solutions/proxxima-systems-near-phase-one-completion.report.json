@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/proxxima-systems-near-phase-one-completion",
+  "path": "what-we-do/delivering-industrial-solutions/proxxima-systems-near-phase-one-completion",
+  "timestamp": "2026-10-26T17:00:41.878Z",
+  "title": "Proxxima™ systems​ near phase one completion | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

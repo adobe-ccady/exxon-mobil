@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/netherlands/max-verstappen-surprises-exxonmobil-employees-in-rotterdam",
+  "path": "locations/netherlands/max-verstappen-surprises-exxonmobil-employees-in-rotterdam",
+  "timestamp": "2026-10-26T16:45:05.363Z",
+  "title": "Max Verstappen surprises ExxonMobil employees in Rotterdam | ExxonMobil Netherlands",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

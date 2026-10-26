@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/the-offshore-technology-conference-asia-2024/leading-the-way-to-a-lower-carbon-future",
+  "path": "locations/asia-pacific-region/ap-newsroom/the-offshore-technology-conference-asia-2024/leading-the-way-to-a-lower-carbon-future",
+  "timestamp": "2026-10-26T16:23:46.305Z",
+  "title": "Leading the way to a lower-carbon future | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

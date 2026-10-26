@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/motorsports/a-new-breed-of-racing",
+  "path": "what-we-do/transforming-transportation/motorsports/a-new-breed-of-racing",
+  "timestamp": "2026-10-26T17:12:34.507Z",
+  "title": "A new breed of racing, built on new technology | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

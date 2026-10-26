@@ -33,6 +33,94 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Grey",
+              "value": "grey"
+            },
+            {
+              "name": "Trending split",
+              "value": "trending-split"
+            },
+            {
+              "name": "Blue gradient",
+              "value": "blue-gradient"
+            },
+            {
+              "name": "Blue",
+              "value": "blue"
+            },
+            {
+              "name": "Indigo gradient",
+              "value": "indigo-gradient"
+            },
+            {
+              "name": "Indigo",
+              "value": "indigo"
+            },
+            {
+              "name": "Image band",
+              "value": "image-band"
+            },
+            {
+              "name": "Plain",
+              "value": "plain"
+            },
+            {
+              "name": "Black gradient",
+              "value": "black-gradient"
+            },
+            {
+              "name": "Black",
+              "value": "black"
+            },
+            {
+              "name": "Burgundy gradient",
+              "value": "burgundy-gradient"
+            },
+            {
+              "name": "Gray 3",
+              "value": "gray-3"
+            },
+            {
+              "name": "Gray 4 gradient",
+              "value": "gray-4-gradient"
+            },
+            {
+              "name": "Gray 7",
+              "value": "gray-7"
+            },
+            {
+              "name": "Sea blue gradient",
+              "value": "sea-blue-gradient"
+            },
+            {
+              "name": "Sea blue",
+              "value": "sea-blue"
+            },
+            {
+              "name": "Blue 3",
+              "value": "blue-3"
+            },
+            {
+              "name": "Light grey",
+              "value": "light-grey"
+            },
+            {
+              "name": "Split",
+              "value": "split"
+            },
+            {
+              "name": "Dark",
+              "value": "dark"
+            },
+            {
+              "name": "Dark grey",
+              "value": "dark-grey"
+            },
+            {
+              "name": "Orange gradient",
+              "value": "orange-gradient"
             }
           ]
         }
@@ -54,12 +142,21 @@
         "carousel-hero",
         "columns-stock-ticker",
         "hero-banner",
+        "hero-article-banner",
         "cards-topics",
         "cards-news",
         "cards-business",
         "hero-centered",
         "cards-links",
-        "heading"
+        "heading",
+        "columns-article-header",
+        "table",
+        "quote",
+        "video",
+        "secondary-nav",
+        "hero-feature",
+        "columns-media",
+        "cards-icon-links"
       ]
     }
   ]

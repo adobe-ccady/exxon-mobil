@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/careers/labarge-carbon-capture-asset-manager-matt-mcqueen",
+  "path": "careers/labarge-carbon-capture-asset-manager-matt-mcqueen",
+  "timestamp": "2026-10-26T16:19:19.470Z",
+  "title": "Matt McQueen, Wyoming Asset Manager | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

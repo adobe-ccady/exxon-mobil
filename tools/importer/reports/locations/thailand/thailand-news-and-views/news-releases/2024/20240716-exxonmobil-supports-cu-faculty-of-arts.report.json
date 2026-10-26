@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/20240716-exxonmobil-supports-cu-faculty-of-arts",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/20240716-exxonmobil-supports-cu-faculty-of-arts",
+  "timestamp": "2026-10-26T16:49:19.842Z",
+  "title": "Supporting CU Faculty of Arts | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

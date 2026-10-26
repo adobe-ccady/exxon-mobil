@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/2025/investing-in-people-and-the-future",
+  "path": "locations/asia-pacific-region/ap-newsroom/2025/investing-in-people-and-the-future",
+  "timestamp": "2026-10-26T16:21:48.505Z",
+  "title": "Investing in people, investing in the future | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

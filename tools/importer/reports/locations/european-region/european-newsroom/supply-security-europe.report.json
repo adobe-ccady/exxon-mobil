@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/supply-security-europe",
+  "path": "locations/european-region/european-newsroom/supply-security-europe",
+  "timestamp": "2026-10-26T16:28:06.963Z",
+  "title": "Working to Deliver the Energy Europe Needs | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/canada/exxonmobil-in-canada",
+  "path": "locations/canada/exxonmobil-in-canada",
+  "timestamp": "2026-10-26T18:09:31.941Z",
+  "title": "ExxonMobil Canada overview | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

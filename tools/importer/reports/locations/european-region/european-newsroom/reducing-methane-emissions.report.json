@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/reducing-methane-emissions",
+  "path": "locations/european-region/european-newsroom/reducing-methane-emissions",
+  "timestamp": "2026-10-26T16:28:12.663Z",
+  "title": "Using new technologies to reduce methane emissions | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -2,6 +2,7 @@
   "type": "xwalk",
   "sites": {
     "exxon-mobil": {
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
       "previewOrg": "adobe-ccady",
       "previewSite": "exxon-mobil",
       "contentHostUrl": "author-p193363-e2050261.adobeaemcloud.com",
@@ -9,7 +10,7 @@
       "aemAssetsFolderPath": "/content/dam/exxon-mobil",
       "aemSiteName": "exxon-mobil",
       "aemSiteTitle": "ExxonMobil",
-      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+      "botProtected": true
     }
   }
 }

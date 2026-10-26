@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/making-lithium-and-making-a-difference",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/making-lithium-and-making-a-difference",
+  "timestamp": "2026-10-26T17:10:57.384Z",
+  "title": "Making progress on lithium … and making a difference | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

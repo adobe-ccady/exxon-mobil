@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/darren-woods-speaks-at-milken-institute",
+  "path": "news/corporate-news/darren-woods-speaks-at-milken-institute",
+  "timestamp": "2026-10-26T16:53:07.379Z",
+  "title": "A conversation with John Podesta and Darren Woods | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

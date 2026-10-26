@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/procurement/exxonmobil-for-suppliers/pmi/pmi-secondary",
+  "path": "procurement/exxonmobil-for-suppliers/pmi/pmi-secondary",
+  "timestamp": "2026-10-26T18:25:17.484Z",
+  "title": "PMI Secondary invoice requirements | ExxonMobil for Suppliers",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

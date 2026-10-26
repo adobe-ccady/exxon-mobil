@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/tackling-methane-emissions",
+  "path": "news/viewpoints/tackling-methane-emissions",
+  "timestamp": "2026-10-26T16:56:52.260Z",
+  "title": "Our Methane Emission Reduction Goals | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

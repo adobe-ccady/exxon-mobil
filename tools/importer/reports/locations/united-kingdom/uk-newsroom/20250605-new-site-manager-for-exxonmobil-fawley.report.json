@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250605_new-site-manager-for-exxonmobil-fawley",
+  "path": "locations/united-kingdom/uk-newsroom/20250605-new-site-manager-for-exxonmobil-fawley",
+  "timestamp": "2026-10-26T18:16:09.298Z",
+  "title": "New site manager for ExxonMobil Fawley | ExxonMobil UK",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

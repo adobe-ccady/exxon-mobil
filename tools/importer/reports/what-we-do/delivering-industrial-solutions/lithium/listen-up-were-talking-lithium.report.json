@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/lithium/listen-up-were-talking-lithium",
+  "path": "what-we-do/delivering-industrial-solutions/lithium/listen-up-were-talking-lithium",
+  "timestamp": "2026-10-26T17:00:30.579Z",
+  "title": "Listen up! We're talking lithium | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

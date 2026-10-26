@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-donates-laptops-to-secondary-schools",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-donates-laptops-to-secondary-schools",
+  "timestamp": "2026-10-26T16:44:07.604Z",
+  "title": "ExxonMobil Mozambique donates laptops to Maputo secondary schools",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,174 @@
+/* hero-article-banner: image-only full-width banner above the article header */
+.hero-article-banner-container .hero-article-banner-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-article-banner {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  background-color: #000;
+}
+
+/* dark top gradient keeps the code-rendered breadcrumb readable */
+.hero-article-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1;
+  height: 120px;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 60%), rgb(0 0 0 / 0%));
+  pointer-events: none;
+}
+
+.hero-article-banner .hero-article-banner-media,
+.hero-article-banner .hero-article-banner-media > div,
+.hero-article-banner .hero-article-banner-media p,
+.hero-article-banner .hero-article-banner-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.hero-article-banner .hero-article-banner-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* optional text row: overlaid at the bottom of the banner */
+.hero-article-banner .hero-article-banner-body {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 2;
+  box-sizing: border-box;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.hero-article-banner .hero-article-banner-body > div > * {
+  margin: 0;
+}
+
+.hero-article-banner .hero-article-banner-empty {
+  padding: 0;
+}
+
+/* non-empty text row (topic/index pages): white overlay, banner grows with its text */
+.hero-article-banner.has-text {
+  display: flex;
+  align-items: center;
+  height: auto;
+  min-height: 200px;
+}
+
+.hero-article-banner.has-text .hero-article-banner-media {
+  position: absolute;
+  inset: 0;
+}
+
+/* dark left gradient keeps the overlaid text readable */
+.hero-article-banner.has-text::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to right, rgb(0 0 0 / 60%), rgb(0 0 0 / 0%));
+  pointer-events: none;
+}
+
+.hero-article-banner.has-text .hero-article-banner-body {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  padding: 72px 20px 32px;
+}
+
+.hero-article-banner.has-text .hero-article-banner-content {
+  max-width: 720px;
+}
+
+.hero-article-banner.has-text .hero-article-banner-content > * + * {
+  margin-top: 12px;
+}
+
+.hero-article-banner .hero-article-banner-body :is(h1, h2, h3, h4, h5, h6, p) {
+  color: #fff;
+}
+
+.hero-article-banner .hero-article-banner-body a:not(.button) {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hero-article-banner .hero-article-banner-eyebrow {
+  text-transform: uppercase;
+}
+
+.hero-article-banner .hero-article-banner-description p {
+  margin: 0;
+}
+
+.hero-article-banner.has-text .hero-article-banner-content > .hero-article-banner-cta {
+  margin-top: 24px;
+}
+
+/* option: large */
+.hero-article-banner.large {
+  height: 360px;
+}
+
+.hero-article-banner.large.has-text {
+  height: auto;
+  min-height: 360px;
+}
+
+@media (width >= 600px) {
+  .hero-article-banner {
+    height: 260px;
+  }
+
+  .hero-article-banner.large {
+    height: 520px;
+  }
+
+  .hero-article-banner.has-text {
+    height: auto;
+    min-height: 260px;
+  }
+
+  .hero-article-banner.large.has-text {
+    height: auto;
+    min-height: 520px;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-article-banner {
+    height: 310px;
+  }
+
+  .hero-article-banner.large {
+    height: 750px;
+  }
+
+  .hero-article-banner.has-text {
+    height: auto;
+    min-height: 310px;
+  }
+
+  .hero-article-banner.large.has-text {
+    height: auto;
+    min-height: 750px;
+  }
+
+  .hero-article-banner.has-text .hero-article-banner-body {
+    padding: 80px 20px 40px;
+  }
+}

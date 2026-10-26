@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0808_exxonmobil-guyana-begins-production-at-fourth-offshore-guyana-project",
+  "path": "news/news-releases/2025/0808-exxonmobil-guyana-begins-production-at-fourth-offshore-guyana-project",
+  "timestamp": "2026-10-26T16:55:04.142Z",
+  "title": "ExxonMobil starts production at Yellowtail in Guyana | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

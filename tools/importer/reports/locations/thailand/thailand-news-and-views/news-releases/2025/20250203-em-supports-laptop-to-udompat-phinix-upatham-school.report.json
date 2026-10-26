@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2025/20250203-em-supports-laptop-to-udompat-phinix-upatham-school",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2025/20250203-em-supports-laptop-to-udompat-phinix-upatham-school",
+  "timestamp": "2026-10-26T16:37:10.825Z",
+  "title": "ExxonMobil donates old laptops to Udompat Phinix Upatham School | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

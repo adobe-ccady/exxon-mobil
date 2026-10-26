@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/2025/taking-indian-talent-to-the-world-stage",
+  "path": "locations/india/newsroom/2025/taking-indian-talent-to-the-world-stage",
+  "timestamp": "2026-10-26T16:31:22.863Z",
+  "title": "Empowering Indian talent for global innovation | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

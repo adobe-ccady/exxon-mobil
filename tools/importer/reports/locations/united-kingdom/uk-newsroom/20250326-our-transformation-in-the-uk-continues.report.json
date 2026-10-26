@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250326_our-transformation-in-the-uk-continues",
+  "path": "locations/united-kingdom/uk-newsroom/20250326-our-transformation-in-the-uk-continues",
+  "timestamp": "2026-10-26T16:50:54.364Z",
+  "title": "Our transformation in the UK continues",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

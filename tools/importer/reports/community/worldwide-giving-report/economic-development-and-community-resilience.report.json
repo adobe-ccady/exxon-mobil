@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/worldwide-giving-report/economic-development-and-community-resilience",
+  "path": "community/worldwide-giving-report/economic-development-and-community-resilience",
+  "timestamp": "2026-10-26T17:54:04.157Z",
+  "title": "Worldwide Giving: Improving quality of life and economic well-being | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

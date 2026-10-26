@@ -1,0 +1,25 @@
+{
+  "variantName": "hero-feature",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": {
+    "colorScheme": "photo",
+    "density": "medium",
+    "purpose": "feature-band",
+    "imagePattern": "full-bleed-background",
+    "structure": "background photo + left-aligned eyebrow, heading, text, CTA",
+    "notes": "Full-width photo band (source singleFeature / variableFeature photo bands) with a dark left gradient; optional uppercase eyebrow, H2, description paragraph and a red button stacked on the left. Image eager + fetchpriority high only when the block is in the first section."
+  },
+  "contentPattern": "row 1: [background image with alt]; row 2: [rich text: optional eyebrow p, H2, description p, CTA link p]",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/news",
+      "https://corporate.exxonmobil.com/community"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use for full-width photo bands with overlaid left-aligned text and a CTA on topic/index pages (source section.singleFeature with a photo background, section.variableFeature). Not for coloured/texture bands without a photo (use a section style) or centred statements (hero-banner, hero-centered)."
+}

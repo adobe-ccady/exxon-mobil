@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/rovuma-lng/social-performance",
+  "path": "locations/mozambique/rovuma-lng/social-performance",
+  "timestamp": "2026-10-26T16:44:55.366Z",
+  "title": "Socioeconomic management | Rovuma LNG | ExxonMobil Mozambique, Limited",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2025/0915_ensuring-retail-investors-are-heard",
+  "path": "news/news-releases/2025/0915-ensuring-retail-investors-are-heard",
+  "timestamp": "2026-10-26T16:44:05.509Z",
+  "title": "Ensuring retail investors are heard | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

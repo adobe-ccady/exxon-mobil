@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/motorsports/emtec-racing-advisors-f1-fuels-lubricants",
+  "path": "what-we-do/transforming-transportation/motorsports/emtec-racing-advisors-f1-fuels-lubricants",
+  "timestamp": "2026-10-26T17:02:39.643Z",
+  "title": "EMTEC: F1’s Technical Racing Advisors | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

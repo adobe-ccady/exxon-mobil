@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/community/community-grievance-mechanism",
+  "path": "locations/guyana/community/community-grievance-mechanism",
+  "timestamp": "2026-10-26T16:28:42.966Z",
+  "title": "Community Grievance Mechanism (CGM) | ExxonMobil in Guyana",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table",
+    "table",
+    "table",
+    "video",
+    "video"
+  ]
+}

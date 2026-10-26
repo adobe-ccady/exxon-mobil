@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2026/first-of-its-kind-tech-strengthening-indonesias-oil-resilience-future",
+  "path": "locations/indonesia/newsroom/2026/first-of-its-kind-tech-strengthening-indonesias-oil-resilience-future",
+  "timestamp": "2026-10-26T16:37:51.905Z",
+  "title": "The technology building Indonesia's energy self-reliance | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

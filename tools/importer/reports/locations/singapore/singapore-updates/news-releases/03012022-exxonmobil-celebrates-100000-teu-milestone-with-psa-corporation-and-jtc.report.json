@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/singapore/singapore-updates/news-releases/03012022_exxonmobil-celebrates-100000-teu-milestone-with-psa-corporation-and-jtc",
+  "path": "locations/singapore/singapore-updates/news-releases/03012022-exxonmobil-celebrates-100000-teu-milestone-with-psa-corporation-and-jtc",
+  "timestamp": "2026-10-26T18:13:03.793Z",
+  "title": "ExxonMobil celebrates 100,000 TEU milestone with PSA Corporation and JTC",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

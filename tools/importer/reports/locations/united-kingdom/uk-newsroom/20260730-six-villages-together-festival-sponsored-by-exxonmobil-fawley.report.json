@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20260730-six-villages-together-festival-sponsored-by-exxonmobil-fawley",
+  "path": "locations/united-kingdom/uk-newsroom/20260730-six-villages-together-festival-sponsored-by-exxonmobil-fawley",
+  "timestamp": "2026-10-26T16:51:18.043Z",
+  "title": "First Six Villages Together Festival | ExxonMobil Fawley",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

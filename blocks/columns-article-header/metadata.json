@@ -1,0 +1,24 @@
+{
+  "variantName": "columns-article-header",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "article-header",
+    "imagePattern": "noimg",
+    "structure": "metadata rail (tag, type, date, share/print) + title + intro"
+  },
+  "contentPattern": "1 row: [tag link p, content type p, date p] | [h1 title, intro p]; share/print tools rendered by code; tag/type/date and intro optional",
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/careers/ashlika-persaud",
+      "/locations/guyana/news-releases/11122025-daily-oil-production-hits-900000-barrels-in-guyanas-stabroek-block"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use as the first block of article/perspective pages: page title and intro beside a narrow metadata rail. Not for generic two-column content (use columns).",
+  "options": [],
+  "memberVariantIds": []
+}

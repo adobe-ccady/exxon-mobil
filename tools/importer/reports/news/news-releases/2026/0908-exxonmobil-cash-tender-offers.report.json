@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2026/0908-exxonmobil-cash-tender-offers",
+  "path": "news/news-releases/2026/0908-exxonmobil-cash-tender-offers",
+  "timestamp": "2026-10-26T16:55:17.546Z",
+  "title": "Cash tender offers for 2030 and 2031 Senior Notes | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/lower-carbon-steel-and-permanent-storage-ccs-expands-across-the-gulf-coast",
+  "path": "what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/lower-carbon-steel-and-permanent-storage-ccs-expands-across-the-gulf-coast",
+  "timestamp": "2026-10-26T16:59:41.741Z",
+  "title": "Lower-carbon steel and CCS growth across the Gulf Coast | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

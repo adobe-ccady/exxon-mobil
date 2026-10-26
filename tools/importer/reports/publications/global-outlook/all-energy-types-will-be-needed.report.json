@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/global-outlook/all-energy-types-will-be-needed",
+  "path": "publications/global-outlook/all-energy-types-will-be-needed",
+  "timestamp": "2026-10-26T17:55:28.343Z",
+  "title": "All energy types will be needed | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

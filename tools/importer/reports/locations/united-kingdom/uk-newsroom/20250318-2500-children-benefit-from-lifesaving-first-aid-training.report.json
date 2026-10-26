@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20250318_2500-children-benefit-from-lifesaving-first-aid-training",
+  "path": "locations/united-kingdom/uk-newsroom/20250318-2500-children-benefit-from-lifesaving-first-aid-training",
+  "timestamp": "2026-10-26T16:39:04.263Z",
+  "title": "ExxonMobil Fawley funds lifesaving first aid training for 2,500 students",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

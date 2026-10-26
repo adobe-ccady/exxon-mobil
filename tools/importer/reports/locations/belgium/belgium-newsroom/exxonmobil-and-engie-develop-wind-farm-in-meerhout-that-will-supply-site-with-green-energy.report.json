@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/belgium/belgium-newsroom/exxonmobil-and-engie-develop-wind-farm-in-meerhout-that-will-supply-site-with-green-energy",
+  "path": "locations/belgium/belgium-newsroom/exxonmobil-and-engie-develop-wind-farm-in-meerhout-that-will-supply-site-with-green-energy",
+  "timestamp": "2026-10-26T16:24:34.805Z",
+  "title": "ExxonMobil and ENGIE's green energy wind farm | ExxonMobil Belgium",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

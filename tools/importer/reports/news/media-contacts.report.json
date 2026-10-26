@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/media-contacts",
+  "path": "news/media-contacts",
+  "timestamp": "2026-10-26T16:42:45.803Z",
+  "title": "Media inquiries | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

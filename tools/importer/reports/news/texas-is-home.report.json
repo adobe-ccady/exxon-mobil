@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/texas-is-home",
+  "path": "news/texas-is-home",
+  "timestamp": "2026-10-26T19:18:18.017Z",
+  "title": "Texas is home | ExxonMobil",
+  "template": "topic-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-media"
+  ]
+}

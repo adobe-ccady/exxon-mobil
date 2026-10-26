@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/stem/the-full-potential-of-stem-education",
+  "path": "community/stem/the-full-potential-of-stem-education",
+  "timestamp": "2026-10-26T16:20:24.408Z",
+  "title": "The full potential of STEM education | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

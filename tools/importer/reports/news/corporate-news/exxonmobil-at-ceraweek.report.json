@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/exxonmobil-at-ceraweek",
+  "path": "news/corporate-news/exxonmobil-at-ceraweek",
+  "timestamp": "2026-10-26T16:53:17.178Z",
+  "title": "ExxonMobil at CERAWeek 2024 | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

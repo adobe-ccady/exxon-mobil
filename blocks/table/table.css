@@ -1,0 +1,92 @@
+/* structural styles only; visual design comes in the design pass */
+.table.block {
+  width: 100%;
+}
+
+.table .table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table .table-scroll:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--body-font-size-xs);
+  line-height: 1.5;
+  color: var(--body-text-color);
+}
+
+/* wide tables keep readable columns and scroll horizontally on small screens */
+.table.table-4-cols table,
+.table.table-5-cols table,
+.table.table-6-cols table {
+  min-width: 600px;
+}
+
+.table.table-7-cols table,
+.table.table-8-cols table,
+.table.table-9-cols table,
+.table.table-10-cols table,
+.table.table-11-cols table {
+  min-width: 900px;
+}
+
+.table th,
+.table td {
+  padding: 0.75em 1em;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #d9d9d9;
+  overflow-wrap: anywhere;
+}
+
+.table thead th {
+  background-color: #f2f2f2;
+  font-weight: 700;
+  color: var(--text-color);
+  border-bottom-width: 2px;
+}
+
+.table th p,
+.table td p {
+  margin: 0;
+}
+
+.table th p + p,
+.table td p + p {
+  margin-top: 0.5em;
+}
+
+.table td ul,
+.table td ol {
+  margin: 0;
+  padding-left: 1.25em;
+}
+
+/* bordered */
+.table.bordered th,
+.table.bordered td {
+  border: 1px solid #d9d9d9;
+}
+
+/* no-header: every row is a body row, close the top edge */
+.table.no-header tbody tr:first-child td {
+  border-top: 1px solid #d9d9d9;
+}
+
+/* striped */
+.table.striped tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+@media (width >= 900px) {
+  .table table {
+    font-size: var(--body-font-size-s);
+  }
+}

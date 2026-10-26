@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-kingdom/uk-newsroom/20240726_british-army-petroleum-regiment-makes-educational-visit-to-exxonmobil-fawley",
+  "path": "locations/united-kingdom/uk-newsroom/20240726-british-army-petroleum-regiment-makes-educational-visit-to-exxonmobil-fawley",
+  "timestamp": "2026-10-26T18:15:42.443Z",
+  "title": "British Army's renowned petroleum regiment makes special educational visit to ExxonMobil Fawley",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

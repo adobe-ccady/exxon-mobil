@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/beaumont-operations/making-texans-lives-healthier-with-be-well-beaumont",
+  "path": "locations/united-states/beaumont-operations/making-texans-lives-healthier-with-be-well-beaumont",
+  "timestamp": "2026-10-26T16:40:55.463Z",
+  "title": "Be Well™ Beaumont: Promoting Health & Wellness | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

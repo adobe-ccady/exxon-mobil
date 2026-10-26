@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/energy-supply/worlds-largest-oil-platforms",
+  "path": "what-we-do/energy-supply/worlds-largest-oil-platforms",
+  "timestamp": "2026-10-26T17:01:27.003Z",
+  "title": "Go inside one of the worlds largest oil platforms | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

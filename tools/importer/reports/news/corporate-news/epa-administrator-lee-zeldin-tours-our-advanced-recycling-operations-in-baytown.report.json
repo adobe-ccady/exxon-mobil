@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/epa-administrator-lee-zeldin-tours-our-advanced-recycling-operations-in-baytown",
+  "path": "news/corporate-news/epa-administrator-lee-zeldin-tours-our-advanced-recycling-operations-in-baytown",
+  "timestamp": "2026-10-26T16:52:51.977Z",
+  "title": "EPA Administrator visits ExxonMobil Baytown facility to explore advanced recycling | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

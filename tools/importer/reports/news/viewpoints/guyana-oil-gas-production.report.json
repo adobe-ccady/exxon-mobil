@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/guyana-oil-gas-production",
+  "path": "news/viewpoints/guyana-oil-gas-production",
+  "timestamp": "2026-10-26T16:56:03.642Z",
+  "title": "Guyana investments yield a growing source of energy for the world | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

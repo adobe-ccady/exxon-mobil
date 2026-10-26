@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/area-4-and-edm-sign-letter-of-intent-for-rehabilitation-of-electrical-grid-of-palmasede",
+  "path": "locations/mozambique/mozambique-newsroom/area-4-and-edm-sign-letter-of-intent-for-rehabilitation-of-electrical-grid-of-palmasede",
+  "timestamp": "2026-10-26T16:41:53.866Z",
+  "title": "Area 4, EDM sign agreement to rehabilitate Palma-Sede grid | ExxonMobil Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

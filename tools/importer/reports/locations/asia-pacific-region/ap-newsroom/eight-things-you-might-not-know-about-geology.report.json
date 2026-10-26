@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/eight-things-you-might-not-know-about-geology",
+  "path": "locations/asia-pacific-region/ap-newsroom/eight-things-you-might-not-know-about-geology",
+  "timestamp": "2026-10-26T16:22:53.970Z",
+  "title": "Eight things you might not know about geology | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

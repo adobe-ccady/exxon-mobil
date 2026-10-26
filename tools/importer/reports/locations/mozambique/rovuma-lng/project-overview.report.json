@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/rovuma-lng/project-overview",
+  "path": "locations/mozambique/rovuma-lng/project-overview",
+  "timestamp": "2026-10-26T16:34:24.103Z",
+  "title": "Rovuma LNG project overview | ExxonMobil Mozambique, Limited",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

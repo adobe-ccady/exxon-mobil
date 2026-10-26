@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/united-states/baton-rouge-operations/newsroom/202407-meet-exxonmobils-mom-next-door",
+  "path": "locations/united-states/baton-rouge-operations/newsroom/202407-meet-exxonmobils-mom-next-door",
+  "timestamp": "2026-10-26T16:51:21.778Z",
+  "title": "Meet ExxonMobil's mom-next-door | ExxonMobil | Baton Rouge",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

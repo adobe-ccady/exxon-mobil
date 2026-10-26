@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/giving-back-across-asia-pacific",
+  "path": "locations/asia-pacific-region/ap-newsroom/giving-back-across-asia-pacific",
+  "timestamp": "2026-10-26T16:23:03.428Z",
+  "title": "Giving back across Asia Pacific | ExxonMobil Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

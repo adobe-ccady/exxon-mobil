@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2026/how-we-become-indonesia-communities-partner-of-growth",
+  "path": "locations/indonesia/newsroom/2026/how-we-become-indonesia-communities-partner-of-growth",
+  "timestamp": "2026-10-26T16:38:03.263Z",
+  "title": "Indonesian Communities’ Partner of Growth | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

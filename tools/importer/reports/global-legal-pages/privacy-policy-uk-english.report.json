@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_uk-english",
+  "path": "global-legal-pages/privacy-policy-uk-english",
+  "timestamp": "2026-10-26T18:16:43.350Z",
+  "title": "Privacy policy and statement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

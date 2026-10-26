@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0412_guyana-offshore-development-whiptail",
+  "path": "news/news-releases/2024/0412-guyana-offshore-development-whiptail",
+  "timestamp": "2026-10-26T16:54:15.878Z",
+  "title": "ExxonMobil Guyana moves forward with sixth offshore development | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

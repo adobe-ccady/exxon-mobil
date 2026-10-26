@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2023/0912_mckinsey-quarterly-interview-with-chairman-and-ceo-darren-woods",
+  "path": "news/news-releases/2023/0912-mckinsey-quarterly-interview-with-chairman-and-ceo-darren-woods",
+  "timestamp": "2026-10-26T18:30:15.343Z",
+  "title": "McKinsey Quarterly interview with Chairman and CEO Darren Woods | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "quote",
+    "quote"
+  ]
+}

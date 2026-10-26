@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/stem/exxonmobil-foundation-khan-academy-stem-education-texas",
+  "path": "community/stem/exxonmobil-foundation-khan-academy-stem-education-texas",
+  "timestamp": "2026-10-26T18:33:13.547Z",
+  "title": "Opening the doors of STEM education | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/customers-getting-started/fuels?content-lang=es",
+  "path": "es/system-updates/hub/customers-getting-started/fuels",
+  "timestamp": "2026-10-26T17:54:40.362Z",
+  "title": "Introducción para clientes de carburants | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table",
+    "table",
+    "table"
+  ]
+}

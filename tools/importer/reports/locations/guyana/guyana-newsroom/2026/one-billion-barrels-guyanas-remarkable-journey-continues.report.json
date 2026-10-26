@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/guyana/guyana-newsroom/2026/one-billion-barrels-guyanas-remarkable-journey-continues",
+  "path": "locations/guyana/guyana-newsroom/2026/one-billion-barrels-guyanas-remarkable-journey-continues",
+  "timestamp": "2026-10-26T16:28:57.264Z",
+  "title": "One billion barrels: Guyana's remarkable journey continues | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/the-power-of-two-in-understanding-the-future",
+  "path": "news/viewpoints/the-power-of-two-in-understanding-the-future",
+  "timestamp": "2026-10-26T16:57:03.179Z",
+  "title": "The power of Two in understanding the future | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/indias-new-farming-technologies",
+  "path": "locations/india/newsroom/indias-new-farming-technologies",
+  "timestamp": "2026-10-26T16:47:04.298Z",
+  "title": "Feeding India’s Future with New Farming Technologies | ExxonMobil in India",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

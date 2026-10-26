@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/viewpoints/lowering-emissions-with-liquefied-natural-gas",
+  "path": "news/viewpoints/lowering-emissions-with-liquefied-natural-gas",
+  "timestamp": "2026-10-26T16:56:14.287Z",
+  "title": "Liquefied natural gas: Providing more energy with lower emissions | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

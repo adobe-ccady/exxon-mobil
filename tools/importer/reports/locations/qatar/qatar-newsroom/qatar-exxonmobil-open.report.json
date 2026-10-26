@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/qatar/qatar-newsroom/qatar-exxonmobil-open",
+  "path": "locations/qatar/qatar-newsroom/qatar-exxonmobil-open",
+  "timestamp": "2026-10-26T16:35:56.177Z",
+  "title": "Qatar ExxonMobil Open: ATP 500 Tennis Event | ExxonMobil in Qatar",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

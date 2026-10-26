@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-supports-oncology-department-at-maputo-central-hospital",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-supports-oncology-department-at-maputo-central-hospital",
+  "timestamp": "2026-10-26T16:44:27.806Z",
+  "title": "ExxonMobil Mozambique supports oncology care | ExxonMobil in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

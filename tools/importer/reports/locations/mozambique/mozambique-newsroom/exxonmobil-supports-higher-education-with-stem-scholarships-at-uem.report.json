@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/exxonmobil-supports-higher-education-with-stem-scholarships-at-uem",
+  "path": "locations/mozambique/mozambique-newsroom/exxonmobil-supports-higher-education-with-stem-scholarships-at-uem",
+  "timestamp": "2026-10-26T16:34:02.848Z",
+  "title": "ExxonMobil Mozambique awards STEM scholarships to girls at UEM | ExxonMobil in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

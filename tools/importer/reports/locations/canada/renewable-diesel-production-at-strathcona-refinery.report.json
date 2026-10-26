@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/canada/renewable-diesel-production-at-strathcona-refinery",
+  "path": "locations/canada/renewable-diesel-production-at-strathcona-refinery",
+  "timestamp": "2026-10-26T16:25:31.863Z",
+  "title": "Renewable diesel production begins at Strathcona Refinery | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

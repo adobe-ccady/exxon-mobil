@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/africa-middle-east-region/africa-and-middle-east-newsroom/africas-young-innovators-compete-at-the-third-annual-exxonmobil-foundation-stem",
+  "path": "locations/africa-middle-east-region/africa-and-middle-east-newsroom/africas-young-innovators-compete-at-the-third-annual-exxonmobil-foundation-stem",
+  "timestamp": "2026-10-26T16:20:57.416Z",
+  "title": "ExxonMobil Foundation STEM Africa finals showcase Africa’s young innovators | ExxonMobil in Africa",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

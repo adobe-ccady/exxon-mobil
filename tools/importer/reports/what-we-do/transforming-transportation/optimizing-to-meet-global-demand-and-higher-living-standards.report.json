@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/optimizing-to-meet-global-demand-and-higher-living-standards",
+  "path": "what-we-do/transforming-transportation/optimizing-to-meet-global-demand-and-higher-living-standards",
+  "timestamp": "2026-10-26T17:02:43.451Z",
+  "title": "Optimizing global energy demand for higher living standards | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

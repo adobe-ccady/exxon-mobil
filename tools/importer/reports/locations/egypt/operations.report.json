@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/egypt/operations",
+  "path": "locations/egypt/operations",
+  "timestamp": "2026-10-26T16:25:43.965Z",
+  "title": "ExxonMobil Egypt: Advancing energy exploration and safety",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

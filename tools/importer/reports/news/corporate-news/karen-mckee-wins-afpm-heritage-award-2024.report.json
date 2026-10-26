@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/corporate-news/karen-mckee-wins-afpm-heritage-award-2024",
+  "path": "news/corporate-news/karen-mckee-wins-afpm-heritage-award-2024",
+  "timestamp": "2026-10-26T16:53:12.349Z",
+  "title": "Karen McKee wins 2024 AFPM Heritage Award | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

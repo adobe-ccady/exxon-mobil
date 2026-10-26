@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/why-europes-energy-transition-needs-policy-support",
+  "path": "locations/european-region/european-newsroom/2025/why-europes-energy-transition-needs-policy-support",
+  "timestamp": "2026-10-26T16:26:26.263Z",
+  "title": "Why Europe's energy transition needs policy support | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

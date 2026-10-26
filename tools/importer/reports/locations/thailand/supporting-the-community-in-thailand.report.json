@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/supporting-the-community-in-thailand",
+  "path": "locations/thailand/supporting-the-community-in-thailand",
+  "timestamp": "2026-10-26T16:48:59.644Z",
+  "title": "Supporting the community in Thailand | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

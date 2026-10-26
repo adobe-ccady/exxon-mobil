@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2016/0630_exxonmobil-says-second-well-offshore-guyana-confirms-significant-oil-discovery",
+  "path": "news/news-releases/2016/0630-exxonmobil-says-second-well-offshore-guyana-confirms-significant-oil-discovery",
+  "timestamp": "2026-10-26T16:53:56.878Z",
+  "title": "ExxonMobil says second well offshore Guyana confirms significant oil discovery | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

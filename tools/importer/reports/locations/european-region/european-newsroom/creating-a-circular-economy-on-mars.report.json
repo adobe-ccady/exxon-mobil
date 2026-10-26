@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/creating-a-circular-economy-on-mars",
+  "path": "locations/european-region/european-newsroom/creating-a-circular-economy-on-mars",
+  "timestamp": "2026-10-26T16:26:55.818Z",
+  "title": "Creating a circular economy on Mars | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

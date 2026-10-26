@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/topic/innovations-in-technology",
+  "path": "what-we-do/delivering-industrial-solutions/topic/innovations-in-technology",
+  "timestamp": "2026-10-26T17:11:11.342Z",
+  "title": "Carbon capture and storage: Technology to help reduce emissions",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

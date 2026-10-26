@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/challenging-stem-students-to-make-sports-events-more-circular",
+  "path": "locations/european-region/european-newsroom/challenging-stem-students-to-make-sports-events-more-circular",
+  "timestamp": "2026-10-26T16:26:58.232Z",
+  "title": "Challenging STEM students to make sports events more circular | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

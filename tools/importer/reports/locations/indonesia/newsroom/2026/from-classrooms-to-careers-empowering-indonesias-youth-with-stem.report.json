@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2026/from-classrooms-to-careers-empowering-indonesias-youth-with-stem",
+  "path": "locations/indonesia/newsroom/2026/from-classrooms-to-careers-empowering-indonesias-youth-with-stem",
+  "timestamp": "2026-10-26T16:32:07.106Z",
+  "title": "From classrooms to careers: empowering Indonesia's youth with STEM | ExxonMobil in Indonesia",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}

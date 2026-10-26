@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/topic/strategies-for-reducing-emissions",
+  "path": "what-we-do/delivering-industrial-solutions/topic/strategies-for-reducing-emissions",
+  "timestamp": "2026-10-26T17:00:48.584Z",
+  "title": "Carbon (CO2) capture and sequestration: Reducing emissions",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

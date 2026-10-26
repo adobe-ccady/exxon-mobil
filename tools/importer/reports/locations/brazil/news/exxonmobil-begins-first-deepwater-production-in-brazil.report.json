@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/brazil/news/exxonmobil-begins-first-deepwater-production-in-brazil",
+  "path": "locations/brazil/news/exxonmobil-begins-first-deepwater-production-in-brazil",
+  "timestamp": "2026-10-26T16:25:14.516Z",
+  "title": "ExxonMobil begins first deepwater oil production in Brazil at Bacalhau field | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

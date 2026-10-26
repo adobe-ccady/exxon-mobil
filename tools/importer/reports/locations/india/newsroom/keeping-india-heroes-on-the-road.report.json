@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/india/newsroom/keeping-india-heroes-on-the-road",
+  "path": "locations/india/newsroom/keeping-india-heroes-on-the-road",
+  "timestamp": "2026-10-26T16:37:01.748Z",
+  "title": "Keeping India’s heroes on the road | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

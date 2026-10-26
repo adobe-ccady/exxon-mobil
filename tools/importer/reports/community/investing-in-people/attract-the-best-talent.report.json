@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/investing-in-people/attract-the-best-talent",
+  "path": "community/investing-in-people/attract-the-best-talent",
+  "timestamp": "2026-10-26T17:53:17.578Z",
+  "title": "Investing in people: Attract the best talent | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "table",
+    "table",
+    "video",
+    "video"
+  ]
+}

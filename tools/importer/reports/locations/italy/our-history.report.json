@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/italy/our-history",
+  "path": "locations/italy/our-history",
+  "timestamp": "2026-10-26T16:32:48.818Z",
+  "title": "From Standard Oil to energy leader | ExxonMobil Italy",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

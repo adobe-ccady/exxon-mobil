@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/mozambique/mozambique-newsroom/area-4-invests-in-education-in-cabo-delgado",
+  "path": "locations/mozambique/mozambique-newsroom/area-4-invests-in-education-in-cabo-delgado",
+  "timestamp": "2026-10-26T16:33:24.505Z",
+  "title": "Area 4 invests in education in Cabo Delgado | ExxonMobil in Mozambique",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

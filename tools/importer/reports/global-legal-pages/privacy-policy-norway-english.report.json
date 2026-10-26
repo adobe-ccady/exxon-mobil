@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_norway-english",
+  "path": "global-legal-pages/privacy-policy-norway-english",
+  "timestamp": "2026-10-26T18:04:10.946Z",
+  "title": "Privacy policy and statement | ExxonMobil Norway",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table"
+  ]
+}

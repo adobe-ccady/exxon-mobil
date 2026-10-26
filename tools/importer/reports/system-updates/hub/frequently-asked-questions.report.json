@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/system-updates/hub/frequently-asked-questions",
+  "path": "system-updates/hub/frequently-asked-questions",
+  "timestamp": "2026-10-26T17:57:00.570Z",
+  "title": "Frequently asked questions (FAQs) - business hub | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header"
+  ]
+}

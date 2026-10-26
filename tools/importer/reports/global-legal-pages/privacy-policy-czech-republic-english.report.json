@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/global-legal-pages/privacy-policy_czech-republic-english",
+  "path": "global-legal-pages/privacy-policy-czech-republic-english",
+  "timestamp": "2026-10-26T18:02:18.252Z",
+  "title": "Privacy Policy Statement | ExxonMobil",
+  "template": "article",
+  "blocks": [
+    "columns-article-header",
+    "columns-article-header",
+    "table",
+    "table",
+    "table",
+    "table"
+  ]
+}

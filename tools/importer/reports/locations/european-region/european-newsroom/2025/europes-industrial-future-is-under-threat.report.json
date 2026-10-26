@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/european-region/european-newsroom/2025/europes-industrial-future-is-under-threat",
+  "path": "locations/european-region/european-newsroom/2025/europes-industrial-future-is-under-threat",
+  "timestamp": "2026-10-26T16:26:10.805Z",
+  "title": "Europe’s industrial future is under threat – but policy reform can change that | ExxonMobil in Europe",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

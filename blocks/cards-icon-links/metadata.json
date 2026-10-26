@@ -1,0 +1,26 @@
+{
+  "variantName": "cards-icon-links",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": {
+    "colorScheme": "light-tiles-on-section",
+    "density": "compact",
+    "purpose": "social-follow-links",
+    "imagePattern": "small-icon",
+    "structure": "label (+ optional description) + small icon on the right, red left border, whole tile links out",
+    "notes": "Source section.iconGrid (Follow us on /community; also /community/stem, /community/royalty-owners, teacher-stem-training-program). White tiles, two per row from tablet up; the section style (orange-gradient) supplies the background."
+  },
+  "contentPattern": "row per tile: [icon image] | [title, optional description paragraph, link paragraph]",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://corporate.exxonmobil.com/community",
+      "https://corporate.exxonmobil.com/community/stem",
+      "https://corporate.exxonmobil.com/community/royalty-owners"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-10-26"
+  },
+  "reuseGuidance": "Use for icon + label link tiles (source iconGrid, e.g. social 'Follow us' links). Not for photo cards (cards-topics, cards-business) or plain text link lists (cards-links)."
+}

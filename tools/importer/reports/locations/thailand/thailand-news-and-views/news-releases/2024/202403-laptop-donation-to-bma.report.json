@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2024/202403-laptop-donation-to-bma",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2024/202403-laptop-donation-to-bma",
+  "timestamp": "2026-10-26T16:36:33.163Z",
+  "title": "Donating 40 laptops to support BMA’s digital classroom project | ExxonMobil in Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

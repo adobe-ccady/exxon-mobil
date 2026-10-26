@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/events/2025/delivering-higher-earnings-stronger-cash-flow-and-greater-returns",
+  "path": "news/events/2025/delivering-higher-earnings-stronger-cash-flow-and-greater-returns",
+  "timestamp": "2026-10-26T16:42:38.747Z",
+  "title": "Transformation delivering higher earnings, stronger cash flow, and greater returns | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

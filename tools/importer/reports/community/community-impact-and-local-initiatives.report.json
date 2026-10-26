@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/community/community-impact-and-local-initiatives",
+  "path": "community/community-impact-and-local-initiatives",
+  "timestamp": "2026-10-26T16:19:39.206Z",
+  "title": "Community Initiatives: Education, Workforce & more | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

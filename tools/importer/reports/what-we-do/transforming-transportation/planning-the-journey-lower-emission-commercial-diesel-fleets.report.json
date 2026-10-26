@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/what-we-do/transforming-transportation/planning-the-journey-lower-emission-commercial-diesel-fleets",
+  "path": "what-we-do/transforming-transportation/planning-the-journey-lower-emission-commercial-diesel-fleets",
+  "timestamp": "2026-10-26T17:02:47.605Z",
+  "title": "Journey to lower emission commercial diesel fleets | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

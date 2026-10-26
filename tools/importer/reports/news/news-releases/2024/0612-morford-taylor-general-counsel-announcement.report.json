@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/news/news-releases/2024/0612_morford-taylor-general-counsel-announcement",
+  "path": "news/news-releases/2024/0612-morford-taylor-general-counsel-announcement",
+  "timestamp": "2026-10-26T16:54:02.666Z",
+  "title": "Craig Morford to retire; Jeff Taylor elected new general counsel | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

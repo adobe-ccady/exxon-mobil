@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/asia-pacific-region/ap-newsroom/building-malaysias-next-generation-stem-talents",
+  "path": "locations/asia-pacific-region/ap-newsroom/building-malaysias-next-generation-stem-talents",
+  "timestamp": "2026-10-26T16:22:27.562Z",
+  "title": "Building Malaysia’s next generation of STEM talents | ExxonMobil in Asia Pacific",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

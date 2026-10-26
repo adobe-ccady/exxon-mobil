@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/publications/advancing-climate-solutions/governance-and-risk-management",
+  "path": "publications/advancing-climate-solutions/governance-and-risk-management",
+  "timestamp": "2026-10-26T17:54:35.085Z",
+  "title": "Governance and risk management | ExxonMobil Sustainability",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "secondary-nav",
+    "secondary-nav",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

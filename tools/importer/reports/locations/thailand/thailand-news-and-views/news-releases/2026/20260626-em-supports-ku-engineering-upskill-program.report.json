@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/thailand/thailand-news-and-views/news-releases/2026/20260626-em-supports-ku-engineering-upskill-program",
+  "path": "locations/thailand/thailand-news-and-views/news-releases/2026/20260626-em-supports-ku-engineering-upskill-program",
+  "timestamp": "2026-10-26T16:37:59.842Z",
+  "title": "ExxonMobil Empowers Thai Youth with Hands-On AI Program| ExxonMobil Thailand",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://corporate.exxonmobil.com/locations/indonesia/newsroom/2025/boosting-indonesias-energy-resilience",
+  "path": "locations/indonesia/newsroom/2025/boosting-indonesias-energy-resilience",
+  "timestamp": "2026-10-26T16:37:52.723Z",
+  "title": "Innovation at Indonesia’s Banyu Urip Field | ExxonMobil",
+  "template": "banner-content-page",
+  "blocks": [
+    "hero-article-banner",
+    "hero-article-banner",
+    "columns-article-header",
+    "columns-article-header",
+    "cards-topics",
+    "cards-topics",
+    "video",
+    "video"
+  ]
+}
