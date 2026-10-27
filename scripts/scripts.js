@@ -1,12 +1,16 @@
 
-const experimentationConfig = {};
+const isAEMAuthor = window.location.hostname
+  === 'author-p193363-e2050261.adobeaemcloud.com';
+
+const experimentationConfig = {
+  isProd: () => !isAEMAuthor,
+};
 
 let runExperimentation;
 let showExperimentationOverlay;
 
-const isExperimentationEnabled = document.head.querySelector(
-  'meta[name^="experiment"]',
-);
+const isExperimentationEnabled = isAEMAuthor
+  || document.head.querySelector('meta[name^="experiment"]');
 
 if (isExperimentationEnabled) {
   ({
