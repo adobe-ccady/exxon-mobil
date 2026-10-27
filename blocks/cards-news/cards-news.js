@@ -53,6 +53,35 @@ function classifyBody(content) {
   return { items, roles };
 }
 
+const READ_TIME_RE = /\bmin(ute)?s?\s+read\b/i;
+const DATE_RE = /\b(jan|feb|mar|apr|may|jun|jul|aug|sept?|oct|nov|dec)[a-z]*\.?\s+\d{1,2},\s+\d{4}\b/i;
+
+/**
+ * "Viewpoints • 4 min read • Oct. 15, 2026" -> typed spans (content type, read time, date)
+ * separated by dot spans. Single-part meta (e.g. "2 min read") is left untouched.
+ */
+function splitMeta(el) {
+  const parts = text(el).split('•').map((s) => s.trim()).filter(Boolean);
+  if (parts.length < 2) return;
+  const spans = [];
+  parts.forEach((part, i) => {
+    if (i) {
+      const dot = document.createElement('span');
+      dot.className = 'cards-news-dot';
+      dot.setAttribute('aria-hidden', 'true');
+      dot.textContent = '•';
+      spans.push(dot);
+    }
+    const span = document.createElement('span');
+    if (READ_TIME_RE.test(part)) span.className = 'cards-news-time';
+    else if (DATE_RE.test(part)) span.className = 'cards-news-date';
+    else span.className = 'cards-news-type';
+    span.textContent = part;
+    spans.push(span);
+  });
+  el.replaceChildren(...spans);
+}
+
 function decorateBody(body) {
   // Universal Editor groups rich text into one editable wrapper; read the items inside it
   const content = body.querySelector(':scope > [data-aue-type="richtext"]') || body;
@@ -67,6 +96,7 @@ function decorateBody(body) {
       metaItems.unshift(el);
     } else if (role === 'meta') {
       el.classList.add('cards-news-readtime');
+      splitMeta(el);
       metaItems.push(el);
     }
   });
@@ -108,6 +138,11 @@ export default function decorate(block) {
     moveInstrumentation(img, optimizedPic.querySelector('img'));
     img.closest('picture').replaceWith(optimizedPic);
   });
+
+  // full-width newsroom list (large titles, descriptions, thumbnails) vs compact sidebar list
+  if (ul.querySelector('.cards-news-card-image, .cards-news-description')) {
+    block.classList.add('cards-news-rich');
+  }
 
   block.replaceChildren(ul);
 }

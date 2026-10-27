@@ -1,6 +1,8 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 import { moveInstrumentation } from '../../scripts/scripts.js';
 
+let idCounter = 0;
+
 function isExternal(href) {
   try {
     return new URL(href, window.location.href).origin !== window.location.origin;
@@ -18,11 +20,15 @@ function isSameOriginRaster(src) {
   }
 }
 
+function isLinkOnly(el) {
+  const a = el.querySelector('a[href]');
+  return !!a && el.textContent.trim() === a.textContent.trim();
+}
+
 /**
  * Icon link tiles ("Follow us" social tiles): row per tile, [icon] | [title, description, link].
- * The tile's title becomes its link (the whole tile is clickable); the authored link
- * paragraph is folded into the title when the title has no link of its own.
- * Description and icon are optional; empty cells are dropped.
+ * Source (iconGrid): label + icon on the right; the description and "Learn more" link
+ * slide open on hover / focus (tap toggles on touch). Description and icon are optional.
  * @param {Element} block The block element
  */
 export default function decorate(block) {
@@ -44,45 +50,46 @@ export default function decorate(block) {
     });
 
     const body = li.querySelector('.cards-icon-links-body');
-    if (body) {
+    const title = (() => {
+      if (!body) return null;
       // Universal Editor groups rich text into one editable wrapper; read the items inside it
       const content = body.querySelector(':scope > [data-aue-type="richtext"]') || body;
       const items = [...content.children].filter((el) => el.textContent.trim());
-      const title = items[0];
-      if (title) {
-        title.classList.add('cards-icon-links-title');
-        const linkItem = items.slice(1).reverse().find((el) => el.querySelector('a[href]')
-          && el.textContent.trim() === el.querySelector('a[href]').textContent.trim());
-        let link = title.querySelector('a[href]');
-        if (!link && linkItem) {
-          const source = linkItem.querySelector('a[href]');
-          link = document.createElement('a');
-          link.href = source.getAttribute('href');
-          link.append(...title.childNodes);
-          title.append(link);
-          linkItem.remove();
-        }
-        if (link) {
-          link.className = 'cards-icon-links-link';
-          if (isExternal(link.href)) {
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-          }
-        }
-        // the tile is not in the document yet: check the parent, not isConnected
-        items.slice(1).filter((el) => el.parentElement)
-          .forEach((el) => el.classList.add('cards-icon-links-description'));
-      }
+      const [first, ...rest] = items;
+      if (!first) return null;
+      first.classList.add('cards-icon-links-title');
+      rest.forEach((el) => {
+        el.classList.add(isLinkOnly(el) ? 'cards-icon-links-cta' : 'cards-icon-links-description');
+      });
+      return first;
+    })();
+
+    if (title) {
+      idCounter += 1;
+      title.id = title.id || `cards-icon-links-title-${idCounter}`;
     }
+
+    li.querySelectorAll('a[href]').forEach((link) => {
+      if (isExternal(link.href)) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      }
+      // "Learn more" alone is ambiguous: tie it to the tile label
+      if (title && link.closest('.cards-icon-links-cta')) link.setAttribute('aria-describedby', title.id);
+    });
 
     // the icon sits after the text (source: label left, icon right)
     const icon = li.querySelector('.cards-icon-links-icon');
     if (icon) {
       li.append(icon);
       const img = icon.querySelector('img');
-      const titleText = li.querySelector('.cards-icon-links-title')?.textContent.trim();
+      const titleText = title?.textContent.trim();
       // the icon repeats the label: hide it from assistive tech
       if (img && titleText && img.alt.trim() === titleText) img.alt = '';
+    }
+
+    if (li.querySelector('.cards-icon-links-cta, .cards-icon-links-description')) {
+      li.classList.add('cards-icon-links-expandable');
     }
 
     ul.append(li);
@@ -93,6 +100,16 @@ export default function decorate(block) {
     const optimized = createOptimizedPicture(img.src, img.alt, false, [{ width: '96' }]);
     moveInstrumentation(img, optimized.querySelector('img'));
     img.closest('picture').replaceWith(optimized);
+  });
+
+  // touch has no hover: a tap on the tile (outside its link) toggles it open
+  ul.addEventListener('click', (e) => {
+    if (e.target.closest('a[href]')) return;
+    const li = e.target.closest('li.cards-icon-links-expandable');
+    if (!li) return;
+    const open = !li.classList.contains('is-open');
+    ul.querySelectorAll(':scope > li.is-open').forEach((el) => el.classList.remove('is-open'));
+    li.classList.toggle('is-open', open);
   });
 
   block.replaceChildren(ul);

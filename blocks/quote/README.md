@@ -3,13 +3,14 @@
 Custom **quote** block. Purpose: pull quote in article bodies (source `div.pullquote`).
 
 Rendered as `<figure><blockquote>…</blockquote><figcaption class="quote-attribution">…</figcaption></figure>`
-with a large opening quote mark and a left accent rule. The portrait is shown round.
+with opening and closing quote marks drawn by CSS. The default (red) style sits between grey rules
+with red marks; `blue` and `black` are solid colour panels with white text. The portrait is shown round.
 
 ## Authoring
 
 Model: `quote`. Three rows, one cell each:
 
-1. **Quotation** (richtext, required): the quote text, one or more paragraphs. Bold/italic allowed. Do not type the curly quote marks; the block draws the opening mark.
+1. **Quotation** (richtext, required): the quote text, one or more paragraphs. Bold/italic allowed. Do not type the quote marks; the block draws both.
 2. **Author portrait** (image, optional), with alt text (`imageAlt`). Leave the alt text empty if the name below already identifies the person.
 3. **Attribution** (richtext, optional): first paragraph is the name, each further paragraph is a role/title line.
 

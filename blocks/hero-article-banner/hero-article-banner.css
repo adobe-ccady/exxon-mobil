@@ -1,24 +1,39 @@
-/* hero-article-banner: image-only full-width banner above the article header */
-.hero-article-banner-container .hero-article-banner-wrapper {
-  max-width: unset;
+/* hero-article-banner: full-width banner above the article header (source .articleHeader--imagewrapper)
+   and topic header with text overlay (source section.topicHeader, block class has-text) */
+main .section .hero-article-banner-wrapper {
+  max-width: none;
   padding: 0;
 }
 
+/* small (default): source .articleHeader-small, 208px, 16vw (min 300px) from 1440px */
 .hero-article-banner {
   position: relative;
   overflow: hidden;
-  height: 200px;
-  background-color: #000;
+  height: 208px;
 }
 
-/* dark top gradient keeps the code-rendered breadcrumb readable */
-.hero-article-banner::before {
+/* dark top gradient keeps the breadcrumb readable (source .header-gradient-dark ::after) */
+.hero-article-banner::after {
   content: '';
   position: absolute;
-  inset: 0 0 auto;
+  inset: 0;
   z-index: 1;
-  height: 120px;
-  background: linear-gradient(to bottom, rgb(0 0 0 / 60%), rgb(0 0 0 / 0%));
+  background: linear-gradient(
+    rgb(0 0 0 / 60%),
+    rgb(0 0 0 / 45%) 30px,
+    rgb(0 0 0 / 30%) 50px,
+    rgb(0 0 0 / 18.4%) 60px,
+    rgb(0 0 0 / 11.4%) 70px,
+    rgb(0 0 0 / 7.5%) 75px,
+    rgb(0 0 0 / 5%) 80px,
+    rgb(0 0 0 / 4%) 85px,
+    rgb(0 0 0 / 2.4%) 90px,
+    rgb(0 0 0 / 1.6%) 92px,
+    rgb(0 0 0 / 1%) 94px,
+    rgb(0 0 0 / 0.8%) 96px,
+    rgb(0 0 0 / 0.4%) 98px,
+    rgb(0 0 0 / 0%) 99px
+  );
   pointer-events: none;
 }
 
@@ -40,66 +55,116 @@
   object-position: 50% 50%;
 }
 
-/* optional text row: overlaid at the bottom of the banner */
-.hero-article-banner .hero-article-banner-body {
+/* empty but instrumented text field (Universal Editor): keep it in the DOM, out of the layout */
+.hero-article-banner .hero-article-banner-empty {
   position: absolute;
   inset: auto 0 0;
   z-index: 2;
-  box-sizing: border-box;
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-  padding: 20px;
-  color: #fff;
 }
 
-.hero-article-banner .hero-article-banner-body > div > * {
-  margin: 0;
+/* option: large — source full .articleHeader--imagewrapper, 2880 x 1000 crop at every width */
+.hero-article-banner.large {
+  height: auto;
+  aspect-ratio: 2880 / 1000;
 }
 
-.hero-article-banner .hero-article-banner-empty {
-  padding: 0;
-}
-
-/* non-empty text row (topic/index pages): white overlay, banner grows with its text */
+/* has-text: topic header, text overlaid at the bottom; grows with its text */
 .hero-article-banner.has-text {
   display: flex;
-  align-items: center;
+  overflow: visible;
   height: auto;
-  min-height: 200px;
+
+  /* same crop as the image (2880 x 600) */
+  min-height: 20.8333vw;
+}
+
+.hero-article-banner.large.has-text {
+  aspect-ratio: auto;
+  min-height: 34.7222vw;
 }
 
 .hero-article-banner.has-text .hero-article-banner-media {
   position: absolute;
   inset: 0;
+  overflow: hidden;
 }
 
-/* dark left gradient keeps the overlaid text readable */
+/* topic header gradient: stronger, settles at 25% over the whole photo */
 .hero-article-banner.has-text::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: linear-gradient(to right, rgb(0 0 0 / 60%), rgb(0 0 0 / 0%));
-  pointer-events: none;
+  background: linear-gradient(
+    rgb(0 0 0 / 60%),
+    rgb(0 0 0 / 51.4%) 30px,
+    rgb(0 0 0 / 42.4%) 50px,
+    rgb(0 0 0 / 35.7%) 60px,
+    rgb(0 0 0 / 31.8%) 70px,
+    rgb(0 0 0 / 29.4%) 75px,
+    rgb(0 0 0 / 28.2%) 80px,
+    rgb(0 0 0 / 27%) 85px,
+    rgb(0 0 0 / 26.3%) 90px,
+    rgb(0 0 0 / 26%) 92px,
+    rgb(0 0 0 / 25.5%) 94px,
+    rgb(0 0 0 / 25.5%) 96px,
+    rgb(0 0 0 / 25%) 98px,
+    rgb(0 0 0 / 25%) 100px,
+    rgb(0 0 0 / 25%)
+  );
 }
 
+/* source .container */
 .hero-article-banner.has-text .hero-article-banner-body {
   position: relative;
-  inset: auto;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
   width: 100%;
-  padding: 72px 20px 32px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 80px 0 20px;
+  color: #fff;
 }
 
+/* source .header--content */
 .hero-article-banner.has-text .hero-article-banner-content {
-  max-width: 720px;
-}
-
-.hero-article-banner.has-text .hero-article-banner-content > * + * {
-  margin-top: 12px;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
 }
 
 .hero-article-banner .hero-article-banner-body :is(h1, h2, h3, h4, h5, h6, p) {
   color: #fff;
+}
+
+.hero-article-banner .hero-article-banner-content > * {
+  margin: 0 0 20px;
+}
+
+/* source .header--title: 40px/46px, fluid to 60px/70px between 480px and 1024px */
+.hero-article-banner .hero-article-banner-title {
+  font-family: var(--heading-font-family);
+  font-size: clamp(40px, calc(40px + 20 * ((100vw - 480px) / 544)), 60px);
+  font-weight: 300;
+  line-height: clamp(46px, calc(46px + 24 * ((100vw - 480px) / 544)), 70px);
+  letter-spacing: clamp(-1px, calc(-0.1px - 0.9 * ((100vw - 480px) / 544)), -0.1px);
+}
+
+/* source .header--description */
+.hero-article-banner .hero-article-banner-description,
+.hero-article-banner .hero-article-banner-description p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.hero-article-banner .hero-article-banner-description p {
+  margin: 0;
+}
+
+.hero-article-banner .hero-article-banner-eyebrow {
+  text-transform: uppercase;
 }
 
 .hero-article-banner .hero-article-banner-body a:not(.button) {
@@ -107,68 +172,46 @@
   text-decoration: underline;
 }
 
-.hero-article-banner .hero-article-banner-eyebrow {
-  text-transform: uppercase;
-}
-
-.hero-article-banner .hero-article-banner-description p {
-  margin: 0;
-}
-
-.hero-article-banner.has-text .hero-article-banner-content > .hero-article-banner-cta {
-  margin-top: 24px;
-}
-
-/* option: large */
-.hero-article-banner.large {
-  height: 360px;
-}
-
-.hero-article-banner.large.has-text {
-  height: auto;
-  min-height: 360px;
-}
-
-@media (width >= 600px) {
-  .hero-article-banner {
-    height: 260px;
-  }
-
-  .hero-article-banner.large {
-    height: 520px;
-  }
-
-  .hero-article-banner.has-text {
-    height: auto;
-    min-height: 260px;
-  }
-
-  .hero-article-banner.large.has-text {
-    height: auto;
-    min-height: 520px;
-  }
-}
-
-@media (width >= 900px) {
-  .hero-article-banner {
-    height: 310px;
-  }
-
-  .hero-article-banner.large {
-    height: 750px;
-  }
-
-  .hero-article-banner.has-text {
-    height: auto;
-    min-height: 310px;
-  }
-
-  .hero-article-banner.large.has-text {
-    height: auto;
-    min-height: 750px;
-  }
-
+@media (width >= 768px) {
   .hero-article-banner.has-text .hero-article-banner-body {
-    padding: 80px 20px 40px;
+    padding: 110px 0 20px;
+  }
+
+  .hero-article-banner.has-text .hero-article-banner-content {
+    max-width: 85.7143%;
+    margin-left: 7.1429%;
+    padding: 0 15px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-article-banner.has-text .hero-article-banner-body {
+    padding: 80px 0 50px;
+  }
+
+  .hero-article-banner.has-text .hero-article-banner-content {
+    max-width: 57.1429%;
+    padding: 0 22px;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero-article-banner {
+    height: 16vw;
+    min-height: 300px;
+  }
+
+  .hero-article-banner.large {
+    height: auto;
+    min-height: 0;
+  }
+
+  .hero-article-banner.has-text {
+    height: auto;
+    min-height: 20.8333vw;
+  }
+
+  .hero-article-banner.large.has-text {
+    min-height: 34.7222vw;
   }
 }

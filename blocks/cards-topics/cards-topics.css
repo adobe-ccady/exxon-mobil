@@ -113,4 +113,12 @@
   .cards-topics > ul {
     gap: 80px 44px;
   }
+
+  /* "Explore more" on article/index pages is 3-up (source featureGrid-three-up,
+     365px cards, 48px gutter); the home page's trending topics stay 2-up */
+  main .section:not(.trending-split) .cards-topics > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 60px 48px;
+    padding-inline: 22px;
+  }
 }

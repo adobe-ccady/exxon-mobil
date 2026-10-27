@@ -1,6 +1,16 @@
-/* hero-feature: full-width photo band, left-aligned text + CTA over the image */
-.hero-feature-container .hero-feature-wrapper {
-  max-width: unset;
+/*
+ * hero-feature: full-width photo band, left-aligned eyebrow, heading, text and CTA over the image.
+ * Source: div.topic--wrapper section.variableFeature (corporate.exxonmobil.com/community "STEM education").
+ * Source breakpoints: 768px (desktop spacing + 12/14 column) and 1024px (22px column padding).
+ */
+
+/* full-bleed: the band owns the section (it is always the only content of its section) */
+main > .section.hero-feature-container {
+  padding: 0;
+}
+
+main > .section.hero-feature-container > .hero-feature-wrapper {
+  max-width: none;
   padding: 0;
 }
 
@@ -9,7 +19,6 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  min-height: 360px;
   background-color: #000;
   color: #fff;
 }
@@ -34,15 +43,17 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  transform: scale(1.1);
 }
 
-/* dark left gradient keeps the overlaid text readable */
+/* dark left-to-right overlay (source .variableFeature-gradientColor-black::before) */
 .hero-feature::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(to right, rgb(0 0 0 / 70%), rgb(0 0 0 / 0%));
+  background: linear-gradient(90deg, #000 20%, rgb(0 0 0 / 20%));
+  opacity: 0.8;
   pointer-events: none;
 }
 
@@ -52,51 +63,97 @@
 
 .hero-feature .hero-feature-body {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   box-sizing: border-box;
   width: 100%;
-  max-width: var(--content-max-width);
-  margin: 0 auto;
-  padding: 48px 24px;
+  padding: 56px 20px;
+}
+
+.hero-feature .hero-feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-feature .hero-feature-content > * {
+  margin: 0;
 }
 
 .hero-feature .hero-feature-content :is(h1, h2, h3, h4, h5, h6, p) {
   color: #fff;
 }
 
-.hero-feature .hero-feature-content > :first-child {
-  margin-top: 0;
-}
-
-.hero-feature .hero-feature-content > :last-child {
-  margin-bottom: 0;
-}
-
-.hero-feature .hero-feature-eyebrow {
-  margin-bottom: 8px;
+/* eyebrow: EMprint-Semibold 13px/20px uppercase */
+.hero-feature .hero-feature-content > .hero-feature-eyebrow {
+  font-size: var(--body-font-size-xs);
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.hero-feature .hero-feature-cta {
-  margin-top: 24px;
+/* heading: EMprint-Light, fluid 40px/46px (<= 480px) to 48px/64px (>= 1024px) */
+.hero-feature .hero-feature-content :is(h1, h2, h3) {
+  font-size: clamp(40px, calc(32.9412px + 1.4706vw), 48px);
+  font-weight: 300;
+  line-height: clamp(46px, calc(30.1176px + 3.3088vw), 64px);
+  letter-spacing: clamp(-0.5px, calc(0.2529px - 0.0735vw), -0.1px);
 }
 
-@media (width >= 600px) {
-  .hero-feature {
-    min-height: 420px;
-  }
+.hero-feature .hero-feature-content p {
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  line-height: 28px;
+}
 
+/* CTA: red button with trailing arrow (source a.button) */
+main .hero-feature a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  max-width: min(380px, 100%);
+  padding: 20px 25px;
+  background-color: var(--brand-red);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: none;
+  white-space: normal;
+}
+
+main .hero-feature a.button:any-link::after {
+  content: '';
+  flex: none;
+  width: 11px;
+  height: 9px;
+  margin-left: 30px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 9'%3E%3Cpath d='M6.5 0 5.4 1.1l2.6 2.6H0v1.6h8L5.4 7.9 6.5 9 11 4.5z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+main .hero-feature a.button:any-link:hover,
+main .hero-feature a.button:any-link:focus-visible {
+  background-color: var(--brand-red-dark);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  /* 12/14-column copy area offset by one column */
   .hero-feature .hero-feature-body {
-    padding: 64px 32px;
+    width: 85.7143%;
+    margin-left: 7.1429%;
+    padding: 70px 15px;
   }
 }
 
-@media (width >= 900px) {
-  .hero-feature {
-    min-height: 480px;
+@media (width >= 1024px) {
+  .hero-feature .hero-feature-body {
+    padding-inline: 22px;
   }
 
-  .hero-feature .hero-feature-content {
-    max-width: 66%;
+  main .hero-feature a.button:any-link {
+    max-width: 100%;
   }
 }

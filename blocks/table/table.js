@@ -61,6 +61,22 @@ function regionLabel(block) {
 }
 
 /**
+ * A stats table (e.g. "#1 / 80% / 66%"): two rows, where every filled cell of the
+ * first row holds only a large heading (the figure) and the second row the caption.
+ * @param {Element[][]} rows Authored cells per (non-empty) row
+ * @returns {boolean}
+ */
+function isStatsTable(rows) {
+  if (rows.length !== 2) return false;
+  const figures = rows[0].filter((cell) => !isEmptyCell(cell));
+  return figures.length > 1 && figures.every((cell) => {
+    const children = [...cell.children];
+    return children.length === 1 && children[0].matches('h1, h2, h3')
+      && cell.textContent.trim() === children[0].textContent.trim();
+  });
+}
+
+/**
  * Table: block > one div per row > one div per cell.
  * The first row is the header row unless the `no-header` option is set.
  * Options (block classes): striped, bordered, no-header.
@@ -70,6 +86,8 @@ export default function decorate(block) {
   const rowEls = [...block.children];
   const rows = rowEls.map((row) => [...row.children]);
   const columns = usedColumnCount(rows);
+  const stats = block.classList.contains('no-header')
+    && isStatsTable(rows.filter((cells) => !cells.every(isEmptyCell)));
   const hasHeader = !block.classList.contains('no-header') && rowEls.length > 1;
 
   const table = document.createElement('table');
@@ -93,6 +111,7 @@ export default function decorate(block) {
   if (thead.children.length) table.append(thead);
   table.append(tbody);
   block.classList.add(`table-${columns}-cols`);
+  if (stats) block.classList.add('table-stats');
 
   const scroller = document.createElement('div');
   scroller.className = 'table-scroll';

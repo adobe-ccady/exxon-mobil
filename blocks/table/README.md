@@ -30,9 +30,11 @@ Block element, then one `div` per table row, then one `div` per cell. Options ar
 
 | Variation | Option class | Effect |
 | --- | --- | --- |
-| Striped | `striped` | Alternate body rows get a light background |
-| Bordered | `bordered` | Borders on every cell |
+| Striped | `striped` | Alternate rows get the light grey background (`--brand-grey`). This is also the default look of every non-stats table, matching the source data tables, so the option is kept for authoring clarity only |
+| Bordered | `bordered` | 1px grey (#808080) rules on the table and every cell (source `border="1"` tables, e.g. PMI Marine contacts, Scope 3 estimates) |
 | No header row | `no-header` | First row is a body row; no `<thead>` |
+
+Automatic: a `no-header` table with exactly two rows whose filled first-row cells each hold only an `h1`–`h3` (e.g. "#1 / 80% / 66%") gets the `table-stats` class: centered figures over captions, a 2px red rule above each caption, empty cells act as 5% spacers, no shading, no scrolling.
 
 Options combine, e.g. `class="table striped no-header"`.
 
@@ -45,5 +47,5 @@ Options combine, e.g. `class="table striped no-header"`.
 ## Rendering
 
 - `<div class="table-scroll" role="region" tabindex="0" aria-label="…">` wraps the table, so wide tables scroll horizontally on small screens. The label is the nearest preceding heading, or "Data table".
-- The block gets a `table-<n>-cols` class (used column count); tables with 4 or more columns get a minimum width and scroll on small screens.
+- The block gets a `table-<n>-cols` class (used column count). Cells have the source minimum widths (td 120px, th 130px), so wide tables scroll horizontally inside the article column and on small screens.
 - Links in cells are never styled as buttons.

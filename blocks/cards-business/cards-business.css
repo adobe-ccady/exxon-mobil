@@ -109,6 +109,11 @@
     scroll-snap-type: none;
   }
 
+  /* index pages ("Supporting communities"): four cards share one row */
+  .cards-business > ul:has(> li:nth-child(4):last-child) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .cards-business > ul > li {
     padding: 0 22px;
   }

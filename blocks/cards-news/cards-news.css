@@ -124,3 +124,103 @@
   line-height: 20px;
   color: var(--body-text-color);
 }
+
+/* multi-part meta "type • read time • date": parts 5px apart, content type semibold */
+.cards-news .cards-news-readtime:has(> .cards-news-dot) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.cards-news .cards-news-readtime .cards-news-type {
+  font-weight: 600;
+}
+
+/* rich newsroom list (/news, /news/news-releases): large light titles, descriptions, thumbnails */
+.cards-news.cards-news-rich > ul > li {
+  padding: 30px 0;
+}
+
+.cards-news.cards-news-rich > ul > li:first-child {
+  padding-top: 0;
+}
+
+.cards-news.cards-news-rich > ul > li:last-child {
+  padding-bottom: 0;
+}
+
+.cards-news.cards-news-rich .cards-news-title {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.cards-news.cards-news-rich .cards-news-title a:any-link {
+  font-weight: 300;
+}
+
+.cards-news.cards-news-rich .cards-news-description {
+  padding-top: 10px;
+  font-size: 16px;
+
+  /* source face is EMprint-Regular (declared weight 300); our 300 maps to the Light face */
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--body-text-color);
+}
+
+.cards-news.cards-news-rich ul.cards-news-description {
+  padding: 10px 0 20px 45px;
+  list-style: none;
+  color: var(--text-color);
+}
+
+.cards-news.cards-news-rich ul.cards-news-description > li {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.cards-news.cards-news-rich ul.cards-news-description > li:last-child {
+  padding-bottom: 0;
+}
+
+.cards-news.cards-news-rich ul.cards-news-description > li::before {
+  content: "•";
+  position: absolute;
+  left: -31px;
+  font-size: 19.2px;
+  color: var(--brand-red-dark);
+}
+
+.cards-news.cards-news-rich .cards-news-meta {
+  padding-top: 8px;
+}
+
+.cards-news.cards-news-rich .cards-news-card-image > p {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .cards-news.cards-news-rich > ul > li {
+    padding: 50px 0;
+  }
+
+  .cards-news.cards-news-rich > ul > li.cards-news-has-image {
+    gap: 0;
+  }
+
+  .cards-news.cards-news-rich .cards-news-title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  /* thumbnail column: 25% incl. 35px inset, 8.33% (one grid column) from the text */
+  .cards-news.cards-news-rich .cards-news-card-image {
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-left: 8.3333%;
+    padding-left: 35px;
+  }
+}

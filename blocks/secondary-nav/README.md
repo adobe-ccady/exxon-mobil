@@ -20,9 +20,11 @@ Rendered as:
 ```
 
 - The link whose path equals `window.location.pathname` (trailing slash and `.html` ignored,
-  same origin only) gets `aria-current="page"`; it is underlined in red and scrolled into view.
-- The list scrolls horizontally (`overflow-x: auto`, scroll-snap). The arrow buttons are real
-  `<button>`s with aria-labels, shown only when the list overflows and disabled at either end.
+  same origin only) gets `aria-current="page"`; it is set in semibold and scrolled into view.
+  Links are 14px charcoal; on hover they turn dark red (`--brand-red-dark`) and are underlined.
+- The list scrolls horizontally (`overflow-x: auto`, scrollbar hidden). The arrow buttons are real
+  `<button>`s with aria-labels, overlaid on the list edges with a white fade and a red chevron.
+  They are shown only when the list overflows, and each is hidden (disabled) once its edge is reached.
   Keyboard users can also simply Tab through the links (the list scrolls to the focused link).
 
 ## Authoring

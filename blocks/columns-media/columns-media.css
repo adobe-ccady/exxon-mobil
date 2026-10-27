@@ -1,11 +1,21 @@
-/* columns-media: large image beside heading + text + link; stacks on mobile */
+/* columns-media: large image beside heading + text + link; stacks on mobile
+   (source: section.shortVideoHeadline, e.g. .shortVideoHeadline-gray-2 on /community) */
 .columns-media .columns-media-row {
   display: flex;
   flex-direction: column;
 }
 
+/* image: 16:9 on mobile, cropped by a 1.1 zoom like the source lazy-bg */
+.columns-media .columns-media-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
 .columns-media .columns-media-image picture,
 .columns-media .columns-media-image p {
+  position: absolute;
+  inset: 0;
   display: block;
   margin: 0;
 }
@@ -15,38 +25,130 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.1);
 }
 
+/* copy: heading, text, link with 24px rhythm */
 .columns-media .columns-media-body {
-  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 0 0;
 }
 
-.columns-media .columns-media-body > :first-child {
-  margin-top: 0;
+.columns-media .columns-media-row.columns-media-no-image .columns-media-body {
+  padding-top: 0;
 }
 
-.columns-media .columns-media-body > :last-child {
-  margin-bottom: 0;
+.columns-media .columns-media-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: normal;
 }
 
-@media (width >= 900px) {
+.columns-media .columns-media-body p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.columns-media .columns-media-body > :last-child,
+.columns-media .columns-media-body p:has(> a:only-child) {
+  margin: 0;
+}
+
+/* text link with trailing arrow (source .cta.cta-secondary): takes the section text colour
+   (#fff on dark-grey) and dims 10% on hover (#fff -> #e6e6e6, source #e6e7e8) */
+main .columns-media .columns-media-body a:any-link,
+main .columns-media .columns-media-body a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: normal;
+  transition: color 0.2s ease;
+}
+
+main .columns-media .columns-media-body p:has(> a:only-child) > a:any-link::after {
+  content: '';
+  flex: none;
+  width: 13px;
+  height: 10px;
+  margin-left: 6px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 10' fill='none' stroke='%23000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 5h11M8 1l4 4-4 4'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+main .columns-media .columns-media-body a:any-link:is(:hover, :focus-visible) {
+  background: none;
+  color: color-mix(in srgb, currentcolor 90%, #000);
+  text-decoration: none;
+}
+
+/* source goes side by side at 768px: image is 31.25vw, copy 60px inset, vertically centered */
+@media (width >= 768px) {
+  main .section > .columns-media-wrapper {
+    padding: 0 32px;
+  }
+
   .columns-media .columns-media-row {
     flex-direction: row;
-    align-items: center;
-    gap: 64px;
+    align-items: stretch;
   }
 
   .columns-media .columns-media-image {
-    flex: 0 0 45%;
-    align-self: stretch;
-  }
-
-  .columns-media .columns-media-image picture {
-    height: 100%;
+    flex: 0 0 31.25vw;
+    aspect-ratio: 281 / 266;
   }
 
   .columns-media .columns-media-body {
     flex: 1 1 0;
-    padding: 48px 0;
+    align-self: center;
+    min-width: 0;
+    padding: 0 0 0 60px;
+  }
+
+  .columns-media .columns-media-row.columns-media-image-right .columns-media-body {
+    padding: 0 60px 0 0;
+  }
+
+  .columns-media .columns-media-row.columns-media-no-image .columns-media-body {
+    padding: 0;
+  }
+
+  /* heading scales from 38.6px/50.8px at 768px to 48px/64px at 1024px */
+  .columns-media .columns-media-body :is(h1, h2, h3, h4, h5, h6) {
+    font-size: min(48px, calc(10.353px + 3.676vw));
+    line-height: min(64px, calc(11.294px + 5.147vw));
+  }
+}
+
+/* wide: 54px side inset, image 37.57vw, copy 139px inset */
+@media (width >= 1200px) {
+  main .section > .columns-media-wrapper {
+    max-width: none;
+    padding: 0 54px;
+  }
+
+  .columns-media .columns-media-image {
+    flex-basis: 37.57vw;
+    aspect-ratio: 541 / 291;
+  }
+
+  .columns-media .columns-media-body {
+    padding-left: 139px;
+  }
+
+  .columns-media .columns-media-row.columns-media-image-right .columns-media-body {
+    padding: 0 139px 0 0;
   }
 }

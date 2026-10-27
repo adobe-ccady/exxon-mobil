@@ -57,7 +57,8 @@ The iconGrid heading (`.iconGrid--title h3`, e.g. "Follow us for more about ..."
 
 ## Behavior
 
-- The first text item is the title; the last link-only paragraph is folded into the title as its link (so the visible tile reads "LinkedIn", not "Learn more") and the whole tile is clickable. A title that already contains a link keeps it.
+- The first text item is the label (`.cards-icon-links-title`); link-only paragraphs become the CTA (`.cards-icon-links-cta`, "Learn more" with a trailing arrow, `aria-describedby` the label); other paragraphs are descriptions. A label that already contains a link keeps it.
+- As on the source iconGrid, a tile is collapsed to its label row (80px mobile, 100px from 768px). Hover, keyboard focus on the CTA (`:focus-within`) or a tap (`.is-open`) opens it to show the description and CTA; the other tiles' red border turns grey (#939598) while one is open.
 - External links open in a new tab (`target="_blank" rel="noopener noreferrer"`).
-- The icon is moved after the text (label left, icon right); its alt is cleared when it repeats the title.
-- Layout (structural): one column, two columns from 600px; white tiles with a red left border.
+- The icon is moved after the text (label left, 24px icon right, centred on the label row); its alt is cleared when it repeats the label.
+- Layout: one column (10px gap); two columns from 768px (30px row gap, 20px column gap, 44px from 1024px); white tiles with a 4px red left border.

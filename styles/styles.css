@@ -445,3 +445,430 @@ main .section.trending-split .default-content-wrapper h2 a:any-link {
     grid-row: 2;
   }
 }
+
+/* The rules below are page- and section-scoped overrides of the defaults above;
+   their order is intentional, so descending specificity is expected here. */
+/* stylelint-disable no-descending-specificity */
+
+/* ---------------------------------------------------------------------------
+ * Article pages (news, community, ...): body copy
+ * Source: div.article--wrapper section.rich-text on corporate.exxonmobil.com
+ * articles. Scoped with :has() to pages that carry the article header block.
+ * ------------------------------------------------------------------------- */
+main:has(.columns-article-header) .default-content-wrapper p,
+main:has(.columns-article-header) .default-content-wrapper li {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+main:has(.columns-article-header) .default-content-wrapper h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+
+main:has(.columns-article-header) .default-content-wrapper h3,
+main:has(.columns-article-header) .default-content-wrapper h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: normal;
+}
+
+main:has(.columns-article-header) .default-content-wrapper h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+main:has(.columns-article-header) .default-content-wrapper h6 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+main:has(.columns-article-header) .default-content-wrapper strong {
+  font-weight: 600;
+}
+
+main:has(.columns-article-header) .default-content-wrapper a:any-link {
+  font-weight: 400;
+}
+
+/* red bullet lists */
+main:has(.columns-article-header) .default-content-wrapper ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+main:has(.columns-article-header) .default-content-wrapper ul > li {
+  position: relative;
+  padding-left: 45px;
+}
+
+main:has(.columns-article-header) .default-content-wrapper ul > li::before {
+  content: "•";
+  position: absolute;
+  left: 22px;
+  color: var(--brand-red-dark);
+  font-size: 1.2em;
+}
+
+main:has(.columns-article-header) .default-content-wrapper ol {
+  padding-left: 45px;
+}
+
+main:has(.columns-article-header) .default-content-wrapper sup {
+  font-size: 12px;
+  line-height: 0;
+  vertical-align: super;
+}
+
+main:has(.columns-article-header) .default-content-wrapper img {
+  display: block;
+  margin: 10px 0;
+}
+
+/* the source body column lines up with the article title, beside the
+   metadata rail: 286px in from the 1234px container, 661px wide */
+@media (width >= 900px) {
+  main:has(.columns-article-header) > .section:not([class*="-container"]) > .default-content-wrapper,
+  main:has(.columns-article-header) > .section > .default-content-wrapper:not(:has(+ .cards-topics-wrapper)),
+  main:has(.columns-article-header) > .section > .table-wrapper,
+  main:has(.columns-article-header) > .section > .video-wrapper,
+  main:has(.columns-article-header) > .section > .quote-wrapper {
+    box-sizing: border-box;
+    max-width: calc(var(--content-max-width) + (2 * var(--gutter)));
+    padding-left: calc(var(--gutter) + (var(--content-max-width) * 0.2318));
+    padding-right: calc(var(--gutter) + (var(--content-max-width) * 0.2125));
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Section styles: colour bands (source section.singleFeature-<colour>,
+ * shortVideoHeadline-<colour>, highlight-gray, pullquote-black).
+ * "-gradient" variants add the source's dark left-to-right overlay
+ * (.singleFeature::after linear-gradient(90deg, #333, transparent) at 80%).
+ * ------------------------------------------------------------------------- */
+main .section.blue,
+main .section.blue-gradient { --band-bg: var(--brand-blue); }
+
+main .section.blue-3 { --band-bg: var(--brand-blue-light); }
+
+main .section.indigo,
+main .section.indigo-gradient { --band-bg: #002f6c; }
+
+main .section.black,
+main .section.black-gradient { --band-bg: var(--brand-charcoal); }
+
+main .section.burgundy-gradient { --band-bg: #990e29; }
+
+main .section.sea-blue,
+main .section.sea-blue-gradient { --band-bg: #007096; }
+
+main .section.gray-3 { --band-bg: var(--brand-slate); }
+
+main .section.gray-4-gradient { --band-bg: var(--brand-grey-mid); }
+
+main .section.dark-grey { --band-bg: #5a5a5a; }
+
+main .section.light-grey { background-color: var(--light-color); }
+
+main .section.gray-7 { background-color: #e6e7e8; }
+
+main .section.blue,
+main .section.blue-gradient,
+main .section.blue-3,
+main .section.indigo,
+main .section.indigo-gradient,
+main .section.black,
+main .section.black-gradient,
+main .section.burgundy-gradient,
+main .section.sea-blue,
+main .section.sea-blue-gradient,
+main .section.gray-3,
+main .section.gray-4-gradient,
+main .section.dark-grey,
+main .section.image-band {
+  position: relative;
+  isolation: isolate;
+  background-color: var(--band-bg, var(--dark-color));
+  color: #fff;
+}
+
+main .section.blue-gradient::after,
+main .section.indigo-gradient::after,
+main .section.black-gradient::after,
+main .section.burgundy-gradient::after,
+main .section.sea-blue-gradient::after,
+main .section.gray-4-gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, var(--brand-charcoal), transparent);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+/* "Follow us" icon grid: source artwork (backgrounds/orange.png) sampled at
+   1440px - light peach at the top fading to amber, with dark text */
+main .section.orange-gradient {
+  background: linear-gradient(180deg, #fbe2bf 0%, #ed8b00 88%);
+  color: var(--text-color);
+}
+
+main .section.orange-gradient .default-content-wrapper :is(h2, h3) {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+}
+
+@media (width >= 900px) {
+  main > .section.orange-gradient {
+    padding: 80px 0 50px;
+  }
+
+  main .section.orange-gradient .default-content-wrapper :is(h2, h3) {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}
+
+/* source puts the heading beside the tiles on desktop (~21% / ~57%) */
+@media (width >= 1024px) {
+  main > .section.orange-gradient.cards-icon-links-container {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 8fr);
+    column-gap: 7%;
+    align-items: start;
+    box-sizing: border-box;
+
+    /* full-bleed artwork; content kept inside the 1234px container */
+    padding-inline: max(var(--gutter), calc((100% - var(--content-max-width)) / 2));
+  }
+
+  main > .section.orange-gradient.cards-icon-links-container > .default-content-wrapper:first-child {
+    padding-left: 6%;
+  }
+
+  main > .section.orange-gradient.cards-icon-links-container > div {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* article banner sits directly under the site header, like the source */
+main > .section.hero-article-banner-container {
+  padding-top: 0;
+}
+
+/* "Worldwide giving" media + text: the source band is much tighter */
+main > .section.columns-media-container {
+  padding: 40px 0;
+}
+
+@media (width >= 768px) {
+  main > .section.columns-media-container {
+    padding: 38px 0;
+  }
+}
+
+@media (width >= 1200px) {
+  main > .section.columns-media-container {
+    padding: 29px 0 28px;
+  }
+}
+
+/* white text on every dark band */
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .dark-grey, .image-band, .dark) :is(h1, h2, h3, h4, h5, h6, p, li) {
+  color: #fff;
+}
+
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .dark-grey, .image-band, .dark) .default-content-wrapper a:any-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* CTA band layout (source singleFeature: 70px padding, 48px light heading,
+   uppercase eyebrow, red button on the right) */
+main > .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain):not([class*="-container"]) {
+  padding: 70px 0;
+}
+
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain, .image-band) .default-content-wrapper h2 {
+  margin-bottom: 20px;
+  font-size: var(--heading-font-size-xl);
+  font-weight: 300;
+  line-height: 44px;
+}
+
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain, .image-band) .default-content-wrapper p:has(+ h2) {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* a lone link in a band is the source's red button */
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain, .image-band, .dark-grey, .orange-gradient) .default-content-wrapper p:has(> a:only-child) > a:any-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: var(--brand-red);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain, .image-band, .dark-grey, .orange-gradient) .default-content-wrapper p:has(> a:only-child) > a:is(:hover, :focus-visible) {
+  background-color: var(--brand-red-dark);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain, .image-band) .default-content-wrapper h2 {
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.5px;
+  }
+
+  /* heading/text on the left, button on the right */
+  main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain):not([class*="-container"]) .default-content-wrapper:has(p > a:only-child) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 60px;
+    align-items: center;
+  }
+
+  main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain):not([class*="-container"]) .default-content-wrapper:has(p > a:only-child) > :not(p:has(> a:only-child)) {
+    grid-column: 1;
+  }
+
+  main .section:is(.blue, .blue-gradient, .blue-3, .indigo, .indigo-gradient, .black, .black-gradient, .burgundy-gradient, .sea-blue, .sea-blue-gradient, .gray-3, .gray-4-gradient, .plain):not([class*="-container"]) .default-content-wrapper:has(p > a:only-child) > p:has(> a:only-child) {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    margin: 0;
+  }
+}
+
+/* image-band: source photo band imported as default content; the picture
+   becomes the section background with the dark overlay */
+main .section.image-band .default-content-wrapper > p:first-child:has(> picture) {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  margin: 0;
+}
+
+main .section.image-band .default-content-wrapper > p:first-child:has(> picture) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main .section.image-band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, var(--brand-charcoal), transparent);
+  opacity: 0.8;
+}
+
+/* plain: transparent band, default text colour */
+main .section.plain .default-content-wrapper p:has(+ h2) {
+  color: var(--brand-red-dark);
+}
+
+/* split: intro text beside a block (index pages: "Our commitment" + news).
+   Source topicContainer--twoColumn: two 50% halves; the right half is a
+   full-bleed light grey panel; the left text is vertically centred.
+   scripts.js moves the block's heading into .split-heading. */
+main > .section.split > .split-heading,
+main > .section.split > .split-heading ~ div {
+  background-color: var(--light-color);
+}
+
+main > .section.split > .split-heading {
+  padding-top: 40px;
+}
+
+/* source: intro heading 34px/44px, block heading 28px/36px (both light) */
+main > .section.split > .default-content-wrapper:first-child h2 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+main > .section.split > .split-heading :is(h2, h3, h4) {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+main > .section.split > div:last-child:not(:first-child) {
+  padding-bottom: 40px;
+}
+
+@media (width >= 900px) {
+  main > .section.split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
+    padding: 0;
+  }
+
+  main > .section.split > div {
+    box-sizing: border-box;
+    max-width: none;
+    margin: 0;
+  }
+
+  main > .section.split > .default-content-wrapper:first-child {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    place-self: center end;
+    max-width: calc((var(--content-max-width) / 2) + 22px);
+    width: 100%;
+    padding: var(--section-padding) 66px var(--section-padding) max(var(--gutter), 22px);
+  }
+
+  main > .section.split > :not(.default-content-wrapper:first-child) {
+    grid-column: 2;
+    padding-inline: 66px max(var(--gutter), calc(((100vw - var(--content-max-width)) / 2) + 22px));
+  }
+
+  main > .section.split > .split-heading {
+    padding-top: 62px;
+  }
+
+  main > .section.split > .default-content-wrapper:first-child h2 {
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+  }
+
+  main > .section.split > div:last-child:not(:first-child) {
+    padding-bottom: 62px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */

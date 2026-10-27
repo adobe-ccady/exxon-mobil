@@ -1,4 +1,8 @@
-/* structural styles only; visual design comes in the design pass */
+/*
+ * Table: values from corporate.exxonmobil.com data tables
+ * (.tables--wrapper / .tableBuilder: 15px 14px cells, 16px/20px, #333,
+ * even rows rgb(241 242 242), 120px/130px cell min-width, horizontal scroll).
+ */
 .table.block {
   width: 100%;
 }
@@ -10,57 +14,54 @@
 }
 
 .table .table-scroll:focus-visible {
-  outline: 2px solid var(--link-color);
+  outline: 2px solid var(--brand-blue-light);
   outline-offset: 2px;
 }
 
 .table table {
   width: 100%;
+  min-width: 100%;
   border-collapse: collapse;
-  font-size: var(--body-font-size-xs);
-  line-height: 1.5;
-  color: var(--body-text-color);
-}
-
-/* wide tables keep readable columns and scroll horizontally on small screens */
-.table.table-4-cols table,
-.table.table-5-cols table,
-.table.table-6-cols table {
-  min-width: 600px;
-}
-
-.table.table-7-cols table,
-.table.table-8-cols table,
-.table.table-9-cols table,
-.table.table-10-cols table,
-.table.table-11-cols table {
-  min-width: 900px;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  color: var(--text-color);
 }
 
 .table th,
 .table td {
-  padding: 0.75em 1em;
+  min-width: 120px;
+  padding: 15px 14px;
   text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid #d9d9d9;
-  overflow-wrap: anywhere;
+  vertical-align: middle;
+  overflow-wrap: break-word;
 }
 
-.table thead th {
-  background-color: #f2f2f2;
-  font-weight: 700;
-  color: var(--text-color);
-  border-bottom-width: 2px;
+.table th {
+  min-width: 130px;
+  font-weight: 600;
 }
 
+/* source data tables shade every second row, counted from the first table row
+   (default look, so the `striped` option needs no extra rule) */
+.table:not(.table-stats) thead + tbody tr:nth-child(odd),
+.table:not(.table-stats) table > tbody:only-child tr:nth-child(even) {
+  background-color: var(--brand-grey);
+}
+
+/* rich text inside cells */
 .table th p,
 .table td p {
   margin: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .table th p + p,
 .table td p + p {
-  margin-top: 0.5em;
+  margin-top: 10px;
 }
 
 .table td ul,
@@ -69,24 +70,112 @@
   padding-left: 1.25em;
 }
 
-/* bordered */
+.table strong,
+.table b {
+  font-weight: 600;
+}
+
+.table a:any-link {
+  color: var(--link-color);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.table sup {
+  font-size: 12px;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.table sub {
+  line-height: 0;
+}
+
+.table sup a:any-link {
+  font-size: inherit;
+}
+
+/* headings inside cells (section labels, figures) */
+.table th :is(h1, h2, h3, h4, h5, h6),
+.table td :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--text-color);
+  font-weight: 300;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table th :is(h1, h2, h3),
+.table td :is(h1, h2, h3) {
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+}
+
+.table th h4,
+.table td h4 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.table th h5,
+.table td h5 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.table th h6,
+.table td h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* bordered: 1px grey rules on the table and every cell (source border="1" tables) */
+.table.bordered table,
 .table.bordered th,
 .table.bordered td {
-  border: 1px solid #d9d9d9;
+  border: 1px solid #808080;
 }
 
-/* no-header: every row is a body row, close the top edge */
-.table.no-header tbody tr:first-child td {
-  border-top: 1px solid #d9d9d9;
+/* stats: "#1 / 80% / 66%" figures over captions with a red rule between */
+.table.table-stats table {
+  font-weight: 400;
+  line-height: 24px;
 }
 
-/* striped */
-.table.striped tbody tr:nth-child(even) {
-  background-color: #f7f7f7;
+.table.table-stats th,
+.table.table-stats td {
+  min-width: 0;
+  width: 30%;
+  padding: 1px;
+  text-align: center;
+}
+
+.table.table-stats td:empty {
+  width: 5%;
+}
+
+.table.table-stats tr:first-child td {
+  vertical-align: bottom;
+}
+
+.table.table-stats tr:last-child td {
+  vertical-align: top;
+}
+
+.table.table-stats tr:last-child td:not(:empty) {
+  border-top: 2px solid #f00;
+}
+
+.table.table-stats td :is(h1, h2, h3) {
+  padding-bottom: 10px;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 @media (width >= 900px) {
-  .table table {
-    font-size: var(--body-font-size-s);
+  .table.table-stats td :is(h1, h2, h3) {
+    font-size: 34px;
   }
 }

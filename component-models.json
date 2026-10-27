@@ -881,6 +881,22 @@
         "name": "posterAlt",
         "label": "Poster alt text",
         "value": ""
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Width",
+        "value": "",
+        "options": [
+          {
+            "name": "In-line (text column)",
+            "value": ""
+          },
+          {
+            "name": "Wide",
+            "value": "wide"
+          }
+        ]
       }
     ]
   }

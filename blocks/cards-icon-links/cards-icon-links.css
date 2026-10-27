@@ -1,61 +1,151 @@
-/* cards-icon-links: icon + label link tiles with a red left border */
+/* cards-icon-links: source section.iconGrid tiles (white, red left border, label + icon;
+   description and "Learn more" CTA slide open on hover / focus / tap) */
+.cards-icon-links {
+  --cards-icon-links-head: 80px;
+}
+
 .cards-icon-links > ul {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.cards-icon-links > ul > li {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 16px;
+/* beats the band rule `main .section.orange-gradient :is(p, li) { color: #fff }` */
+main .cards-icon-links.block > ul > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   box-sizing: border-box;
-  min-height: 72px;
-  padding: 16px 24px;
+  min-height: var(--cards-icon-links-head);
+  max-height: var(--cards-icon-links-head);
+  overflow: clip;
+  padding: 0 20px 36px 30px;
   border-left: 4px solid var(--brand-red);
   background-color: #fff;
-  color: #000;
+  color: var(--brand-charcoal);
+  transition: max-height 0.5s linear, border-color 0.5s linear;
+}
+
+.cards-icon-links > ul > li.cards-icon-links-expandable {
+  cursor: pointer;
+}
+
+/* open: hover, keyboard focus on the CTA, or tap (.is-open) */
+main .cards-icon-links.block > ul > li:is(:hover, :focus-within, .is-open) {
+  max-height: 555px;
+  border-color: var(--brand-red);
+}
+
+/* the other tiles dim to a grey border while one is open */
+main .cards-icon-links.block > ul:has(> li:is(:hover, :focus-within, .is-open)) > li:not(:hover, :focus-within, .is-open) {
+  border-left-color: var(--brand-grey-mid);
 }
 
 .cards-icon-links .cards-icon-links-body {
-  flex: 1 1 auto;
+  grid-column: 1;
+  grid-row: 1;
   min-width: 0;
 }
 
-.cards-icon-links .cards-icon-links-body p,
-.cards-icon-links .cards-icon-links-body h2,
-.cards-icon-links .cards-icon-links-body h3,
-.cards-icon-links .cards-icon-links-body h4 {
+main .cards-icon-links .cards-icon-links-body :is(p, h2, h3, h4) {
   margin: 0;
+  color: var(--brand-charcoal);
 }
 
-.cards-icon-links .cards-icon-links-description {
-  margin-top: 4px;
+/* label (source .iconGrid--item-title h3: EMprint-Semibold 16px/28px, -0.5px) */
+main .cards-icon-links .cards-icon-links-body .cards-icon-links-title {
+  display: flex;
+  align-items: center;
+  min-height: var(--cards-icon-links-head);
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.5px;
 }
 
-/* whole tile is clickable through the title link */
-.cards-icon-links .cards-icon-links-link {
-  color: inherit;
+/* revealed content (source .iconGrid--item-content: 81% / 70% wide, fades in) */
+.cards-icon-links :is(.cards-icon-links-description, .cards-icon-links-cta) {
+  max-width: 81%;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.5s linear, transform 0.5s linear;
+}
+
+.cards-icon-links li:is(:hover, :focus-within, .is-open) :is(.cards-icon-links-description, .cards-icon-links-cta) {
+  opacity: 1;
+  transform: none;
+}
+
+main .cards-icon-links .cards-icon-links-body .cards-icon-links-description {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+main .cards-icon-links .cards-icon-links-body .cards-icon-links-description:last-child {
+  margin-bottom: 0;
+}
+
+/* "Learn more" CTA (source a.cta: EMprint-Semibold 14px/24px #d5000a, arrow nudges 6px on hover) */
+main .cards-icon-links .cards-icon-links-cta a:any-link,
+main .cards-icon-links .cards-icon-links-cta a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--brand-red-dark);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: normal;
+}
+
+main .cards-icon-links .cards-icon-links-cta a:any-link::after {
+  content: '';
+  flex: none;
+  width: 12px;
+  height: 10px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 10' fill='none' stroke='%23000' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 5h11M8 1l4 4-4 4'/%3E%3C/svg%3E") center / contain no-repeat;
+  transition: transform 0.3s;
+}
+
+main .cards-icon-links .cards-icon-links-cta a:any-link:is(:hover, :focus-visible) {
+  background: none;
+  color: var(--brand-red-dark);
   text-decoration: none;
 }
 
-.cards-icon-links .cards-icon-links-link::after {
-  content: '';
-  position: absolute;
-  inset: 0;
+main .cards-icon-links .cards-icon-links-cta a:any-link:is(:hover, :focus-visible)::after {
+  transform: translateX(6px);
 }
 
-.cards-icon-links .cards-icon-links-link:hover,
-.cards-icon-links .cards-icon-links-link:focus-visible {
+/* a label that was authored as a link keeps the label styling */
+main .cards-icon-links .cards-icon-links-body .cards-icon-links-title a:any-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+main .cards-icon-links .cards-icon-links-body .cards-icon-links-title a:any-link:is(:hover, :focus-visible) {
   text-decoration: underline;
 }
 
+/* icon: right of the label, centred on the label row */
 .cards-icon-links .cards-icon-links-icon {
-  flex: 0 0 auto;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  margin-top: calc((var(--cards-icon-links-head) - 24px) / 2);
 }
 
 .cards-icon-links .cards-icon-links-icon picture,
@@ -71,8 +161,40 @@
   object-fit: contain;
 }
 
-@media (width >= 600px) {
+@media (prefers-reduced-motion: reduce) {
+  main .cards-icon-links.block > ul > li,
+  .cards-icon-links :is(.cards-icon-links-description, .cards-icon-links-cta),
+  main .cards-icon-links .cards-icon-links-cta a:any-link::after {
+    transition: none;
+  }
+}
+
+/* source two columns from 768px: 100px tiles, 30px row gap */
+@media (width >= 768px) {
+  .cards-icon-links {
+    --cards-icon-links-head: 100px;
+  }
+
   .cards-icon-links > ul {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 20px;
+  }
+
+  main .cards-icon-links.block > ul > li {
+    padding-left: 36px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards-icon-links > ul {
+    column-gap: 44px;
+  }
+
+  main .cards-icon-links.block > ul > li {
+    padding-right: 30px;
+  }
+
+  .cards-icon-links :is(.cards-icon-links-description, .cards-icon-links-cta) {
+    max-width: 70%;
   }
 }

@@ -141,6 +141,25 @@ export function decorateButtons(main) {
 }
 
 /**
+ * In "split" sections (intro text beside a block, e.g. index pages' "Our commitment"
+ * + "Latest news"), the block's heading is authored at the end of the intro text.
+ * Move that trailing heading into its own wrapper so it sits in the block column.
+ * @param {Element} main The main element
+ */
+function decorateSplitSections(main) {
+  main.querySelectorAll(':scope > .section.split').forEach((section) => {
+    const intro = section.querySelector(':scope > .default-content-wrapper');
+    const heading = intro?.lastElementChild;
+    if (!heading || !/^H[2-4]$/.test(heading.tagName) || !intro.nextElementSibling) return;
+    if (intro.children.length < 2) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'default-content-wrapper split-heading';
+    wrapper.append(heading);
+    intro.after(wrapper);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -149,6 +168,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSplitSections(main);
   decorateBlocks(main);
   decorateButtons(main);
 }

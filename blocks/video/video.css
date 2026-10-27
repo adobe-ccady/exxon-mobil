@@ -1,6 +1,28 @@
+/*
+ * Video: source section.articleMedia-video.
+ * Default = articleMedia-in-line (player fills the article text column);
+ * "wide" variant = articleMedia-wide (71.4286% of the page minus 44px,
+ * centred, breaking out of the text column).
+ * Spacing: the source rich-text section above ends with 40px / 50px padding
+ * plus the last paragraph's 20px margin (60px / 70px), and the video section
+ * itself has 40px / 50px bottom padding.
+ */
 .video {
   width: 100%;
-  margin: 0 auto;
+  margin: 60px auto 40px;
+}
+
+main .section > div:first-child > .video {
+  margin-top: 0;
+}
+
+main .section > div:last-child > .video {
+  margin-bottom: 0;
+}
+
+/* a heading straight above: source rich-text h2 adds 31px padding-bottom */
+main .section > div:has(> h2:last-child) + div > .video {
+  margin-top: 91px;
 }
 
 .video .video-player {
@@ -8,7 +30,7 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background-color: #000;
+  background-color: rgb(21 27 23);
 }
 
 .video .video-player iframe,
@@ -32,45 +54,86 @@
   object-fit: cover;
 }
 
+/* source .video-js .vjs-big-play-button: 70px translucent ring, white disc
+   (::after, shrinks to 85% on hover) and a red play glyph */
 .video .video-play {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 72px;
-  height: 72px;
-  margin: 0;
+  width: 70px;
+  height: 70px;
+  margin: -35px 0 0 -35px;
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background-color: rgb(0 0 0 / 60%);
-  transform: translate(-50%, -50%);
+  background: rgb(255 255 255 / 20%);
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+}
+
+.video .video-play::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
 }
 
 .video .video-play::after {
   content: '';
   position: absolute;
   top: 50%;
-  left: 54%;
+  left: 53%;
   border-style: solid;
-  border-width: 14px 0 14px 24px;
-  border-color: transparent transparent transparent #fff;
+  border-width: 13px 0 13px 22px;
+  border-color: transparent transparent transparent var(--brand-red);
   transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.video .video-poster:hover .video-play::before {
+  width: 85%;
+  height: 85%;
 }
 
 .video .video-play:focus-visible {
-  background-color: rgb(0 0 0 / 85%);
-  outline: 3px solid #fff;
-  outline-offset: 2px;
-}
-
-.video .video-poster:hover .video-play {
-  background-color: rgb(0 0 0 / 85%);
+  outline: 0;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgb(2 95 204);
 }
 
 /* unsupported URL: plain link, no player frame */
 .video.video-fallback .video-player {
   aspect-ratio: auto;
   background-color: transparent;
+}
+
+@media (width >= 900px) {
+  .video {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  main .section > div:has(> h2:last-child) + div > .video {
+    margin-top: 101px;
+  }
+
+  /* articleMedia-wide: the wrapper drops the article text-column inset so the
+     player can span 71.4286% of the page (985px at 1440px), centred */
+  main .section > .video-wrapper:has(> .video.wide) {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .video.wide {
+    width: calc(71.4286% - 44px);
+    max-width: 1327px;
+  }
 }
