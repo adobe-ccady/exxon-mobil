@@ -1,3 +1,24 @@
+
+const isAEMAuthor = window.location.hostname
+  === 'author-p193363-e2050261.adobeaemcloud.com';
+
+const experimentationConfig = {
+  isProd: () => !isAEMAuthor,
+};
+
+let runExperimentation;
+let showExperimentationOverlay;
+
+const isExperimentationEnabled = isAEMAuthor
+  || document.head.querySelector('meta[name^="experiment"]');
+
+if (isExperimentationEnabled) {
+  ({
+    loadEager: runExperimentation,
+    loadLazy: showExperimentationOverlay,
+  } = await import('../plugins/experimentation/src/index.js'));
+}
+
 import {
   loadHeader,
   loadFooter,
@@ -180,6 +201,11 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+
+  if (runExperimentation) {
+    await runExperimentation(doc, experimentationConfig);
+  }
+
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
@@ -213,10 +239,13 @@ async function loadLazy(doc) {
 
   loadFooter(doc.querySelector('footer'));
 
-  loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
+   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
-}
 
+  if (showExperimentationOverlay) {
+    await showExperimentationOverlay(doc, experimentationConfig);
+  }
+}
 /**
  * Loads everything that happens a lot later,
  * without impacting the user experience.
