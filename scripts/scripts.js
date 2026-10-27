@@ -1,4 +1,3 @@
-} from './aem.js';
 
 const experimentationConfig = {};
 
