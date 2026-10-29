@@ -169,6 +169,11 @@ main .section .hero-article-banner-wrapper {
   margin: 0;
 }
 
+/* bold on the light description weight: a real bold, not just one step up */
+.hero-article-banner .hero-article-banner-description :is(strong, b) {
+  font-weight: 600;
+}
+
 /* consecutive CTAs sit side by side, wrapping when there's no room */
 .hero-article-banner .hero-article-banner-content .hero-article-banner-cta {
   display: inline-block;
