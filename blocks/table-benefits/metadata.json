@@ -1,0 +1,26 @@
+{
+  "variantName": "table-benefits",
+  "baseBlock": "table",
+  "canonicalModel": "table",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "benefits-comparison-chart",
+    "imagePattern": "icon-column-headers",
+    "structure": "row-label column (program link, sub-label, optional 'Now stackable' pill) + grouped value columns ('At the pump': Premium gas / All other fuels, 'In-store': Purchase) with icon group headers; each value tile = large value + small caption; last row = totals (dark tile, '+ Special offers' pill link)",
+    "notes": "Source div.ibo-chart-desktop on /en/rewards/frequent-filler (ibo-chart-mobile duplicates it and is ignored). Column colours (blue premium, pale blue other fuels, grey in-store) are for the design pass and key off table-benefits-col-N classes."
+  },
+  "contentPattern": "N rows x up to 4 cells. Row 1 header: [corner label] | [icon, group title, group sub-label, column label] | [column label] | [icon, group title, group sub-label, column label]. Rows 2..n: [optional pill p, program link p, sub-label p] | [value p, caption p] x3 (cells may be empty). Last row = totals unless no-total.",
+  "options": [
+    { "class": "no-total", "label": "No totals row" }
+  ],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://www.exxonmobilfuels.com/en/rewards/frequent-filler"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-28"
+  },
+  "reuseGuidance": "Use for the Rewards+ benefits stacking chart (source .ibo-chart-desktop) and similar programs-vs-benefits comparison charts with up to 3 value columns. Not for body-copy data tables (use table)."
+}

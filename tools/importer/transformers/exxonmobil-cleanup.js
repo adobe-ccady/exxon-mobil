@@ -185,6 +185,47 @@ const TRANSLATED_PATHS = {
   ]),
 };
 
+// Other ExxonMobil sites imported into this project (e.g. the "rewards"
+// template from www.exxonmobilfuels.com). Their root-relative links belong to
+// that site, not to corporate.exxonmobil.com, so they are made absolute
+// against the page's own origin instead of being rewritten to import paths.
+const FOREIGN_ORIGINS = {
+  'www.exxonmobilfuels.com': 'https://www.exxonmobilfuels.com',
+  'exxonmobilfuels.com': 'https://www.exxonmobilfuels.com',
+};
+const FOREIGN_TEMPLATE_ORIGINS = {
+  rewards: 'https://www.exxonmobilfuels.com',
+};
+
+// Origin of the page being imported when it is NOT a corporate page, else ''.
+function getForeignOrigin(payload) {
+  const candidates = [payload && payload.params && payload.params.originalURL, payload && payload.url];
+  for (let i = 0; i < candidates.length; i += 1) {
+    const u = candidates[i];
+    if (u) {
+      try {
+        const host = new URL(u).hostname.toLowerCase();
+        if (FOREIGN_ORIGINS[host]) return FOREIGN_ORIGINS[host];
+      } catch (e) { /* ignore */ }
+    }
+  }
+  const name = payload && payload.template && payload.template.name;
+  return (name && FOREIGN_TEMPLATE_ORIGINS[name]) || '';
+}
+
+// Root-relative ("/x", not "//host") link on a foreign-site page -> absolute
+// on that site; null when the link is not root-relative.
+function absolutizeForeignHref(href, origin) {
+  if (!href) return null;
+  const raw = href.trim();
+  if (!raw.startsWith('/') || raw.startsWith('//')) return null;
+  try {
+    return new URL(raw, origin).toString();
+  } catch (e) {
+    return null;
+  }
+}
+
 // Language of the page being imported ('es' / 'fr'), or '' for English.
 function getPageLang(payload) {
   const candidates = [payload && payload.params && payload.params.originalURL, payload && payload.url];
@@ -285,9 +326,19 @@ function normalizeInternalHref(href, pageLang = '') {
   return `${path}${url.hash || ''}`;
 }
 
-function normalizeInternalLinks(root, pageLang = '') {
+function normalizeInternalLinks(root, pageLang = '', foreignOrigin = '') {
   root.querySelectorAll('a[href]').forEach((a) => {
     const href = a.getAttribute('href');
+    if (foreignOrigin) {
+      // Foreign-site page: its root-relative links stay on that site (absolute);
+      // its absolute links to that site are left untouched (host check below);
+      // explicit corporate.exxonmobil.com links are still normalised.
+      const absolute = absolutizeForeignHref(href, foreignOrigin);
+      if (absolute !== null) {
+        if (absolute !== href) a.setAttribute('href', absolute);
+        return;
+      }
+    }
     const normalized = normalizeInternalHref(href, pageLang);
     if (normalized !== null && normalized !== href) a.setAttribute('href', normalized);
   });
@@ -440,6 +491,6 @@ export default function transform(hookName, element, payload) {
 
     // Rewrite internal page links to the sanitised import paths. Runs after
     // the parsers so links inside block tables are covered too.
-    normalizeInternalLinks(element, getPageLang(payload));
+    normalizeInternalLinks(element, getPageLang(payload), getForeignOrigin(payload));
   }
 }

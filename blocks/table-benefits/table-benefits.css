@@ -1,0 +1,71 @@
+/* table-benefits: programs x benefit columns comparison chart (structural only;
+   colours, pills and typography come in the design pass) */
+.table-benefits .table-benefits-scroll {
+  overflow-x: auto;
+}
+
+.table-benefits table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.table-benefits th,
+.table-benefits td {
+  padding: 8px;
+  min-width: 96px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-benefits :is(th, td) p {
+  margin: 0;
+}
+
+/* header: group heading (icon + title + sub-label) over its column labels */
+.table-benefits .table-benefits-group-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.table-benefits .table-benefits-group-icon :is(img, svg) {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.table-benefits .table-benefits-group-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.table-benefits .table-benefits-group-sublabel {
+  display: block;
+}
+
+/* row labels: optional pill, program link, sub-label */
+.table-benefits .table-benefits-row-label {
+  text-align: center;
+}
+
+.table-benefits .table-benefits-pill {
+  display: inline-block;
+}
+
+/* value tiles: value over caption */
+.table-benefits .table-benefits-value,
+.table-benefits .table-benefits-caption {
+  display: block;
+}
+
+.table-benefits .table-benefits-offer-link {
+  display: inline-block;
+}
+
+@media (width >= 900px) {
+  .table-benefits th,
+  .table-benefits td {
+    padding: 12px 16px;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "definitions": [
+    {
+      "title": "Columns App Download",
+      "id": "columns-app-download",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/columns/v1/columns",
+            "template": {
+              "name": "Columns App Download",
+              "model": "columns-app-download",
+              "filter": "columns-app-download",
+              "columns": "2",
+              "rows": "1"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-app-download",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "columns",
+          "value": "",
+          "label": "Columns"
+        },
+        {
+          "component": "text",
+          "valueType": "number",
+          "name": "rows",
+          "value": "",
+          "label": "Rows"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-app-download",
+      "components": [
+        "column"
+      ]
+    }
+  ]
+}

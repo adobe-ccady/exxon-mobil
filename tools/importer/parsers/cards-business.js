@@ -29,7 +29,125 @@ function getImage(item, document) {
   return img;
 }
 
+/*
+ * exxonmobilfuels.com variant (/en/rewards/frequent-filler): ul.l01-list.list-3-up >
+ * li > div.s01-surfaced-item: (a >) .surfaced-item-image picture + .surfaced-item-copy (h3, p).
+ * Image: largest <source srcset> (else img src), absolute to www.exxonmobilfuels.com.
+ * Links (copy links, or an href on the image wrapper rebuilt onto the title) are absolute.
+ */
+const FUELS_ORIGIN = 'https://www.exxonmobilfuels.com';
+
+function fuelsClean(text) {
+  return (text || '').replace(/[\s ]+/g, ' ').trim();
+}
+
+function fuelsUsable(src) {
+  const s = (src || '').trim().split(/\s+/)[0];
+  return s && !/^data:/i.test(s) && !/^blob:/i.test(s) ? s : '';
+}
+
+function fuelsAbs(href) {
+  const raw = (href || '').trim();
+  if (!raw || /^(#|mailto:|tel:|javascript:)/i.test(raw)) return raw;
+  try {
+    const url = new URL(raw, `${FUELS_ORIGIN}/`);
+    url.searchParams.delete('_gl');
+    return url.href;
+  } catch (e) {
+    return raw;
+  }
+}
+
+function fuelsImage(item, document) {
+  const imgEl = item.querySelector('.surfaced-item-image img') || item.querySelector('img');
+  if (!imgEl) return null;
+  const picture = imgEl.closest('picture');
+  let best = '';
+  let bestW = -1;
+  if (picture) {
+    [...picture.querySelectorAll('source')].forEach((s) => {
+      const set = (s.getAttribute('srcset') || s.getAttribute('data-srcset') || '').split(',')
+        .map((c) => fuelsUsable(c)).filter(Boolean);
+      if (!set.length) return;
+      const w = parseInt(s.getAttribute('width'), 10) || 0;
+      if (w >= bestW) { bestW = w; best = set[set.length - 1]; }
+    });
+  }
+  const src = best || fuelsUsable(imgEl.getAttribute('data-src')) || fuelsUsable(imgEl.getAttribute('src'));
+  if (!src) return null;
+  const img = document.createElement('img');
+  img.src = fuelsAbs(src);
+  img.alt = fuelsClean(imgEl.getAttribute('alt'));
+  return img;
+}
+
+function parseSurfacedList(element, document) {
+  const items = [...element.querySelectorAll('.s01-surfaced-item, .surfaced-item')]
+    .filter((el, i, all) => !all.some((o) => o !== el && o.contains(el)));
+  const cells = [];
+  items.forEach((item) => {
+    const img = fuelsImage(item, document);
+    const copy = item.querySelector('.surfaced-item-copy') || item;
+    const titleEl = copy.querySelector('h1, h2, h3, h4, h5, h6');
+    const wrapLink = [...item.querySelectorAll('a[href]')].find((a) => !copy.contains(a));
+    // ancestor match limited to the copy container (the list itself is a <ul>)
+    const inCopy = (el, sel) => {
+      const anc = el && el.closest(sel);
+      return !!anc && copy.contains(anc);
+    };
+    const textContent = [];
+    if (titleEl && fuelsClean(titleEl.textContent)) {
+      const h = document.createElement('h3');
+      const title = fuelsClean(titleEl.textContent);
+      const titleLink = titleEl.querySelector('a[href]') || wrapLink;
+      if (titleLink) {
+        const a = document.createElement('a');
+        a.href = fuelsAbs(titleLink.getAttribute('href'));
+        a.textContent = title;
+        h.append(a);
+      } else h.textContent = title;
+      textContent.push(h);
+    }
+    [...copy.querySelectorAll('p, ul, ol')]
+      .filter((el) => fuelsClean(el.textContent) && !(titleEl && titleEl.contains(el))
+        && !inCopy(el.parentElement, 'p, ul, ol'))
+      .forEach((el) => {
+        el.querySelectorAll('a[href]').forEach((a) => a.setAttribute('href', fuelsAbs(a.getAttribute('href'))));
+        el.removeAttribute('class');
+        textContent.push(el);
+      });
+    // CTA links outside paragraphs (e.g. buttons)
+    [...copy.querySelectorAll('a[href]')]
+      .filter((a) => fuelsClean(a.textContent) && !inCopy(a, 'p, ul, ol, h1, h2, h3, h4, h5, h6'))
+      .forEach((src) => {
+        const a = document.createElement('a');
+        a.href = fuelsAbs(src.getAttribute('href'));
+        a.textContent = fuelsClean(src.textContent);
+        const p = document.createElement('p');
+        p.append(a);
+        textContent.push(p);
+      });
+    if (!img && !textContent.length) return;
+    cells.push([
+      img ? [document.createComment(' field:image '), img] : '',
+      textContent.length ? [document.createComment(' field:text '), ...textContent] : '',
+    ]);
+  });
+  return cells;
+}
+
 export default function parse(element, { document }) {
+  if (!element.querySelector('li.highlight--item') && element.querySelector('.s01-surfaced-item, .surfaced-item')) {
+    const fuelsCells = parseSurfacedList(element, document);
+    if (!fuelsCells.length) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+    const fuelsBlock = WebImporter.Blocks.createBlock(document, { name: 'cards-business', cells: fuelsCells });
+    element.replaceWith(fuelsBlock);
+    return;
+  }
+
   const items = [...element.querySelectorAll('li.highlight--item')];
   const cells = [];
 

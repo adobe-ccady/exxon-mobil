@@ -121,6 +121,10 @@
             {
               "name": "Orange gradient",
               "value": "orange-gradient"
+            },
+            {
+              "name": "Tight top",
+              "value": "tight-top"
             }
           ]
         }
@@ -156,7 +160,11 @@
         "secondary-nav",
         "hero-feature",
         "columns-media",
-        "cards-icon-links"
+        "cards-icon-links",
+        "table-benefits",
+        "columns-app-download",
+        "accordion-faq",
+        "accordion-legal"
       ]
     }
   ]

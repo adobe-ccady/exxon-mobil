@@ -1,0 +1,24 @@
+{
+  "variantName": "columns-app-download",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": {
+    "colorScheme": "inherits-section",
+    "density": "low",
+    "purpose": "app-download-promo",
+    "imagePattern": "store-badges-and-qr-code",
+    "structure": "heading over a row of App Store / Google Play badge image links on the left, QR code image on the right; QR hidden on mobile",
+    "notes": "Source div.sp07-app-promotion on /en/rewards/frequent-filler, inside a light-grey section (#e6e6e6). The block does not carry the background colour."
+  },
+  "contentPattern": "1 row, 2 cells: [H2, paragraph(s) with store badge image links] | [QR code picture]; cell order is free, the QR cell is found by content",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://www.exxonmobilfuels.com/en/rewards/frequent-filler"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-28"
+  },
+  "reuseGuidance": "Use for app promotion bands (source .sp07-app-promotion / .app-promotion): heading, app store badges, optional QR code. Not for an image beside heading + text + CTA (use columns-media)."
+}

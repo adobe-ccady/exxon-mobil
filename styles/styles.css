@@ -668,6 +668,11 @@ main .section.orange-gradient .default-content-wrapper :is(h2, h3) {
   }
 }
 
+/* tight-top: no top padding, so the section follows the previous one closely */
+main > .section.tight-top {
+  padding-top: 0;
+}
+
 /* article banner sits directly under the site header, like the source */
 main > .section.hero-article-banner-container {
   padding-top: 0;

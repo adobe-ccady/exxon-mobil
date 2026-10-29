@@ -33,7 +33,23 @@
       "secondary-nav",
       "hero-feature",
       "columns-media",
-      "cards-icon-links"
+      "cards-icon-links",
+      "table-benefits",
+      "columns-app-download",
+      "accordion-faq",
+      "accordion-legal"
+    ]
+  },
+  {
+    "id": "accordion-faq",
+    "components": [
+      "accordion-faq-item"
+    ]
+  },
+  {
+    "id": "accordion-legal",
+    "components": [
+      "accordion-legal-item"
     ]
   },
   {
@@ -79,6 +95,12 @@
     ]
   },
   {
+    "id": "columns-app-download",
+    "components": [
+      "column"
+    ]
+  },
+  {
     "id": "columns-article-header",
     "components": [
       "column"
@@ -109,6 +131,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "table-benefits",
+    "components": [
+      "table-benefits-row"
     ]
   },
   {

@@ -1,0 +1,63 @@
+{
+  "definitions": [
+    {
+      "title": "Accordion Legal",
+      "id": "accordion-legal",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Accordion Legal",
+              "filter": "accordion-legal"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Accordion Legal Item",
+      "id": "accordion-legal-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Accordion Legal Item",
+              "model": "accordion-legal-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "accordion-legal-item",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "summary",
+          "value": "",
+          "label": "Title"
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "text",
+          "value": "",
+          "label": "Legal text"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "accordion-legal",
+      "components": [
+        "accordion-legal-item"
+      ]
+    }
+  ]
+}

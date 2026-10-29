@@ -1,0 +1,50 @@
+/* accordion-faq: question bars that expand to answers, closed on load (structural only;
+   bar colour and the circled plus/minus icon come in the design pass) */
+.accordion-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.accordion-faq .accordion-faq-item-label {
+  position: relative;
+  display: block;
+  padding: 12px 48px 12px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion-faq .accordion-faq-item-label::-webkit-details-marker {
+  display: none;
+}
+
+/* plus / minus indicator */
+.accordion-faq .accordion-faq-item-label::after {
+  content: "+" / "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  line-height: 1;
+}
+
+.accordion-faq .accordion-faq-item[open] > .accordion-faq-item-label::after {
+  content: "\2212" / "";
+}
+
+.accordion-faq .accordion-faq-item-label:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: 2px;
+}
+
+.accordion-faq .accordion-faq-item-body {
+  padding: 16px;
+}
+
+.accordion-faq .accordion-faq-item-body > :first-child {
+  margin-top: 0;
+}
+
+.accordion-faq .accordion-faq-item-body > :last-child {
+  margin-bottom: 0;
+}

@@ -224,8 +224,50 @@
           {
             "name": "Orange gradient",
             "value": "orange-gradient"
+          },
+          {
+            "name": "Tight top",
+            "value": "tight-top"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-faq-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "summary",
+        "value": "",
+        "label": "Question"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Answer"
+      }
+    ]
+  },
+  {
+    "id": "accordion-legal-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "summary",
+        "value": "",
+        "label": "Title"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Legal text"
       }
     ]
   },
@@ -366,6 +408,25 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "columns-app-download",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
       }
     ]
   },
@@ -738,6 +799,57 @@
         "label": "Links (bulleted list, section home first)",
         "valueType": "string",
         "value": ""
+      }
+    ]
+  },
+  {
+    "id": "table-benefits",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "No totals row",
+            "value": "no-total"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-benefits-row",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "col1",
+        "value": "",
+        "label": "Column 1 (row label: optional pill, program link, sub-label)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "col2",
+        "value": "",
+        "label": "Column 2 (value, caption)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "col3",
+        "value": "",
+        "label": "Column 3 (value, caption)",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "col4",
+        "value": "",
+        "label": "Column 4 (value, caption)",
+        "valueType": "string"
       }
     ]
   },

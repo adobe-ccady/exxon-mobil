@@ -153,7 +153,107 @@ function getBody(contentEl, document) {
   return out;
 }
 
+/*
+ * exxonmobilfuels.com variant (/en/rewards/frequent-filler): div.f01-featured-item.featured-title-split-left
+ *  > .featured-title-copy-wrap > .featured-title-image (picture) + .featured-title-copy
+ *  (h2, p.featured-item-copy, .b05-button a). Cells: [picture] | [heading, paragraph(s), link <p>(s)].
+ * Image: largest <source srcset> (else img src); links and images absolute to www.exxonmobilfuels.com.
+ */
+const FUELS_ORIGIN = 'https://www.exxonmobilfuels.com';
+
+function fuelsAbs(href) {
+  const raw = (href || '').trim();
+  if (!raw || /^(#|mailto:|tel:|javascript:)/i.test(raw)) return raw;
+  try {
+    const url = new URL(raw, `${FUELS_ORIGIN}/`);
+    url.searchParams.delete('_gl');
+    return url.href;
+  } catch (e) {
+    return raw;
+  }
+}
+
+function fuelsPicture(mediaEl, document) {
+  const imgEl = mediaEl && mediaEl.querySelector('img');
+  if (!imgEl) return null;
+  const pic = imgEl.closest('picture');
+  let best = '';
+  let bestW = -1;
+  if (pic) {
+    [...pic.querySelectorAll('source')].forEach((s) => {
+      const set = (s.getAttribute('srcset') || s.getAttribute('data-srcset') || '').split(',')
+        .map((c) => usable((c || '').trim().split(/\s+/)[0])).filter(Boolean);
+      if (!set.length) return;
+      const w = parseInt(s.getAttribute('width'), 10) || 0;
+      if (w >= bestW) { bestW = w; best = set[set.length - 1]; }
+    });
+  }
+  const src = best || usable(imgEl.getAttribute('data-src')) || usable(imgEl.getAttribute('src'));
+  if (!src) return null;
+  const img = document.createElement('img');
+  img.src = fuelsAbs(src);
+  img.alt = clean(imgEl.getAttribute('alt'));
+  const picture = document.createElement('picture');
+  picture.append(img);
+  return picture;
+}
+
+function parseFeaturedItem(element, document) {
+  const mediaEl = element.querySelector('.featured-title-image');
+  const contentEl = element.querySelector('.featured-title-copy');
+  const picture = fuelsPicture(mediaEl, document);
+  const body = [];
+  if (contentEl) {
+    const heading = contentEl.querySelector(HEADINGS);
+    if (heading && clean(heading.textContent)) {
+      const h = document.createElement(heading.tagName.toLowerCase());
+      h.textContent = clean(heading.textContent);
+      body.push(h);
+    }
+    // ancestor match limited to the content container
+    const inContent = (el, sel) => {
+      const anc = el && el.closest(sel);
+      return !!anc && contentEl.contains(anc);
+    };
+    [...contentEl.querySelectorAll('p, ul, ol')]
+      .filter((el) => clean(el.textContent) && !(heading && heading.contains(el))
+        && !inContent(el.parentElement, 'p, ul, ol'))
+      .forEach((el) => {
+        el.querySelectorAll('a[href]').forEach((a) => a.setAttribute('href', fuelsAbs(a.getAttribute('href'))));
+        el.removeAttribute('class');
+        body.push(el);
+      });
+    [...contentEl.querySelectorAll('a[href]')]
+      .filter((a) => clean(a.textContent) && !inContent(a, 'p, ul, ol, h1, h2, h3, h4, h5, h6'))
+      .forEach((src) => {
+        const a = document.createElement('a');
+        a.href = fuelsAbs(src.getAttribute('href'));
+        a.textContent = clean(src.textContent);
+        const p = document.createElement('p');
+        p.append(a);
+        body.push(p);
+      });
+  }
+  if (!picture && !body.length) return null;
+  const mediaFirst = !mediaEl || !contentEl
+    || !(mediaEl.compareDocumentPosition(contentEl) & 2 /* PRECEDING */);
+  const mediaCell = picture ? [picture] : '';
+  const bodyCell = body.length ? body : '';
+  return [mediaFirst ? [mediaCell, bodyCell] : [bodyCell, mediaCell]];
+}
+
 export default function parse(element, { document }) {
+  if (element.matches('.f01-featured-item') || element.querySelector('.featured-title-copy-wrap')) {
+    const fuelsCells = parseFeaturedItem(element, document);
+    if (!fuelsCells) {
+      element.remove();
+      return;
+    }
+    const fuelsBlock = WebImporter.Blocks.createBlock(document, { name: 'columns-media', cells: fuelsCells });
+    element.replaceWith(fuelsBlock);
+    return;
+  }
+
   const item = element.querySelector('.shortVideoHeadline--item') || element;
   const mediaEl = item.querySelector('.shortVideoHeadline--image');
   const contentEl = item.querySelector('.shortVideoHeadline--content');

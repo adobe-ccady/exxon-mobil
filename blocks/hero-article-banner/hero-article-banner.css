@@ -163,6 +163,14 @@ main .section .hero-article-banner-wrapper {
   margin: 0;
 }
 
+/* consecutive CTAs sit side by side, wrapping when there's no room */
+.hero-article-banner .hero-article-banner-content > .hero-article-banner-cta {
+  display: inline-block;
+  max-width: 100%;
+  margin-right: 16px;
+  vertical-align: top;
+}
+
 .hero-article-banner .hero-article-banner-eyebrow {
   text-transform: uppercase;
 }

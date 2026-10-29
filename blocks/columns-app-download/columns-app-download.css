@@ -1,0 +1,71 @@
+/* columns-app-download: heading + store badges | QR code (structural only;
+   the light-grey background comes from the section style) */
+.columns-app-download .columns-app-download-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-app-download .columns-app-download-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.columns-app-download .columns-app-download-body :is(h1, h2, h3, h4, h5, h6),
+.columns-app-download .columns-app-download-body p {
+  margin: 0;
+}
+
+.columns-app-download .columns-app-download-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns-app-download .columns-app-download-badge {
+  display: block;
+  line-height: 0;
+}
+
+.columns-app-download .columns-app-download-badge img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+/* QR codes only help on a larger screen next to a phone */
+.columns-app-download .columns-app-download-qr {
+  display: none;
+}
+
+.columns-app-download .columns-app-download-qr p {
+  margin: 0;
+}
+
+.columns-app-download .columns-app-download-qr img {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+@media (width >= 900px) {
+  .columns-app-download .columns-app-download-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .columns-app-download .columns-app-download-body {
+    flex: 1 1 auto;
+  }
+
+  .columns-app-download .columns-app-download-qr {
+    display: block;
+    flex: 0 0 auto;
+  }
+}

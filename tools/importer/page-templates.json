@@ -2110,6 +2110,158 @@
           ]
         }
       ]
+    },
+    {
+      "name": "rewards",
+      "urls": [
+        "https://www.exxonmobilfuels.com/en/rewards/frequent-filler"
+      ],
+      "representativeUrl": "https://www.exxonmobilfuels.com/en/rewards/frequent-filler",
+      "description": "ExxonMobil fuels rewards program page (exxonmobilfuels.com) migrated under /rewards",
+      "blocks": [
+        {
+          "name": "cards-business",
+          "instances": [
+            "ul.l01-list.list-3-up",
+            "#content ul.l01-list"
+          ]
+        },
+        {
+          "name": "table-benefits",
+          "instances": [
+            "div.ibo-chart.ibo-chart-desktop",
+            ".ibo-chart-desktop"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            "div.f01-featured-item.featured-title-split-left"
+          ]
+        },
+        {
+          "name": "columns-app-download",
+          "instances": [
+            "div.sp07-app-promotion",
+            "div.app-promotion"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "div.c01-accordion:has(#accordion-24)",
+            "div.c01-accordion:not(:has(.show))"
+          ]
+        },
+        {
+          "name": "accordion-legal",
+          "instances": [
+            "div.c01-accordion:has(#accordion-28)",
+            "div.c01-accordion:has(.show)"
+          ]
+        }
+      ],
+      "urlPattern": "/en/rewards/*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Intro: title, hero image, join CTA, 3-up explainer",
+          "selector": [
+            "div.component.t01-screen-title",
+            "#content div.t01-screen-title"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-business"
+          ],
+          "defaultContent": [
+            "div.t01-screen-title",
+            "div.b06-heading",
+            "div.b01-paragraph",
+            "div.sp05-button-bar"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Benefits stacking chart",
+          "selector": [
+            "ul.l01-list ~ div.b06-heading"
+          ],
+          "style": null,
+          "blocks": [
+            "table-benefits"
+          ],
+          "defaultContent": [
+            "div.b06-heading",
+            "div.b01-paragraph"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "In-store points boost feature",
+          "selector": [
+            "div.f01-featured-item.featured-title-split-left"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "App download promo",
+          "selector": [
+            "div.sp07-app-promotion"
+          ],
+          "style": "light-grey",
+          "blocks": [
+            "columns-app-download"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Frequently asked questions",
+          "selector": [
+            "div.sp07-app-promotion ~ div.b06-heading"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "div.b06-heading",
+            "div.b01-paragraph"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "FAQ page callout",
+          "selector": [
+            "div.f01-featured-item:not(.featured-title-split-left)"
+          ],
+          "style": "light-grey",
+          "blocks": [],
+          "defaultContent": [
+            "div.f01-featured-item:not(.featured-title-split-left)"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Legal disclaimers",
+          "selector": [
+            "div.f01-featured-item:not(.featured-title-split-left) ~ div.b06-heading"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-legal"
+          ],
+          "defaultContent": [
+            "div.b06-heading"
+          ]
+        }
+      ]
     }
   ]
 }

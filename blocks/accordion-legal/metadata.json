@@ -1,0 +1,24 @@
+{
+  "variantName": "accordion-legal",
+  "baseBlock": "accordion",
+  "canonicalModel": "accordion",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "legal-disclaimers",
+    "imagePattern": "noimg",
+    "structure": "stack of white panels with a blue left rule: title bar with a circled minus/plus icon, small legal copy with inline links below; all open on load",
+    "notes": "Source div.c01-accordion with accordion-item active / .show panels (Legal disclaimers) on /en/rewards/frequent-filler."
+  },
+  "contentPattern": "N rows, 2 cells each: [title text] | [legal rich text (paragraphs, inline links)]",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://www.exxonmobilfuels.com/en/rewards/frequent-filler"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-28"
+  },
+  "reuseGuidance": "Use for legal disclaimers / terms panels that start expanded (source c01-accordion with active items). Not for FAQs (use accordion-faq)."
+}

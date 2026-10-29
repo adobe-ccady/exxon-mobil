@@ -15,10 +15,11 @@
   "memberVariantIds": [],
   "usage": {
     "pagesUsing": [
-      "https://corporate.exxonmobil.com/community"
+      "https://corporate.exxonmobil.com/community",
+      "/en/rewards/frequent-filler"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-10-26"
+    "reuseCount": 2,
+    "lastUsed": "2026-10-28"
   },
   "reuseGuidance": "Use for a single large image beside a heading, text and link (source shortVideoHeadline). Not for article headers (columns-article-header), stock quotes (columns-stock-ticker) or repeating tiles (cards)."
 }

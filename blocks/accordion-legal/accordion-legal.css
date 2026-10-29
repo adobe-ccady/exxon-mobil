@@ -1,0 +1,54 @@
+/* accordion-legal: legal disclaimer panels, open on load (structural only;
+   the blue left rule, small copy and minus icon come in the design pass) */
+.accordion-legal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.accordion-legal .accordion-legal-item {
+  border-left: 2px solid currentcolor;
+}
+
+.accordion-legal .accordion-legal-item-label {
+  position: relative;
+  display: block;
+  padding: 12px 48px 12px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion-legal .accordion-legal-item-label::-webkit-details-marker {
+  display: none;
+}
+
+/* plus / minus indicator */
+.accordion-legal .accordion-legal-item-label::after {
+  content: "+" / "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  line-height: 1;
+}
+
+.accordion-legal .accordion-legal-item[open] > .accordion-legal-item-label::after {
+  content: "\2212" / "";
+}
+
+.accordion-legal .accordion-legal-item-label:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: 2px;
+}
+
+.accordion-legal .accordion-legal-item-body {
+  padding: 0 16px 16px;
+}
+
+.accordion-legal .accordion-legal-item-body > :first-child {
+  margin-top: 0;
+}
+
+.accordion-legal .accordion-legal-item-body > :last-child {
+  margin-bottom: 0;
+}

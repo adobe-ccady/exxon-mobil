@@ -1,0 +1,24 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "accordion",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "faq",
+    "imagePattern": "noimg",
+    "structure": "stack of full-width grey (#ebebeb) question bars with a blue circled plus/minus icon on the right; answer rich text below an open bar; all closed on load",
+    "notes": "Source div.c01-accordion (accordion items collapsed) on /en/rewards/frequent-filler."
+  },
+  "contentPattern": "N rows, 2 cells each: [question text] | [answer rich text (paragraphs, links, lists)]",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "pagesUsing": [
+      "https://www.exxonmobilfuels.com/en/rewards/frequent-filler"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-28"
+  },
+  "reuseGuidance": "Use for FAQ / question-answer lists that start collapsed (source c01-accordion with collapsed items). Not for legal disclaimers that start open (use accordion-legal)."
+}
