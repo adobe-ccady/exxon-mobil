@@ -9,10 +9,71 @@ function isSameOrigin(src) {
   }
 }
 
+// zero-width characters rich text editors leave behind
+const INVISIBLE = /[\u200B-\u200D\u2060\uFEFF]/g;
+
+function textOf(node) {
+  return node.textContent.replace(INVISIBLE, '').trim();
+}
+
 function isCtaParagraph(el) {
   const links = [...el.querySelectorAll('a[href]')];
   if (!links.length) return false;
-  return el.textContent.trim() === links.map((a) => a.textContent).join('').trim();
+  return textOf(el) === links.map((a) => textOf(a)).join('');
+}
+
+/**
+ * Splits a paragraph into one paragraph per line when a line (between <br>s) is link-only,
+ * e.g. "description<br>Join<br>Open the app" after editing in Universal Editor,
+ * so each CTA becomes its own button. Plain multi-line text is left as it is.
+ * @param {Element} p The paragraph
+ */
+function splitCtaLines(p) {
+  if (p.tagName !== 'P' || !p.querySelector(':scope > br')) return;
+  const lines = [[]];
+  [...p.childNodes].forEach((node) => {
+    if (node.nodeName === 'BR') lines.push([]);
+    else lines[lines.length - 1].push(node);
+  });
+  const paragraphs = lines.map((nodes) => {
+    const line = p.cloneNode(false);
+    line.append(...nodes);
+    return line;
+  }).filter((line) => textOf(line) || line.querySelector('picture, img'));
+  if (paragraphs.length < 2 || !paragraphs.some(isCtaParagraph)) {
+    // nothing to split out: put the nodes back with their line breaks
+    p.replaceChildren(...lines.flatMap((nodes, i) => (i ? [document.createElement('br'), ...nodes] : nodes)));
+    return;
+  }
+  p.replaceWith(...paragraphs);
+}
+
+/**
+ * Makes the links of a CTA paragraph buttons, like decorateButtons does for links authored
+ * alone in a paragraph: bold = primary, italic = secondary, both = accent, neither = primary.
+ * @param {Element} el The CTA paragraph
+ */
+function decorateCta(el) {
+  el.querySelectorAll('a[href]').forEach((a) => {
+    if (a.classList.contains('button')) return;
+    // formatting around the link (inside the paragraph) or inside it
+    const wrappers = [];
+    let outer = a;
+    while (outer.parentElement !== el && outer.parentElement.matches('strong, b, em, i')) {
+      outer = outer.parentElement;
+      wrappers.push(outer);
+    }
+    const formatted = (selector) => wrappers.some((w) => w.matches(selector))
+      || !!a.querySelector(selector);
+    const bold = formatted('strong, b');
+    const italic = formatted('em, i');
+    let variant = 'primary';
+    if (bold && italic) variant = 'accent';
+    else if (italic) variant = 'secondary';
+    a.classList.add('button', variant);
+    // drop the formatting wrappers when they hold nothing but the link
+    if (outer !== a && textOf(outer) === textOf(a)) outer.replaceWith(a);
+  });
 }
 
 /**
@@ -26,6 +87,7 @@ function decorateText(row) {
   const richtext = items.querySelector(':scope > [data-aue-type="richtext"]');
   if (richtext && items.children.length === 1) items = richtext;
   items.classList.add('hero-article-banner-content');
+  [...items.children].forEach(splitCtaLines);
   const children = [...items.children];
   const headingIndex = children.findIndex((el) => /^H[1-6]$/.test(el.tagName));
   children.forEach((el, i) => {
@@ -33,9 +95,7 @@ function decorateText(row) {
       el.classList.add('hero-article-banner-title');
     } else if (isCtaParagraph(el)) {
       el.classList.add('hero-article-banner-cta');
-      el.querySelectorAll('a[href]').forEach((a) => {
-        if (!a.classList.contains('button')) a.classList.add('button', 'primary');
-      });
+      decorateCta(el);
     } else if (i < headingIndex) {
       el.classList.add('hero-article-banner-eyebrow');
     } else {

@@ -137,8 +137,14 @@ main .section .hero-article-banner-wrapper {
   color: #fff;
 }
 
-.hero-article-banner .hero-article-banner-content > * {
+/* Universal Editor may wrap the items in a rich-text group after decoration */
+.hero-article-banner .hero-article-banner-content > *,
+.hero-article-banner .hero-article-banner-content > [data-aue-type="richtext"] > * {
   margin: 0 0 20px;
+}
+
+.hero-article-banner .hero-article-banner-content > [data-aue-type="richtext"] {
+  margin: 0;
 }
 
 /* source .header--title: 40px/46px, fluid to 60px/70px between 480px and 1024px */
@@ -164,7 +170,7 @@ main .section .hero-article-banner-wrapper {
 }
 
 /* consecutive CTAs sit side by side, wrapping when there's no room */
-.hero-article-banner .hero-article-banner-content > .hero-article-banner-cta {
+.hero-article-banner .hero-article-banner-content .hero-article-banner-cta {
   display: inline-block;
   max-width: 100%;
   margin-right: 16px;
